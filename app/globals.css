@@ -5,11 +5,8 @@
 html,
 body {
   height: 100%;
-}
+} [modified]
 
 body {
   @apply bg-farm-50 text-zinc-900;
 }
-
-
-# minor content update

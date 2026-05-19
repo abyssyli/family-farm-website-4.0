@@ -9,7 +9,7 @@
     "start:web": "next start",
     "start:worker": "npm run worker:sync",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit", [modified]
+    "typecheck": "tsc --noEmit",
     "test": "playwright test",
     "test:ui": "playwright test --ui",
     "worker:sync": "tsx workers/catalog-sync.ts"
@@ -28,7 +28,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.19",
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.0", [modified]
     "eslint-config-next": "^14.2.20",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",

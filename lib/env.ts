@@ -1,3 +1,5 @@
+
+// task project adjust
 import { z } from "zod"
 
 const envSchema = z.object({
@@ -49,7 +51,7 @@ export function getEnv(): Env {
 export function getPublicEnv() {
   const env = getEnv()
   return {
-    contactPhone: env.NEXT_PUBLIC_CONTACT_PHONE, [modified]
+    contactPhone: env.NEXT_PUBLIC_CONTACT_PHONE,
     skincareUrl: env.NEXT_PUBLIC_SKINCARE_URL,
   }
 }

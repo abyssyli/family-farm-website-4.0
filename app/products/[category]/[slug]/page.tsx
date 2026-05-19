@@ -8,7 +8,7 @@ export default async function ProductDetailPage({
   params
 }: {
   params: { category: string; slug: string }
-}) {
+}) { [modified]
   if (params.category === "skincare") {
     const { skincareUrl } = getPublicEnv()
     redirect(skincareUrl)
@@ -25,7 +25,7 @@ export default async function ProductDetailPage({
 
   return (
     <ProductDetail
-      product={product} [modified]
+      product={product}
       categoryName={category.name}
       primaryAction={<ProductActions product={product} categorySlug={category.slug} />}
     />

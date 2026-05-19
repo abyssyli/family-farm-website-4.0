@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -107,7 +109,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
         disabled={!isConfigured || status === "sending" || cooldownSeconds > 0}
       >
         {status === "sending" ? "Sending…" : "Send magic link"}
-      </Button> [modified]
+      </Button>
       {status === "sent" ? (
         <p className="text-sm text-zinc-600">
           Check your inbox for a sign-in link.

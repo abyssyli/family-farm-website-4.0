@@ -1,5 +1,5 @@
 "use client"
- [modified]
+
 import { useEffect, useState } from "react"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
@@ -85,7 +85,7 @@ export function OrderTracker() {
                       </td>
                     </tr>
                   ))}
-                </tbody>
+                </tbody> [modified]
               </table>
             </div>
           )}

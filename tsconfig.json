@@ -34,8 +34,10 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ], [modified]
+  ],
   "exclude": [
     "node_modules"
   ]
 }
+
+/* minor adjust */

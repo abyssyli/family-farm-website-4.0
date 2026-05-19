@@ -1,5 +1,3 @@
-
-# minor content update
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -26,7 +24,7 @@ export default async function HomePage() {
     <div className="flex flex-col gap-14">
       <StoryHero />
       <FarmMap regions={regions} />
-
+ [modified]
       <section>
         <div className="flex items-end justify-between gap-6">
           <div>

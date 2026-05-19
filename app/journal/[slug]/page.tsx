@@ -41,7 +41,7 @@ export default async function JournalPostPage({
           <div className="prose prose-zinc max-w-none">
             <p className="whitespace-pre-wrap">{post.body}</p>
           </div>
-        </CardBody> [modified]
+        </CardBody>
       </Card>
 
       <CommentSection journalPostId={post.id} />
@@ -54,3 +54,6 @@ export default async function JournalPostPage({
     </div>
   )
 }
+
+
+# minor content update

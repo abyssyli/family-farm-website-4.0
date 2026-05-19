@@ -185,4 +185,4 @@ export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
 
-// update log: auto edit 01
+/* minor adjust */

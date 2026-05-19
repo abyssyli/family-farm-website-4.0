@@ -67,7 +67,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
                 </button>
               )
             })}
-          </div> [modified]
+          </div>
         </div>
       </div>
 
@@ -92,3 +92,5 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
+
+/* minor adjust */

@@ -8,7 +8,7 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
   useEffect(() => {
     const audio = new Audio(src)
     audio.loop = true
-    audio.preload = "none"
+    audio.preload = "none" [modified]
     audioRef.current = audio
 
     const tryPlay = () => audio.play()
@@ -35,5 +35,3 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
 
   return null
 }
-
-/* daily modify record */

@@ -26,7 +26,7 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
     console.log(JSON.stringify(logEntry))
   } else {
     console[level](`[${timestamp}] ${level.toUpperCase()}: ${message}`, data || "")
-  }
+  } [modified]
 }
 
 export function logError(message: string, error: any) {
@@ -35,5 +35,3 @@ export function logError(message: string, error: any) {
     stack: error instanceof Error ? error.stack : undefined,
   })
 }
-
-// update log: auto edit 01

@@ -20,7 +20,7 @@ export function ProductCard({
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 33vw"
-          />
+          /> [modified]
         </div>
       ) : null}
       <div className="p-6">
@@ -45,7 +45,7 @@ export function ProductCard({
               {product.stockQuantity > 0
                 ? `${product.stockQuantity} in stock`
                 : "Out of stock"}
-            </span> [modified]
+            </span>
           )}
         </div>
         <div className="mt-5">

@@ -73,7 +73,7 @@ export function SundayRSVP() {
         subtitle={`RSVP for our next gathering on Sunday, ${new Date(dateStr).toLocaleDateString("en-US", { month: "long", day: "numeric" })}.`}
       />
       <CardBody>
-        {!session ? ( [modified]
+        {!session ? (
           <p className="text-sm text-zinc-600 italic">
             Please sign in to RSVP for the family gathering.
           </p>
@@ -119,7 +119,7 @@ export function SundayRSVP() {
               </Button>
               {rsvp && (
                 <p className="text-xs text-farm-700 font-medium">
-                  ✓ You are registered for this Sunday!
+                  ✓ You are registered for this Sunday! [modified]
                 </p>
               )}
             </div>

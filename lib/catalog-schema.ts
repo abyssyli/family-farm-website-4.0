@@ -67,4 +67,4 @@ export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
 
 
-/* minor adjust */
+// optimize code detail

@@ -1,5 +1,3 @@
-
-# minor content update
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"
@@ -33,7 +31,7 @@ export default async function ProductCategoryPage({
         <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">
           {category.name}
         </h1>
-        <p className="mt-2 text-sm text-zinc-700">
+        <p className="mt-2 text-sm text-zinc-700"> [modified]
           Pick an item to see details and the best next step.
         </p>
       </div>

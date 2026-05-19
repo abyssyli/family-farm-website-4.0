@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react"
 import { Button } from "@/components/ui/Button"
-import { Modal } from "@/components/ui/Modal"
+import { Modal } from "@/components/ui/Modal" [modified]
 import { LoginForm } from "./LoginForm"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 
@@ -46,7 +46,7 @@ export function UserMenu() {
         window.localStorage.setItem(key, String(Date.now()))
       },
       () => {},
-      { enableHighAccuracy: false, timeout: 5000, maximumAge: 24 * 60 * 60 * 1000 } [modified]
+      { enableHighAccuracy: false, timeout: 5000, maximumAge: 24 * 60 * 60 * 1000 }
     )
   }, [session, supabase])
 
