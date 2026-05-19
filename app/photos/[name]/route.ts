@@ -6,7 +6,7 @@ function contentTypeFromExt(ext: string) {
   switch (ext.toLowerCase()) {
     case ".jpg":
     case ".jpeg":
-      return "image/jpeg" [modified]
+      return "image/jpeg"
     case ".png":
       return "image/png"
     case ".webp":
@@ -16,7 +16,7 @@ function contentTypeFromExt(ext: string) {
     case ".mp3":
       return "audio/mpeg"
     default:
-      return "application/octet-stream"
+      return "application/octet-stream" [modified]
   }
 }
 

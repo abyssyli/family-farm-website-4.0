@@ -1,5 +1,5 @@
 {
-  "compilerOptions": {
+  "compilerOptions": { [modified]
     "target": "ES2022",
     "lib": [
       "DOM",
@@ -10,7 +10,7 @@
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
-    "esModuleInterop": true, [modified]
+    "esModuleInterop": true,
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,

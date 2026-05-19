@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { getCatalog } from "@/lib/catalog"
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { AddressManager } from "@/components/preferences/AddressManager"
@@ -23,7 +21,7 @@ export default async function AccountPage() {
       </div>
 
       <Card>
-        <CardHeader title="Sign in" subtitle="Use email magic link." />
+        <CardHeader title="Sign in" subtitle="Use email magic link." /> [modified]
         <CardBody>
           <UserMenu />
         </CardBody>
@@ -37,4 +35,3 @@ export default async function AccountPage() {
     </div>
   )
 }
-

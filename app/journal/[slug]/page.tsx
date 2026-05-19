@@ -1,3 +1,5 @@
+
+# minor content update
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -55,5 +57,3 @@ export default async function JournalPostPage({
   )
 }
 
-
-/* minor adjust */

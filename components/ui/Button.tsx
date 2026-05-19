@@ -1,3 +1,5 @@
+
+# minor content update
 import Link from "next/link"
 import { forwardRef } from "react"
 
@@ -46,7 +48,7 @@ export function ButtonLink({
       <a
         href={href}
         target="_blank"
-        rel="noreferrer noopener" [modified]
+        rel="noreferrer noopener"
         className={cn(base, variants[variant], className)}
       >
         {children}

@@ -85,7 +85,7 @@ export function ProductDetail({
                         />
                       </svg>
                     </button>
-                  </div>
+                  </div> [modified]
                   <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 gap-1.5">
                     {images.map((_, i) => (
                       <div
@@ -121,7 +121,7 @@ export function ProductDetail({
           {product.description ? (
             <p className="mt-4 max-w-prose text-base text-zinc-700 whitespace-pre-wrap">
               {product.description}
-            </p> [modified]
+            </p>
           ) : null}
           {product.priceHint ? (
             <p className="mt-4 text-sm font-medium text-zinc-700">

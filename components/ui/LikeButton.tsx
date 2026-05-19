@@ -1,5 +1,5 @@
 
-/* daily modify record */
+# minor content update
 "use client"
 
 import { useEffect, useState } from "react"

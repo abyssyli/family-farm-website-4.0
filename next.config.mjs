@@ -1,5 +1,3 @@
-
-# minor content update
 import { withSentryConfig } from "@sentry/nextjs";
 
 /** @type {import('next').NextConfig} */
@@ -19,7 +17,7 @@ export default withSentryConfig(nextConfig, {
   project: "your-project",
 }, {
   // For all available options, see:
-  // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
+  // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/ [modified]
 
   // Upload a larger set of source maps for prettier stack traces (increases build time)
   widenClientFileUpload: true,

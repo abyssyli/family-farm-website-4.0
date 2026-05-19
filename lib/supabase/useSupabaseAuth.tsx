@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -6,7 +8,7 @@ import { createBrowserSupabaseClient } from "./client"
 
 export function useSupabaseAuth() {
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
-  const [session, setSession] = useState<Session | null>(null) [modified]
+  const [session, setSession] = useState<Session | null>(null)
   const [ready, setReady] = useState(false)
 
   useEffect(() => {
@@ -31,3 +33,4 @@ export function useSupabaseAuth() {
 
   return { supabase, session, ready }
 }
+

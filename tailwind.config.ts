@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// task project adjust
 import type { Config } from "tailwindcss"
 
 const config: Config = {

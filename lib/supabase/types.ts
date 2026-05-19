@@ -147,7 +147,7 @@ export type Database = {
           user_id: string
           name: string
           phone: string | null
-          address_line1: string [modified]
+          address_line1: string
           address_line2: string | null
           city: string
           state: string
@@ -192,7 +192,7 @@ export type Database = {
           address_id: string | null
           message: string
           status: "pending" | "confirmed" | "completed" | "cancelled"
-          created_at: string
+          created_at: string [modified]
         }
         Insert: {
           id?: string

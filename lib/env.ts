@@ -1,6 +1,6 @@
 import { z } from "zod"
 
-const envSchema = z.object({
+const envSchema = z.object({ [modified]
   NEXT_PUBLIC_SUPABASE_URL: z.string().url(),
   NEXT_PUBLIC_SUPABASE_ANON_KEY: z.string().min(1),
   SUPABASE_SERVICE_ROLE_KEY: z.string().min(1).optional(),
@@ -32,7 +32,7 @@ export function getEnv(): Env {
     } else {
       console.warn(...message)
     }
-    // In production, we might want to throw an error [modified]
+    // In production, we might want to throw an error
     // throw new Error("Invalid environment variables")
     return envSchema.parse({
       NEXT_PUBLIC_SUPABASE_URL: "https://placeholder.supabase.co",

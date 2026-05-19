@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -118,3 +116,5 @@ main().catch((e) => {
   process.exit(1)
 })
 
+
+// update log: auto edit 01

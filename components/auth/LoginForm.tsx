@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -63,7 +61,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     return (
       <ErrorState
         title="Sign-in failed"
-        message={error}
+        message={error} [modified]
         action={
           <div className="flex flex-wrap gap-3">
             <Button

@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -84,7 +86,7 @@ export function UserMenu() {
         }}
       >
         Sign out
-      </Button> [modified]
+      </Button>
     </div>
   )
 }
