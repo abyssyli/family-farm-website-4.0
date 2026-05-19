@@ -9,7 +9,7 @@ export async function loadCatalogFromSource(): Promise<{
   if (sourceUrl) {
     const res = await fetch(sourceUrl, { headers: { accept: "application/json" } })
     if (!res.ok) {
-      throw new Error(`Source fetch failed: ${res.status} ${res.statusText}`) [modified]
+      throw new Error(`Source fetch failed: ${res.status} ${res.statusText}`)
     }
     const json = await res.json()
     const catalog = CatalogSchema.parse(json)
@@ -22,3 +22,6 @@ export async function loadCatalogFromSource(): Promise<{
   const catalog = CatalogSchema.parse(json)
   return { catalog, sourceLabel: localPath }
 }
+
+
+// optimize code detail

@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import Image from "next/image"
@@ -111,7 +109,7 @@ export function ProductDetail({
         <div>
           <p className="text-sm font-medium text-farm-800">
             <Link
-              href={`/products/${product.categorySlug}`}
+              href={`/products/${product.categorySlug}`} [modified]
               className="hover:underline"
             >
               {categoryName}
@@ -159,5 +157,4 @@ export function ProductDetail({
     </div>
   )
 }
-
 

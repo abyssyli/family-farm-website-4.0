@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useEffect, useMemo, useRef, useState } from "react"
@@ -7,7 +5,7 @@ import { Card } from "@/components/ui/Card"
 
 type MapPoint = {
   id: string
-  label: string
+  label: string [modified]
   lat: number
   lng: number
   count: number

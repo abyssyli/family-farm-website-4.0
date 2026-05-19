@@ -295,7 +295,7 @@ export type Database = {
           created_at?: string
         }
         Update: {
-          journal_post_id?: string | null [modified]
+          journal_post_id?: string | null
         }
         Relationships: []
       }
@@ -362,3 +362,5 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
+
+// optimize code detail

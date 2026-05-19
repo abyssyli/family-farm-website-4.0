@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
-import { Button } from "@/components/ui/Button"
+import { Button } from "@/components/ui/Button" [modified]
 import { Modal } from "@/components/ui/Modal"
 import { LoginForm } from "./LoginForm"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
@@ -59,7 +59,7 @@ export function UserMenu() {
           Sign in
         </Button>
         <Modal open={open} title="Sign in" onClose={() => setOpen(false)}>
-          <LoginForm onSuccess={() => setOpen(false)} /> [modified]
+          <LoginForm onSuccess={() => setOpen(false)} />
         </Modal>
       </>
     )

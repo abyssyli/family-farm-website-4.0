@@ -6,7 +6,7 @@ export function createServerSupabaseClient() {
   const { url, anonKey } = getSupabasePublicConfig()
   let parsed: URL | null = null
   try {
-    parsed = new URL(url) [modified]
+    parsed = new URL(url)
   } catch {
     parsed = null
   }
@@ -14,7 +14,7 @@ export function createServerSupabaseClient() {
     !url ||
     !anonKey ||
     !parsed ||
-    parsed.hostname.includes("_") ||
+    parsed.hostname.includes("_") || [modified]
     url.includes("placeholder.supabase.co") ||
     url === "your_supabase_url" ||
     anonKey === "placeholder" ||

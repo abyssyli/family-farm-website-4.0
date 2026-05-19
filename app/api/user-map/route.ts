@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { NextResponse } from "next/server"
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 
@@ -69,7 +71,7 @@ export async function GET() {
 
   const points: MapPoint[] = []
   for (const user of data.users) {
-    const meta = (user.user_metadata ?? {}) as Record<string, unknown> [modified]
+    const meta = (user.user_metadata ?? {}) as Record<string, unknown>
     const location = meta.location as { lat?: unknown; lng?: unknown } | undefined
     const rawLat = location?.lat
     const rawLng = location?.lng

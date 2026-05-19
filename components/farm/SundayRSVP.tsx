@@ -66,7 +66,7 @@ export function SundayRSVP() {
     }
   }
 
-  return (
+  return ( [modified]
     <Card className="border-farm-200 bg-farm-50/30">
       <CardHeader
         title="Sunday Family Gathering"
@@ -129,5 +129,3 @@ export function SundayRSVP() {
     </Card>
   )
 }
-
-# minor content update

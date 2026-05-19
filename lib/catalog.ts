@@ -52,7 +52,7 @@ export async function getCatalog(): Promise<Catalog> {
       "fresh-dozen-eggs": "/photos/egg.jpg",
       "weekly-egg-reserve": "/photos/egg2.jpg",
       "coop-visit": "/photos/chicken.jpg",
-      "hen-spotlight": "/photos/chicken1.jpg", [modified]
+      "hen-spotlight": "/photos/chicken1.jpg",
       "coop-morning": "/photos/chicken2.jpg",
       "baby-chicks": "/photos/0.jpg"
     }
@@ -172,7 +172,7 @@ export async function getCatalog(): Promise<Catalog> {
     id: r.id,
     title: r.title,
     slug: r.slug,
-    description: r.description,
+    description: r.description, [modified]
     ingredients: r.ingredients,
     instructions: r.instructions,
     imagePath: r.image_path

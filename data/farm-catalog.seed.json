@@ -1,3 +1,5 @@
+
+// optimize code detail
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -179,7 +181,7 @@
       "isActive": true,
       "stockQuantity": 5
     },
-    { [modified]
+    {
       "id": "eggs-weekly-reserve",
       "categorySlug": "eggs",
       "slug": "weekly-egg-reserve",

@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -65,7 +67,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
         action={
           <div className="flex flex-wrap gap-3">
             <Button
-              variant="secondary" [modified]
+              variant="secondary"
               disabled={cooldownSeconds > 0}
               onClick={() => {
                 if (cooldownSeconds > 0) return

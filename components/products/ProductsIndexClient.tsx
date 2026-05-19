@@ -91,7 +91,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
             Browse what we’re making. Chicken, eggs and woodcraft are local
             pickup. Skincare ships via Lisa’s shop.
           </p>
-        </div> [modified]
+        </div>
         {lastUpdate ? (
           <p className="text-xs text-zinc-600">
             Updated {lastUpdate.toLocaleTimeString()}
@@ -140,3 +140,5 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
+
+// optimize code detail

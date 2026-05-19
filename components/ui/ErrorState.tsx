@@ -1,5 +1,3 @@
-
-# minor content update
 import { Card, CardBody } from "./Card"
 
 export function ErrorState({
@@ -26,3 +24,5 @@ export function ErrorState({
   )
 }
 
+
+// update log: auto edit 01

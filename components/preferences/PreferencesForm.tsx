@@ -16,7 +16,7 @@ export function PreferencesForm({
   const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
 
   useEffect(() => {
-    if (!supabase) return [modified]
+    if (!supabase) return
     supabase.auth.getUser().then(async ({ data }) => {
       const id = data.user?.id ?? null
       setUserId(id)
@@ -60,7 +60,7 @@ export function PreferencesForm({
         ) : (
           <div className="flex flex-col gap-4">
             <div className="grid gap-3 sm:grid-cols-2">
-              {categories.map((c) => {
+              {categories.map((c) => { [modified]
                 const checked = selected.includes(c.slug)
                 return (
                   <label

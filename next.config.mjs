@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import { withSentryConfig } from "@sentry/nextjs";
 
 /** @type {import('next').NextConfig} */
@@ -31,7 +33,7 @@ export default withSentryConfig(nextConfig, {
   // Hides source maps from visitors
   hideSourceMaps: true,
 
-  // Automatically tree-shake Sentry logger statements to reduce bundle size [modified]
+  // Automatically tree-shake Sentry logger statements to reduce bundle size
   disableLogger: true,
 
   // Enables automatic instrumentation of Vercel Cron Monitors.

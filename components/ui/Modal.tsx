@@ -38,7 +38,7 @@ export function Modal({
         className="absolute inset-0 bg-black/40"
         onClick={onClose}
       />
-      <div [modified]
+      <div
         role="dialog"
         aria-modal="true"
         className={cn(
@@ -61,3 +61,6 @@ export function Modal({
     </div>
   )
 }
+
+
+/* daily modify record */

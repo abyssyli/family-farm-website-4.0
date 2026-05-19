@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
 import type { CatalogJournalPost } from "@/lib/catalog-schema"
@@ -24,3 +22,5 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
   )
 }
 
+
+/* daily modify record */

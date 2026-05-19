@@ -1,5 +1,3 @@
-
-// task project adjust
 import Image from "next/image"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
@@ -14,7 +12,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
             src={region.imagePath}
             alt={region.title}
             fill
-            className="object-cover"
+            className="object-cover" [modified]
             sizes="(max-width: 768px) 100vw, 33vw"
           />
         </div>

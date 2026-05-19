@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// task project adjust
 export function sortCategorySlugsByPreference(
   categorySlugs: string[],
   preferred: string[] | null | undefined

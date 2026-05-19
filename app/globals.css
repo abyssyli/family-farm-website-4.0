@@ -1,3 +1,5 @@
+
+/* daily modify record */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,5 +13,3 @@ body {
   @apply bg-farm-50 text-zinc-900;
 }
 
-
-// update log: auto edit 01
