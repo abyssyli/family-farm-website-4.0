@@ -35,5 +35,3 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
 
   return null
 }
-
-/* minor adjust */

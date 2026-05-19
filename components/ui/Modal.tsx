@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect } from "react"

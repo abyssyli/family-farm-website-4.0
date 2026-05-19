@@ -53,5 +53,3 @@ export function getPublicEnv() {
     skincareUrl: env.NEXT_PUBLIC_SKINCARE_URL,
   }
 }
-
-/* minor adjust */

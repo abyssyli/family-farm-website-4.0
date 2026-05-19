@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build", [modified]
+    "build": "next build",
     "start": "next start",
     "start:web": "next start",
     "start:worker": "npm run worker:sync",

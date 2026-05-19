@@ -290,5 +290,3 @@ export default async function HomePage() {
     </div>
   )
 }
-
-/* daily modify record */

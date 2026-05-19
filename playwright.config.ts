@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { defineConfig } from "@playwright/test"
 
 export default defineConfig({

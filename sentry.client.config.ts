@@ -5,5 +5,3 @@ Sentry.init({
   tracesSampleRate: 1.0,
   debug: false,
 });
-
-# minor content update

@@ -24,5 +24,3 @@ export function ErrorState({
   )
 }
 
-
-// optimize code detail

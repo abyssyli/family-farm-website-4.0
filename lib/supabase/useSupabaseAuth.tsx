@@ -32,5 +32,3 @@ export function useSupabaseAuth() {
   return { supabase, session, ready }
 }
 
-
-/* minor adjust */

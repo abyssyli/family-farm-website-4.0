@@ -41,5 +41,3 @@ export function ProductActions({
     </>
   )
 }
-
-// task project adjust

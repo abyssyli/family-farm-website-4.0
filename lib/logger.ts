@@ -1,5 +1,3 @@
-
-// optimize code detail
 import * as Sentry from "@sentry/nextjs";
 
 type LogLevel = "info" | "warn" | "error"

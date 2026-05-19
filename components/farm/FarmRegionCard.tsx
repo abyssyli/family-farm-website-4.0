@@ -14,7 +14,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 33vw"
-          /> [modified]
+          />
         </div>
       ) : null}
       <div className="p-6">

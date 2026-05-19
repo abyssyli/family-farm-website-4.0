@@ -40,5 +40,3 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
-
-/* daily modify record */

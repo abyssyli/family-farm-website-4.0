@@ -5,8 +5,9 @@ export default function NotFound() {
   return (
     <EmptyState
       title="Page not found"
-      message="That link doesn’t exist. Try heading back to the homepage." [modified]
+      message="That link doesn’t exist. Try heading back to the homepage."
       action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
     />
   )
 }
+

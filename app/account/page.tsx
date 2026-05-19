@@ -36,5 +36,3 @@ export default async function AccountPage() {
   )
 }
 
-
-// update log: auto edit 01

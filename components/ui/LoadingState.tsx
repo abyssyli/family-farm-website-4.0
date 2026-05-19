@@ -1,5 +1,3 @@
-
-// task project adjust
 import { Card, CardBody } from "./Card"
 
 export function LoadingState({ label }: { label: string }) {

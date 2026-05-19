@@ -31,5 +31,3 @@ export default async function ProductDetailPage({
     />
   )
 }
-
-// task project adjust
