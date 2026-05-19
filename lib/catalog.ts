@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -22,7 +24,7 @@ export async function getCatalog(): Promise<Catalog> {
 
   if (
     categoriesRes.error ||
-    productsRes.error || [modified]
+    productsRes.error ||
     journalRes.error ||
     regionsRes.error ||
     recipesRes.error

@@ -4,10 +4,10 @@ import { ProductGrid } from "@/components/products/ProductGrid"
 import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
 
-export default async function ProductCategoryPage({ [modified]
+export default async function ProductCategoryPage({
   params
 }: {
-  params: { category: string }
+  params: { category: string } [modified]
 }) {
   if (params.category === "skincare") {
     const { skincareUrl } = getPublicEnv()

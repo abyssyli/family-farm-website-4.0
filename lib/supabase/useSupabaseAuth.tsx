@@ -11,7 +11,7 @@ export function useSupabaseAuth() {
 
   useEffect(() => {
     if (!supabase) {
-      setReady(true)
+      setReady(true) [modified]
       return
     }
     let active = true
@@ -31,6 +31,3 @@ export function useSupabaseAuth() {
 
   return { supabase, session, ready }
 }
-
-
-// optimize code detail

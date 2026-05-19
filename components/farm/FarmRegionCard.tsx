@@ -6,7 +6,7 @@ import type { CatalogFarmRegion } from "@/lib/catalog-schema"
 export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
   return (
     <Card className="overflow-hidden">
-      {region.imagePath ? (
+      {region.imagePath ? ( [modified]
         <div className="relative h-56 w-full sm:h-64">
           <Image
             src={region.imagePath}
@@ -33,5 +33,3 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
     </Card>
   )
 }
-
-// optimize code detail

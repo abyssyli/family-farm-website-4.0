@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { z } from "zod"
 
 const envSchema = z.object({
@@ -38,7 +36,7 @@ export function getEnv(): Env {
     // throw new Error("Invalid environment variables")
     return envSchema.parse({
       NEXT_PUBLIC_SUPABASE_URL: "https://placeholder.supabase.co",
-      NEXT_PUBLIC_SUPABASE_ANON_KEY: "placeholder",
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: "placeholder", [modified]
     })
   }
 

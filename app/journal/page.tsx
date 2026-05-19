@@ -8,7 +8,7 @@ export default async function JournalIndexPage() {
   const posts = [...catalog.journalPosts].sort((a, b) => {
     const da = a.publishedAt ? new Date(a.publishedAt).getTime() : 0
     const db = b.publishedAt ? new Date(b.publishedAt).getTime() : 0
-    return db - da
+    return db - da [modified]
   })
 
   if (posts.length === 0) {
@@ -18,7 +18,7 @@ export default async function JournalIndexPage() {
         message="When we share farm updates, they’ll show up here."
         action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
       />
-    ) [modified]
+    )
   }
 
   return (

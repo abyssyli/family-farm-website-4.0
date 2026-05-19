@@ -32,4 +32,4 @@ export default async function ProductDetailPage({
   )
 }
 
-// update log: auto edit 01
+// task project adjust

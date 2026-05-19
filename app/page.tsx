@@ -95,7 +95,7 @@ export default async function HomePage() {
                   Open
                 </a>
               </div>
-            </div> [modified]
+            </div>
           </Card>
         </div>
       </section>
@@ -176,7 +176,7 @@ export default async function HomePage() {
               <ul className="mt-3 flex flex-col gap-2 text-sm text-zinc-700">
                 {woodcraftThisWeek.map((p) => (
                   <li key={p.id}>
-                    <Link
+                    <Link [modified]
                       href={`/products/${p.categorySlug}/${p.slug}`}
                       className="hover:text-farm-700 hover:underline"
                     >

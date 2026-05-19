@@ -149,7 +149,7 @@ export function AddressManager() {
                   className="rounded-xl border border-zinc-200 px-3 py-2 outline-none focus:border-farm-700 focus:ring-2 focus:ring-farm-700/20"
                 />
               </label>
-              <label className="flex flex-col gap-1 text-sm font-medium"> [modified]
+              <label className="flex flex-col gap-1 text-sm font-medium">
                 State
                 <input
                   type="text"
@@ -237,3 +237,5 @@ export function AddressManager() {
     </Card>
   )
 }
+
+// update log: auto edit 01

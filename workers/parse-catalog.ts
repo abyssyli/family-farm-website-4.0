@@ -3,10 +3,10 @@ import { CatalogSchema, type Catalog } from "@/lib/catalog-schema"
 
 export async function loadCatalogFromSource(): Promise<{
   catalog: Catalog
-  sourceLabel: string [modified]
+  sourceLabel: string
 }> {
   const sourceUrl = process.env.PRODUCT_SOURCE_URL?.trim()
-  if (sourceUrl) {
+  if (sourceUrl) { [modified]
     const res = await fetch(sourceUrl, { headers: { accept: "application/json" } })
     if (!res.ok) {
       throw new Error(`Source fetch failed: ${res.status} ${res.statusText}`)

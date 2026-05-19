@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* minor adjust */
 import { NextResponse } from "next/server"
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 

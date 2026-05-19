@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* minor adjust */
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },

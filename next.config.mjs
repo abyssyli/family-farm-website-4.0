@@ -11,7 +11,7 @@ export default withSentryConfig(nextConfig, {
   // For all available options, see:
   // https://github.com/getsentry/sentry-webpack-plugin#options
 
-  // Suppresses source map uploading logs during build
+  // Suppresses source map uploading logs during build [modified]
   silent: true,
   org: "your-org",
   project: "your-project",
@@ -40,5 +40,3 @@ export default withSentryConfig(nextConfig, {
   // https://vercel.com/docs/cron-jobs
   automaticVercelMonitors: true,
 });
-
-// update log: auto edit 01

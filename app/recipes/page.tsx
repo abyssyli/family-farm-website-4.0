@@ -8,7 +8,7 @@ export default async function RecipesPage() {
   const recipes = catalog.recipes
 
   return (
-    <div className="flex flex-col gap-10 pb-12">
+    <div className="flex flex-col gap-10 pb-12"> [modified]
       <div className="flex flex-col gap-4">
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
           Farm Recipes
@@ -52,5 +52,3 @@ export default async function RecipesPage() {
     </div>
   )
 }
-
-/* daily modify record */

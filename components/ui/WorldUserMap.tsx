@@ -45,7 +45,7 @@ export function WorldUserMap() {
   useEffect(() => {
     let active = true
     setStatus("loading")
-    fetch("/api/user-map")
+    fetch("/api/user-map") [modified]
       .then((res) => res.json())
       .then((json: { points?: MapPoint[]; status?: string; message?: string }) => {
         if (!active) return
@@ -142,5 +142,3 @@ export function WorldUserMap() {
     </section>
   )
 }
-
-/* minor adjust */

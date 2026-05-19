@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -42,7 +44,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     const { error } = await supabase.auth.signInWithOtp({
       email,
       options: { emailRedirectTo: window.location.origin }
-    }) [modified]
+    })
     if (error) {
       const match = error.message.match(/after\s+(\d+)\s*seconds/i)
       if (match) {
