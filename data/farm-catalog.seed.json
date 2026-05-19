@@ -1,0 +1,329 @@
+{
+  "categories": [
+    { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
+    { "slug": "food", "name": "Hands' Village Dishes", "sortOrder": 1 },
+    { "slug": "woodcraft", "name": "Handmade Woodcraft", "sortOrder": 2 },
+    { "slug": "skincare", "name": "Lisa’s Skincare", "sortOrder": 3 }
+  ],
+  "products": [
+    {
+      "id": "food-zucchini-pancakes",
+      "categorySlug": "food",
+      "slug": "zucchini-pancakes",
+      "name": "Zucchini pancakes",
+      "description": "Every Sunday, Paula's farm holds a grand family gathering with various types of delicious food. These are also available for pre-order and sale here when needed. Savory zucchini pancakes, a family gathering favorite.",
+      "imagePath": "/photos/eat1.jpg",
+      "priceHint": "Sunday Gathering · Pre-order available",
+      "isActive": true
+    },
+    {
+      "id": "food-chinese-tea-eggs",
+      "categorySlug": "food",
+      "slug": "chinese-tea-eggs",
+      "name": "Chinese tea eggs",
+      "description": "Traditional savory eggs marbled with tea and spices.",
+      "imagePath": "/photos/eat2.jpg",
+      "priceHint": "Sunday Gathering · Pre-order available",
+      "isActive": true
+    },
+    {
+      "id": "food-sausage-potato-pancakes",
+      "categorySlug": "food",
+      "slug": "sausage-potato-pancakes",
+      "name": "Fired sausage and potato with egg pancakes",
+      "description": "A hearty combination of sausage, potatoes, and egg pancakes.",
+      "imagePath": "/photos/eat3.jpg",
+      "priceHint": "Sunday Gathering · Pre-order available",
+      "isActive": true
+    },
+    {
+      "id": "food-grilled-steak",
+      "categorySlug": "food",
+      "slug": "grilled-steak",
+      "name": "Grilled steak",
+      "description": "Perfectly grilled steak, served during our family gatherings.",
+      "imagePath": "/photos/eat4.jpg",
+      "imagePaths": ["/photos/eat4.jpg", "/photos/eat5.jpg"],
+      "priceHint": "Sunday Gathering · Pre-order available",
+      "isActive": true
+    },
+    {
+      "id": "food-beef-stew",
+      "categorySlug": "food",
+      "slug": "beef-stew",
+      "name": "Beef Stew",
+      "description": "Slow-cooked, rich beef stew for a cozy family meal.",
+      "imagePath": "/photos/eat6.jpg",
+      "imagePaths": ["/photos/eat6.jpg", "/photos/eat7.jpg"],
+      "priceHint": "Sunday Gathering · Pre-order available",
+      "isActive": true
+    },
+    {
+      "id": "food-dumplings",
+      "categorySlug": "food",
+      "slug": "dumplings",
+      "name": "Dumplings",
+      "description": "Hand-folded dumplings with savory fillings.",
+      "imagePath": "/photos/eat8.jpg",
+      "imagePaths": ["/photos/eat8.jpg", "/photos/eat9.jpg"],
+      "priceHint": "Sunday Gathering · Pre-order available",
+      "isActive": true
+    },
+    {
+      "id": "food-egg-pancakes-toppings",
+      "categorySlug": "food",
+      "slug": "egg-pancakes-toppings",
+      "name": "Egg pancakes with various toppings",
+      "description": "Versatile egg pancakes served with a variety of fresh toppings.",
+      "imagePath": "/photos/eat10.jpg",
+      "imagePaths": ["/photos/eat10.jpg", "/photos/eat11.jpg", "/photos/eat12.jpg"],
+      "priceHint": "Sunday Gathering · Pre-order available",
+      "isActive": true
+    },
+    {
+      "id": "food-curry-rice-combo",
+      "categorySlug": "food",
+      "slug": "curry-rice-combo",
+      "name": "Japanese curry rice and fried chicken tenders combo",
+      "description": "A delicious combo of Japanese curry rice and crispy fried chicken tenders.",
+      "imagePath": "/photos/eat13.jpg",
+      "priceHint": "Sunday Gathering · Pre-order available",
+      "isActive": true
+    },
+    {
+      "id": "food-ramen",
+      "categorySlug": "food",
+      "slug": "ramen",
+      "name": "Ramen",
+      "description": "Authentic ramen with rich broth and fresh noodles.",
+      "imagePath": "/photos/eat14.jpg",
+      "imagePaths": ["/photos/eat14.jpg", "/photos/eat15.jpg"],
+      "priceHint": "Sunday Gathering · Pre-order available",
+      "isActive": true
+    },
+    {
+      "id": "food-spam-fried-rice",
+      "categorySlug": "food",
+      "slug": "spam-fried-rice",
+      "name": "Spam fried rice",
+      "description": "Savory fried rice with spam, with an optional Gochujang kick.",
+      "imagePath": "/photos/eat16.jpg",
+      "imagePaths": ["/photos/eat16.jpg", "/photos/eat17.jpg"],
+      "priceHint": "Sunday Gathering · Pre-order available",
+      "isActive": true
+    },
+    {
+      "id": "food-creamy-corn-bread",
+      "categorySlug": "food",
+      "slug": "creamy-corn-bread",
+      "name": "Creamy corn with garlic bread",
+      "description": "Rich creamy corn paired with crispy garlic bread.",
+      "imagePath": "/photos/eat18.jpg",
+      "imagePaths": ["/photos/eat18.jpg", "/photos/eat19.jpg"],
+      "priceHint": "Sunday Gathering · Pre-order available",
+      "isActive": true
+    },
+    {
+      "id": "food-corn-chowder",
+      "categorySlug": "food",
+      "slug": "corn-chowder",
+      "name": "Corn chowder",
+      "description": "Hearty and creamy corn chowder, a gathering staple.",
+      "imagePath": "/photos/eat20.jpg",
+      "priceHint": "Sunday Gathering · Pre-order available",
+      "isActive": true
+    },
+    {
+      "id": "food-seafood-scallion-pancake",
+      "categorySlug": "food",
+      "slug": "seafood-scallion-pancake",
+      "name": "Seafood Scallion Pancake",
+      "description": "Crispy scallion pancake with savory seafood, fresh off the pan.",
+      "imagePath": "/photos/Pancake.jpg",
+      "imagePaths": ["/photos/Pancake.jpg", "/photos/pancake1.jpg"],
+      "priceHint": "Sunday Gathering · Pre-order available",
+      "isActive": true
+    },
+    {
+      "id": "food-mushroom-sticky-rice",
+      "categorySlug": "food",
+      "slug": "mushroom-sticky-rice",
+      "name": "Mushroom Sticky Rice",
+      "description": "Fragrant sticky rice with mushrooms—comfort food from Hands' Village.",
+      "imagePath": "/photos/Rice.jpg",
+      "imagePaths": ["/photos/Rice.jpg", "/photos/Rice1.jpg"],
+      "priceHint": "Sunday Gathering · Pre-order available",
+      "isActive": true
+    },
+    {
+      "id": "eggs-chicks",
+      "categorySlug": "eggs",
+      "slug": "baby-chicks",
+      "name": "Baby Chicks",
+      "description": "Healthy, lively baby chicks from our best layers. Available in seasonal batches.",
+      "imagePath": "/photos/0.jpg",
+      "imagePaths": ["/photos/0.jpg", "/photos/chicken3.jpg"],
+      "priceHint": "Seasonal · Text for availability",
+      "externalUrl": null,
+      "isActive": true
+    },
+    {
+      "id": "eggs-fresh-dozen",
+      "categorySlug": "eggs",
+      "slug": "fresh-eggs-dozen",
+      "name": "Farm Fresh Eggs (Dozen)",
+      "description": "One dozen fresh, pasture-raised eggs from our happy hens.",
+      "imagePath": "/photos/egg.jpg",
+      "priceHint": "$5.00 · Local pickup",
+      "externalUrl": null,
+      "isActive": true,
+      "stockQuantity": 5
+    },
+    {
+      "id": "eggs-weekly-reserve",
+      "categorySlug": "eggs",
+      "slug": "weekly-egg-reserve",
+      "name": "Weekly Egg Reserve",
+      "description": "Prefer a regular pickup? Tell us how many dozen you want each week and we’ll do our best to set them aside.",
+      "imagePath": "/photos/egg2.jpg",
+      "priceHint": "Text to arrange",
+      "externalUrl": null,
+      "isActive": true
+    },
+    {
+      "id": "eggs-coop-visit",
+      "categorySlug": "eggs",
+      "slug": "coop-visit",
+      "name": "Chicken Coop Visit",
+      "description": "See the coop in action and meet the hens. Great for families and curious egg lovers.",
+      "imagePath": "/photos/chicken.jpg",
+      "priceHint": "By appointment · Local only",
+      "externalUrl": null,
+      "isActive": true
+    },
+    {
+      "id": "eggs-hen-spotlight",
+      "categorySlug": "eggs",
+      "slug": "hen-spotlight",
+      "name": "Hen Spotlight",
+      "description": "A fun add-on to your pickup—ask which hens are laying today and what we’re seeing in the coop.",
+      "imagePath": "/photos/chicken1.jpg",
+      "priceHint": "Included with pickup",
+      "externalUrl": null,
+      "isActive": true
+    },
+    {
+      "id": "eggs-coop-morning",
+      "categorySlug": "eggs",
+      "slug": "coop-morning",
+      "name": "Coop Morning Update",
+      "description": "A quick morning snapshot from the coop with availability notes for today’s egg pickups.",
+      "imagePath": "/photos/chicken2.jpg",
+      "priceHint": "Text to arrange",
+      "externalUrl": null,
+      "isActive": true
+    },
+    {
+      "id": "woodcraft-cutting-board",
+      "categorySlug": "woodcraft",
+      "slug": "cutting-board",
+      "name": "Hardwood Cutting Board",
+      "description": "Handmade by the family shop. Each board has unique grain and character.",
+      "imagePath": "/photos/Wooden1.jpg",
+      "priceHint": "Made to order · Local pickup",
+      "externalUrl": null,
+      "isActive": true
+    },
+    {
+      "id": "woodcraft-decor-sign",
+      "categorySlug": "woodcraft",
+      "slug": "farmhouse-sign",
+      "name": "Farmhouse Decor Sign",
+      "description": "Rustic wood signage for your kitchen, porch, or pantry. Custom text available.",
+      "imagePath": "/photos/Wooden2.jpg",
+      "priceHint": "Custom quotes via text",
+      "externalUrl": null,
+      "isActive": true
+    },
+    {
+      "id": "woodcraft-wall-shelf",
+      "categorySlug": "woodcraft",
+      "slug": "wall-shelf",
+      "name": "Wall Shelf",
+      "description": "A simple handmade shelf for entryways, kitchens, or anywhere you want a little extra charm.",
+      "imagePath": "/photos/Wooden3.jpg",
+      "priceHint": "Made to order · Local pickup",
+      "externalUrl": null,
+      "isActive": true
+    },
+    {
+      "id": "woodcraft-stool",
+      "categorySlug": "woodcraft",
+      "slug": "handmade-stool",
+      "name": "Thomas's Handmade Stool",
+      "description": "A sturdy little stool with clean lines—great as a step, seat, or plant stand.",
+      "imagePath": "/photos/Wooden.jpg",
+      "priceHint": "Limited batches · Local pickup",
+      "externalUrl": null,
+      "isActive": true
+    },
+    {
+      "id": "skincare-body-butter",
+      "categorySlug": "skincare",
+      "slug": "body-butter",
+      "name": "Body Butter",
+      "description": "All-natural body butter designed to nourish and hydrate—especially for sensitive skin.",
+      "imagePath": "/photos/background1.jpg",
+      "priceHint": "Ships from Lisa’s shop",
+      "externalUrl": "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR",
+      "isActive": true
+    },
+    {
+      "id": "skincare-muscle-creme",
+      "categorySlug": "skincare",
+      "slug": "muscle-creme",
+      "name": "Muscle Crème",
+      "description": "A soothing crème made with botanicals like boswellia, comfrey, peppermint, and eucalyptus.",
+      "imagePath": "/photos/background.jpg",
+      "priceHint": "Ships from Lisa’s shop",
+      "externalUrl": "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR",
+      "isActive": true
+    }
+  ],
+  "journalPosts": [
+    {
+      "id": "journal-spring-collecting",
+      "slug": "spring-egg-collecting",
+      "title": "Spring Egg Collecting",
+      "excerpt": "Longer days mean more coop checks, more stories, and a little more dust on our boots.",
+      "body": "Spring is our favorite season on the farm. The hens are active, the air is warm, and mornings start with a quick walk to the coop. If you want eggs this week, call or text and we’ll let you know what we have ready for pickup.",
+      "publishedAt": "2026-04-15T12:00:00.000Z"
+    }
+  ],
+  "farmRegions": [
+    {
+      "id": "region-coop",
+      "slug": "chicken-coop",
+      "title": "Chicken Coop",
+      "description": "Where the day starts: fresh eggs, feed time, and a lot of personality.",
+      "imagePath": "/photos/chicken.jpg",
+      "ctaLabel": "Explore Chicken and Eggs",
+      "ctaHref": "/products/eggs",
+      "x": 35,
+      "y": 62
+    },
+    {
+      "id": "region-woodshop",
+      "slug": "woodshop",
+      "title": "Family Woodshop",
+      "description": "Our small shop where woodcraft gets sketched, cut, sanded, and finished by hand.",
+      "imagePath": "/photos/Wooden1.jpg",
+      "ctaLabel": "Explore Woodcraft",
+      "ctaHref": "/products/woodcraft",
+      "x": 70,
+      "y": 40
+    }
+  ]
+}
+
+/* minor adjust */
