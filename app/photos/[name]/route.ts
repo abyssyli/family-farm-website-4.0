@@ -9,7 +9,7 @@ function contentTypeFromExt(ext: string) {
       return "image/jpeg"
     case ".png":
       return "image/png"
-    case ".webp":
+    case ".webp": [modified]
       return "image/webp"
     case ".gif":
       return "image/gif"
@@ -43,5 +43,3 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
-
-// optimize code detail

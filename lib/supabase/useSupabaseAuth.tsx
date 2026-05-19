@@ -25,9 +25,10 @@ export function useSupabaseAuth() {
     })
     return () => {
       active = false
-      data.subscription.unsubscribe() [modified]
+      data.subscription.unsubscribe()
     }
   }, [supabase])
 
   return { supabase, session, ready }
 }
+ [modified]

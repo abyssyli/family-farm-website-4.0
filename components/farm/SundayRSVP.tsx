@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -9,7 +7,7 @@ import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 
 export function SundayRSVP() {
   const { supabase, session } = useSupabaseAuth()
-  const [rsvp, setRsvp] = useState<any>(null)
+  const [rsvp, setRsvp] = useState<any>(null) [modified]
   const [adultCount, setAdultCount] = useState(1)
   const [childCount, setChildCount] = useState(0)
   const [notes, setNotes] = useState("")

@@ -36,7 +36,7 @@ export default async function RecipesPage() {
                 <CardBody>
                   <h3 className="text-lg font-semibold group-hover:text-farm-700">
                     {recipe.title}
-                  </h3>
+                  </h3> [modified]
                   <p className="mt-2 line-clamp-2 text-sm text-zinc-600">
                     {recipe.description}
                   </p>
@@ -52,5 +52,3 @@ export default async function RecipesPage() {
     </div>
   )
 }
-
-# minor content update

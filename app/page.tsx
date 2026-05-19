@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -265,7 +267,7 @@ export default async function HomePage() {
             {catalog.recipes.slice(0, 3).map((recipe) => (
               <Link key={recipe.id} href={`/recipes/${recipe.slug}`} className="group">
                 <Card className="h-full overflow-hidden transition-shadow hover:shadow-md">
-                  <div className="relative h-40 w-full"> [modified]
+                  <div className="relative h-40 w-full">
                     <Image
                       src={recipe.imagePath || "/photos/background.jpg"}
                       alt={recipe.title}

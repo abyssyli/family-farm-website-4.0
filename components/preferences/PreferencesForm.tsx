@@ -89,7 +89,7 @@ export function PreferencesForm({
               <Button
                 type="button"
                 onClick={save}
-                disabled={status === "saving"} [modified]
+                disabled={status === "saving"}
               >
                 {status === "saved"
                   ? "Saved"
@@ -108,3 +108,6 @@ export function PreferencesForm({
     </Card>
   )
 }
+
+
+// optimize code detail

@@ -5,7 +5,7 @@
     { "slug": "woodcraft", "name": "Handmade Woodcraft", "sortOrder": 2 },
     { "slug": "skincare", "name": "Lisa’s Skincare", "sortOrder": 3 }
   ],
-  "products": [
+  "products": [ [modified]
     {
       "id": "food-zucchini-pancakes",
       "categorySlug": "food",
@@ -58,7 +58,7 @@
       "priceHint": "Sunday Gathering · Pre-order available",
       "isActive": true
     },
-    { [modified]
+    {
       "id": "food-dumplings",
       "categorySlug": "food",
       "slug": "dumplings",

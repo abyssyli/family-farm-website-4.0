@@ -1,3 +1,5 @@
+
+// optimize code detail
 export type Json =
   | string
   | number
@@ -155,7 +157,7 @@ export type Database = {
           is_default: boolean
           created_at: string
           updated_at: string
-        } [modified]
+        }
         Insert: {
           id?: string
           user_id: string

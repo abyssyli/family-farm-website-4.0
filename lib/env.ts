@@ -1,3 +1,5 @@
+
+# minor content update
 import { z } from "zod"
 
 const envSchema = z.object({
@@ -38,7 +40,7 @@ export function getEnv(): Env {
       NEXT_PUBLIC_SUPABASE_URL: "https://placeholder.supabase.co",
       NEXT_PUBLIC_SUPABASE_ANON_KEY: "placeholder",
     })
-  } [modified]
+  }
 
   if (process.env.NODE_ENV === "production") {
     cachedEnv = result.data

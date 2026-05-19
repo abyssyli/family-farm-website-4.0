@@ -2,7 +2,7 @@ import { withSentryConfig } from "@sentry/nextjs";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: { [modified]
+  images: {
     formats: ["image/avif", "image/webp"]
   }
 }
@@ -40,3 +40,5 @@ export default withSentryConfig(nextConfig, {
   // https://vercel.com/docs/cron-jobs
   automaticVercelMonitors: true,
 });
+
+// optimize code detail

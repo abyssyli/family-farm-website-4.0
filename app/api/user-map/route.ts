@@ -1,5 +1,3 @@
-
-# minor content update
 import { NextResponse } from "next/server"
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 
@@ -55,7 +53,7 @@ export async function GET() {
   if (error || !data) {
     const missingTable =
       (error?.message ?? "").includes("Could not find the table") ||
-      (error?.message ?? "").includes("schema cache")
+      (error?.message ?? "").includes("schema cache") [modified]
     return NextResponse.json(
       {
         points: [] as MapPoint[],

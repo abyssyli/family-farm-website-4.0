@@ -42,4 +42,4 @@ export function ProductActions({
   )
 }
 
-/* minor adjust */
+// optimize code detail

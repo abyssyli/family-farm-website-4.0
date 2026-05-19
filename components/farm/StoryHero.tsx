@@ -24,7 +24,7 @@ export function StoryHero() {
   }, [slideCount, stopAuto])
 
   useEffect(() => {
-    startAuto()
+    startAuto() [modified]
     return () => stopAuto()
   }, [startAuto, stopAuto])
 
@@ -138,5 +138,3 @@ export function StoryHero() {
     </section>
   )
 }
-
-# minor content update

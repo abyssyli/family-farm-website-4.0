@@ -1,4 +1,4 @@
-"use client"
+"use client" [modified]
 
 import Image from "next/image"
 import Link from "next/link"
@@ -158,6 +158,3 @@ export function ProductDetail({
   )
 }
 
-
-
-// task project adjust

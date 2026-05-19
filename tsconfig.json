@@ -1,5 +1,3 @@
-
-# minor content update
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -23,7 +21,7 @@
       {
         "name": "next"
       }
-    ],
+    ], [modified]
     "baseUrl": ".",
     "paths": {
       "@/*": [

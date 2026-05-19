@@ -1,5 +1,3 @@
-
-# minor content update
 import type { CatalogProduct } from "@/lib/catalog-schema"
 import { ProductCard } from "./ProductCard"
 
@@ -14,7 +12,7 @@ export function ProductGrid({
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {products.map((p) => (
         <ProductCard
-          key={p.id}
+          key={p.id} [modified]
           product={p}
           href={`/products/${categorySlug}/${p.slug}`}
         />
@@ -22,4 +20,3 @@ export function ProductGrid({
     </div>
   )
 }
-

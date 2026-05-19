@@ -1,3 +1,5 @@
+
+// task project adjust
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
@@ -33,7 +35,7 @@ export default async function RecipeDetailPage({
       <div className="grid gap-10 lg:grid-cols-2 lg:items-start">
         <div className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
           <Image
-            src={recipe.imagePath || "/photos/background.jpg"} [modified]
+            src={recipe.imagePath || "/photos/background.jpg"}
             alt={recipe.title}
             width={1400}
             height={1000}

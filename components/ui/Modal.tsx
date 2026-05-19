@@ -1,5 +1,5 @@
 
-// optimize code detail
+# minor content update
 "use client"
 
 import { useEffect } from "react"

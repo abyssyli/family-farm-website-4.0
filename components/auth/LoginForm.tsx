@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -14,7 +12,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     const raw = process.env.NEXT_PUBLIC_SUPABASE_URL
     if (!raw) return null
     try {
-      const parsed = new URL(raw)
+      const parsed = new URL(raw) [modified]
       if (parsed.hostname.includes("_")) {
         return "Your Supabase URL looks invalid (it contains an underscore). Use the Project URL from Supabase → Project Settings → API."
       }

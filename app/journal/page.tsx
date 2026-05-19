@@ -1,8 +1,6 @@
-
-/* daily modify record */
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
-import { EmptyState } from "@/components/ui/EmptyState"
+import { EmptyState } from "@/components/ui/EmptyState" [modified]
 import { ButtonLink } from "@/components/ui/Button"
 
 export default async function JournalIndexPage() {
@@ -41,4 +39,3 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
-

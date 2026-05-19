@@ -9,7 +9,7 @@ export function Card({
   children: React.ReactNode
   className?: string
 }) {
-  return ( [modified]
+  return (
     <div
       className={cn(
         "rounded-2xl border border-zinc-200 bg-white shadow-sm",
@@ -39,3 +39,6 @@ export function CardHeader({
 export function CardBody({ children }: { children: React.ReactNode }) {
   return <div className="px-6 pb-6 pt-4">{children}</div>
 }
+
+
+# minor content update

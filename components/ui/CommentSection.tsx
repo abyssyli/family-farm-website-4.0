@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -62,7 +64,7 @@ export function CommentSection({
     <div className="mt-12 flex flex-col gap-8 border-t border-zinc-200 pt-12">
       <div className="flex flex-col gap-2">
         <h2 className="text-xl font-semibold">Comments & Reviews</h2>
-        <p className="text-sm text-zinc-600"> [modified]
+        <p className="text-sm text-zinc-600">
           Share your experience with this {productId ? "dish" : "story"}.
         </p>
       </div>

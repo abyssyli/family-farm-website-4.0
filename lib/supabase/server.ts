@@ -9,7 +9,7 @@ export function createServerSupabaseClient() {
     parsed = new URL(url)
   } catch {
     parsed = null
-  }
+  } [modified]
   if (
     !url ||
     !anonKey ||
@@ -47,5 +47,3 @@ export function createServiceRoleSupabaseClient() {
   }
   return createClient<Database>(url, serviceRoleKey)
 }
-
-# minor content update
