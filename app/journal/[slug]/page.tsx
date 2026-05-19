@@ -44,7 +44,7 @@ export default async function JournalPostPage({
         </CardBody>
       </Card>
 
-      <CommentSection journalPostId={post.id} />
+      <CommentSection journalPostId={post.id} /> [modified]
 
       <div>
         <ButtonLink href="/journal" variant="ghost">
@@ -54,6 +54,3 @@ export default async function JournalPostPage({
     </div>
   )
 }
-
-
-// update log: auto edit 01

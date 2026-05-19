@@ -1,8 +1,10 @@
+
+/* minor adjust */
 import Image from "next/image"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import type { CatalogFarmRegion } from "@/lib/catalog-schema"
- [modified]
+
 export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
   return (
     <Card className="overflow-hidden">

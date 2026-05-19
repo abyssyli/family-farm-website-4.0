@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -112,7 +114,7 @@ export function SundayRSVP() {
                 placeholder="Optional..."
                 className="rounded-xl border border-zinc-200 px-3 py-2 outline-none focus:border-farm-700 focus:ring-2 focus:ring-farm-700/20"
               />
-            </label> [modified]
+            </label>
             <div className="flex items-center gap-4">
               <Button onClick={handleRSVP} disabled={status === "saving"}>
                 {status === "saved" ? "RSVP Updated!" : status === "saving" ? "Saving..." : rsvp ? "Update RSVP" : "Confirm RSVP"}

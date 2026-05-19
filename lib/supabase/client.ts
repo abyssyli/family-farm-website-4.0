@@ -10,7 +10,7 @@ export function createBrowserSupabaseClient() {
   } catch {
     parsed = null
   }
-  if (
+  if ( [modified]
     !url ||
     !anonKey ||
     !parsed ||
@@ -24,5 +24,3 @@ export function createBrowserSupabaseClient() {
   }
   return createClient<Database>(url, anonKey)
 }
-
-# minor content update

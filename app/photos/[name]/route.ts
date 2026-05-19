@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -18,7 +16,7 @@ function contentTypeFromExt(ext: string) {
     case ".mp3":
       return "audio/mpeg"
     default:
-      return "application/octet-stream"
+      return "application/octet-stream" [modified]
   }
 }
 

@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -87,7 +85,7 @@ export function PreferencesForm({
                 )
               })}
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3"> [modified]
               <Button
                 type="button"
                 onClick={save}
@@ -110,4 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-

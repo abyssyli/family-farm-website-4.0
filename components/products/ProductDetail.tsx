@@ -94,7 +94,7 @@ export function ProductDetail({
                           i === currentIdx ? "bg-white" : "bg-white/40"
                         }`}
                       />
-                    ))} [modified]
+                    ))}
                   </div>
                 </>
               )}
@@ -138,7 +138,7 @@ export function ProductDetail({
                 ? `${product.stockQuantity} items remaining today`
                 : "Out of stock for today"}
             </p>
-          )}
+          )} [modified]
 
           <div className="mt-7 flex flex-wrap gap-3">{primaryAction}</div>
 

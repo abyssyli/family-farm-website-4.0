@@ -41,4 +41,4 @@ export default async function ProductCategoryPage({
   )
 }
 
-/* minor adjust */
+/* daily modify record */

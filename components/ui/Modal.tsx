@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect } from "react"
@@ -19,7 +17,7 @@ export function Modal({
   title: string
   children: React.ReactNode
   onClose: () => void
-  className?: string
+  className?: string [modified]
 }) {
   useEffect(() => {
     if (!open) return
@@ -63,4 +61,3 @@ export function Modal({
     </div>
   )
 }
-

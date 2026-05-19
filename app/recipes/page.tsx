@@ -1,5 +1,5 @@
 
-# minor content update
+// task project adjust
 import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"

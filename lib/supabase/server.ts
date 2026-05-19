@@ -45,7 +45,5 @@ export function createServiceRoleSupabaseClient() {
   ) {
     return null
   }
-  return createClient<Database>(url, serviceRoleKey)
+  return createClient<Database>(url, serviceRoleKey) [modified]
 }
-
-// optimize code detail

@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -83,7 +85,7 @@ export function OrderTracker() {
                           {inquiry.status}
                         </span>
                       </td>
-                    </tr> [modified]
+                    </tr>
                   ))}
                 </tbody>
               </table>

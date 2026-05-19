@@ -1,12 +1,10 @@
-
-// update log: auto edit 01
 {
   "compilerOptions": {
     "target": "ES2022",
     "lib": [
       "DOM",
       "DOM.Iterable",
-      "ES2022"
+      "ES2022" [modified]
     ],
     "allowJs": false,
     "skipLibCheck": true,

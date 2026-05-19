@@ -35,7 +35,7 @@ export async function getCatalog(): Promise<Catalog> {
       "cutting-board": "/photos/Wooden1.jpg",
       "farmhouse-sign": "/photos/Wooden2.jpg",
       "wall-shelf": "/photos/Wooden3.jpg",
-      "handmade-stool": "/photos/Wooden.jpg"
+      "handmade-stool": "/photos/Wooden.jpg" [modified]
     }
 
     return imagePath && imagePath.includes("/photos/Wooden")
@@ -59,7 +59,7 @@ export async function getCatalog(): Promise<Catalog> {
 
     const fallback = fallbackBySlug[slug]
     if (!fallback) return imagePath
-    return imagePath === fallback ? imagePath : fallback [modified]
+    return imagePath === fallback ? imagePath : fallback
   }
 
   const normalizeFarmRegionImagePath = (slug: string, imagePath: string | null) => {

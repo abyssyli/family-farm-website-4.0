@@ -25,7 +25,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     if (active.slug === "woodshop") return "/photos/Wooden2.jpg"
     return active.imagePath || "/photos/Home.jpg"
   }, [active])
-
+ [modified]
   if (sorted.length === 0) return null
 
   return (
@@ -45,7 +45,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
               alt="Farm map"
               width={1400}
               height={900}
-              className="h-[360px] w-full object-cover sm:h-[440px]" [modified]
+              className="h-[360px] w-full object-cover sm:h-[440px]"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
             {sorted.map((r) => {

@@ -120,7 +120,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
             Add <span className="font-mono">NEXT_PUBLIC_SUPABASE_URL</span> and{" "}
             <span className="font-mono">NEXT_PUBLIC_SUPABASE_ANON_KEY</span> in{" "}
             <span className="font-mono">.env.local</span>, then restart{" "}
-            <span className="font-mono">npm run dev</span>.
+            <span className="font-mono">npm run dev</span>. [modified]
           </p>
           {invalidSupabaseUrlHint ? (
             <p className="mt-2 text-sm text-zinc-700">{invalidSupabaseUrlHint}</p>
@@ -130,5 +130,3 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
-
-// task project adjust

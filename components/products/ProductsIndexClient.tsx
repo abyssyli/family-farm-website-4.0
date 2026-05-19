@@ -59,7 +59,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     return () => {
       supabase.removeChannel(channel)
     }
-  }, [router, supabase]) [modified]
+  }, [router, supabase])
 
   const orderedCategorySlugs = useMemo(() => {
     const slugs = catalog.categories.map((c) => c.slug)
@@ -140,3 +140,5 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
+
+// task project adjust
