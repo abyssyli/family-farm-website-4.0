@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useMemo, useRef, useState } from "react"
@@ -140,7 +138,7 @@ export function WorldUserMap() {
       </Card>
       <p className="text-xs text-zinc-500">
         Pins are based on the user’s saved location (lat/lng) captured via browser permission.
-      </p>
+      </p> [modified]
     </section>
   )
 }

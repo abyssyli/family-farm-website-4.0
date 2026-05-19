@@ -5,6 +5,4 @@ export default async function ProductsPage() {
   const catalog = await getCatalog()
   return <ProductsIndexClient catalog={catalog} />
 }
-
-
-// update log: auto edit 01
+ [modified]

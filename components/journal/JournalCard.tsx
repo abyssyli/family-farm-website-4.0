@@ -1,9 +1,7 @@
-
-// task project adjust
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
 import type { CatalogJournalPost } from "@/lib/catalog-schema"
-
+ [modified]
 export function JournalCard({ post }: { post: CatalogJournalPost }) {
   return (
     <Card className="p-6">
@@ -23,4 +21,3 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
     </Card>
   )
 }
-

@@ -27,7 +27,10 @@ export function useSupabaseAuth() {
       active = false
       data.subscription.unsubscribe()
     }
-  }, [supabase]) [modified]
+  }, [supabase])
 
   return { supabase, session, ready }
 }
+
+
+// optimize code detail

@@ -28,7 +28,7 @@ export function OrderTracker() {
       .order("created_at", { ascending: false })
     if (!error && data) {
       setInquiries(data as Inquiry[])
-    } [modified]
+    }
   }
 
   const getStatusColor = (status: string) => {
@@ -94,3 +94,5 @@ export function OrderTracker() {
     </Card>
   )
 }
+
+/* daily modify record */

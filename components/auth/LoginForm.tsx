@@ -15,7 +15,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       const parsed = new URL(raw)
       if (parsed.hostname.includes("_")) {
         return "Your Supabase URL looks invalid (it contains an underscore). Use the Project URL from Supabase → Project Settings → API."
-      }
+      } [modified]
       return null
     } catch {
       return "Your Supabase URL is not a valid URL. Use the Project URL from Supabase → Project Settings → API."
@@ -130,5 +130,3 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
-
-// optimize code detail

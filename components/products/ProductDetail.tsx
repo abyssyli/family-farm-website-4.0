@@ -95,7 +95,7 @@ export function ProductDetail({
                         }`}
                       />
                     ))}
-                  </div> [modified]
+                  </div>
                 </>
               )}
             </>
@@ -158,3 +158,6 @@ export function ProductDetail({
   )
 }
 
+
+
+/* minor adjust */

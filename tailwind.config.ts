@@ -1,3 +1,5 @@
+
+# minor content update
 import type { Config } from "tailwindcss"
 
 const config: Config = {
@@ -12,7 +14,7 @@ const config: Config = {
           50: "#f7f7f2",
           100: "#eef0e3",
           200: "#d9dfbe",
-          300: "#b9c98c", [modified]
+          300: "#b9c98c",
           400: "#97ae60",
           500: "#7a9446",
           600: "#5f7535",
@@ -27,3 +29,4 @@ const config: Config = {
 }
 
 export default config
+

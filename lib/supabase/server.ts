@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
 import type { Database } from "./types"
@@ -7,7 +9,7 @@ export function createServerSupabaseClient() {
   let parsed: URL | null = null
   try {
     parsed = new URL(url)
-  } catch { [modified]
+  } catch {
     parsed = null
   }
   if (

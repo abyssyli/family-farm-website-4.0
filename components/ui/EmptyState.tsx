@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({
@@ -26,3 +24,5 @@ export function EmptyState({
   )
 }
 
+
+/* daily modify record */

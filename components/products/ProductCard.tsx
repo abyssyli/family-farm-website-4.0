@@ -31,7 +31,7 @@ export function ProductCard({
           {product.description}
         </p>
         <div className="mt-4 flex items-center justify-between">
-          <p className="text-sm font-medium text-zinc-900">
+          <p className="text-sm font-medium text-zinc-900"> [modified]
             {product.priceHint}
           </p>
           {product.stockQuantity !== null && product.stockQuantity !== undefined && (
@@ -48,7 +48,7 @@ export function ProductCard({
             </span>
           )}
         </div>
-        <div className="mt-5"> [modified]
+        <div className="mt-5">
           <Link
             href={href}
             className="text-sm font-medium text-farm-800 hover:text-farm-900"

@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// update log: auto edit 01
 import { notFound, redirect } from "next/navigation"
 import { ProductDetail } from "@/components/products/ProductDetail"
 import { ProductActions } from "@/components/products/ProductActions"

@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -6,7 +8,7 @@ import { LikeButton } from "@/components/ui/LikeButton"
 import { CommentSection } from "@/components/ui/CommentSection"
 import { getCatalog } from "@/lib/catalog"
 
-export default async function JournalPostPage({ [modified]
+export default async function JournalPostPage({
   params
 }: {
   params: { slug: string }
@@ -54,3 +56,4 @@ export default async function JournalPostPage({ [modified]
     </div>
   )
 }
+
