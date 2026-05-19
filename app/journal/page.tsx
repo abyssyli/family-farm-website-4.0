@@ -1,5 +1,5 @@
 
-/* minor adjust */
+# minor content update
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"

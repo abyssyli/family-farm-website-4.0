@@ -2,7 +2,7 @@ export type Json =
   | string
   | number
   | boolean
-  | null [modified]
+  | null
   | { [key: string]: Json | undefined }
   | Json[]
 
@@ -362,3 +362,5 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
+
+# minor content update

@@ -1,7 +1,7 @@
 import * as Sentry from "@sentry/nextjs";
 
 type LogLevel = "info" | "warn" | "error"
-
+ [modified]
 export function logEvent(level: LogLevel, message: string, data?: any) {
   const timestamp = new Date().toISOString()
   const logEntry = {
@@ -26,7 +26,7 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
     console.log(JSON.stringify(logEntry))
   } else {
     console[level](`[${timestamp}] ${level.toUpperCase()}: ${message}`, data || "")
-  } [modified]
+  }
 }
 
 export function logError(message: string, error: any) {

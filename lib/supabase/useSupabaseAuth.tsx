@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -27,7 +29,8 @@ export function useSupabaseAuth() {
       active = false
       data.subscription.unsubscribe()
     }
-  }, [supabase]) [modified]
+  }, [supabase])
 
   return { supabase, session, ready }
 }
+

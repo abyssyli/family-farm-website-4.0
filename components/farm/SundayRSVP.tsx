@@ -1,5 +1,5 @@
 "use client"
-
+ [modified]
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/Button"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
@@ -119,7 +119,7 @@ export function SundayRSVP() {
               </Button>
               {rsvp && (
                 <p className="text-xs text-farm-700 font-medium">
-                  ✓ You are registered for this Sunday! [modified]
+                  ✓ You are registered for this Sunday!
                 </p>
               )}
             </div>

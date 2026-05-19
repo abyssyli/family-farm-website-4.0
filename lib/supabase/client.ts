@@ -25,4 +25,4 @@ export function createBrowserSupabaseClient() {
   return createClient<Database>(url, anonKey)
 }
 
-// optimize code detail
+// update log: auto edit 01

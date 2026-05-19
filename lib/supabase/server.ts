@@ -15,7 +15,7 @@ export function createServerSupabaseClient() {
     !anonKey ||
     !parsed ||
     parsed.hostname.includes("_") ||
-    url.includes("placeholder.supabase.co") || [modified]
+    url.includes("placeholder.supabase.co") ||
     url === "your_supabase_url" ||
     anonKey === "placeholder" ||
     anonKey === "your_supabase_anon_key"
@@ -45,5 +45,5 @@ export function createServiceRoleSupabaseClient() {
   ) {
     return null
   }
-  return createClient<Database>(url, serviceRoleKey)
+  return createClient<Database>(url, serviceRoleKey) [modified]
 }

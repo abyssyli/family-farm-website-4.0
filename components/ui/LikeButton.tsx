@@ -25,7 +25,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
       .eq("journal_post_id", journalPostId)
     
     if (!error) setLikes(count || 0)
- [modified]
+
     // Check if user liked
     if (session) {
       const { data } = await supabase
@@ -45,7 +45,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     if (isLiked) {
       await supabase
         .from("likes")
-        .delete()
+        .delete() [modified]
         .eq("journal_post_id", journalPostId)
         .eq("user_id", session.user.id)
     } else {

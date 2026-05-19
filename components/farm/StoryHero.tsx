@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import Image from "next/image"
@@ -140,3 +138,5 @@ export function StoryHero() {
     </section>
   )
 }
+
+// update log: auto edit 01

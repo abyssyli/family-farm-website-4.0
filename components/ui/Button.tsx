@@ -16,7 +16,7 @@ const variants: Record<Variant, string> = {
   ghost: "bg-transparent text-zinc-900 hover:bg-zinc-100"
 }
 
-export const Button = forwardRef< [modified]
+export const Button = forwardRef<
   HTMLButtonElement,
   React.ButtonHTMLAttributes<HTMLButtonElement> & { variant?: Variant }
 >(function Button({ className, variant = "primary", ...props }, ref) {
@@ -59,3 +59,5 @@ export function ButtonLink({
     </Link>
   )
 }
+
+# minor content update

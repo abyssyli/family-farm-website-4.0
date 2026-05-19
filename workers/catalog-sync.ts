@@ -52,7 +52,7 @@ async function runOnce() {
     description: r.description,
     image_path: r.imagePath,
     cta_label: r.ctaLabel,
-    cta_href: r.ctaHref,
+    cta_href: r.ctaHref, [modified]
     x: r.x,
     y: r.y
   }))
@@ -115,6 +115,3 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
-
-
-# minor content update

@@ -1,3 +1,5 @@
+
+// optimize code detail
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,8 +7,9 @@
 html,
 body {
   height: 100%;
-} [modified]
+}
 
 body {
   @apply bg-farm-50 text-zinc-900;
 }
+

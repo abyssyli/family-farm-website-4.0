@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({
@@ -7,7 +9,7 @@ export function EmptyState({
 }: {
   title: string
   message: string
-  action?: React.ReactNode [modified]
+  action?: React.ReactNode
 }) {
   return (
     <Card>
@@ -23,3 +25,4 @@ export function EmptyState({
     </Card>
   )
 }
+

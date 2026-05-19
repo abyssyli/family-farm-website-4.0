@@ -4,11 +4,11 @@ export default defineConfig({
   testDir: "./tests",
   use: {
     baseURL: process.env.PLAYWRIGHT_BASE_URL || "http://localhost:3000",
-    trace: "retain-on-failure"
+    trace: "retain-on-failure" [modified]
   },
   webServer: {
     command: "npm run dev -- --port 3000",
     url: "http://localhost:3000",
     reuseExistingServer: !process.env.CI
-  } [modified]
+  }
 })

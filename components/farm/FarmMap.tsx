@@ -93,4 +93,4 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
   )
 }
 
-/* minor adjust */
+// update log: auto edit 01

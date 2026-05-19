@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* minor adjust */
 import * as Sentry from "@sentry/nextjs";
 
 Sentry.init({

@@ -89,7 +89,7 @@ export function WorldUserMap() {
 
   return (
     <section className="flex flex-col gap-6">
-      <div className="flex items-end justify-between gap-6">
+      <div className="flex items-end justify-between gap-6"> [modified]
         <div>
           <h2 className="text-xl font-semibold tracking-tight">User World Map</h2>
           <p className="mt-2 text-sm text-zinc-700">
@@ -142,5 +142,3 @@ export function WorldUserMap() {
     </section>
   )
 }
-
-// task project adjust

@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -109,5 +111,3 @@ export function PreferencesForm({
   )
 }
 
-
-// optimize code detail

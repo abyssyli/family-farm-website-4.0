@@ -24,7 +24,7 @@ export default async function HomePage() {
     <div className="flex flex-col gap-14">
       <StoryHero />
       <FarmMap regions={regions} />
- [modified]
+
       <section>
         <div className="flex items-end justify-between gap-6">
           <div>
@@ -234,7 +234,7 @@ export default async function HomePage() {
                   </a>
                 ) : (
                   <Link
-                    href={`/products/${c.slug}`}
+                    href={`/products/${c.slug}`} [modified]
                     className="text-sm font-medium text-farm-800 hover:text-farm-900"
                   >
                     Browse {c.name} →

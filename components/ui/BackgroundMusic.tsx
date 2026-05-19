@@ -2,13 +2,13 @@
 
 import { useEffect, useRef } from "react"
 
-export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
+export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) { [modified]
   const audioRef = useRef<HTMLAudioElement | null>(null)
 
   useEffect(() => {
     const audio = new Audio(src)
     audio.loop = true
-    audio.preload = "none" [modified]
+    audio.preload = "none"
     audioRef.current = audio
 
     const tryPlay = () => audio.play()
