@@ -7,7 +7,7 @@ export default async function RecipesPage() {
   const catalog = await getCatalog()
   const recipes = catalog.recipes
 
-  return (
+  return ( [modified]
     <div className="flex flex-col gap-10 pb-12">
       <div className="flex flex-col gap-4">
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
@@ -52,5 +52,3 @@ export default async function RecipesPage() {
     </div>
   )
 }
-
-// update log: auto edit 01

@@ -138,7 +138,9 @@ export function WorldUserMap() {
       </Card>
       <p className="text-xs text-zinc-500">
         Pins are based on the user’s saved location (lat/lng) captured via browser permission.
-      </p> [modified]
+      </p>
     </section>
   )
 }
+
+// task project adjust

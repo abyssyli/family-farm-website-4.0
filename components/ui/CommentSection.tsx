@@ -58,7 +58,7 @@ export function CommentSection({
     setIsSubmitting(false)
   }
 
-  return (
+  return ( [modified]
     <div className="mt-12 flex flex-col gap-8 border-t border-zinc-200 pt-12">
       <div className="flex flex-col gap-2">
         <h2 className="text-xl font-semibold">Comments & Reviews</h2>
@@ -110,5 +110,3 @@ export function CommentSection({
     </div>
   )
 }
-
-/* minor adjust */

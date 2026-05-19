@@ -168,7 +168,7 @@ export async function getCatalog(): Promise<Catalog> {
     imagePath: normalizeFarmRegionImagePath(r.slug, r.imagePath ?? null)
   }))
 
-  const recipes = recipesRes.data.map((r) => ({
+  const recipes = recipesRes.data.map((r) => ({ [modified]
     id: r.id,
     title: r.title,
     slug: r.slug,
@@ -184,5 +184,3 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
-
-/* daily modify record */

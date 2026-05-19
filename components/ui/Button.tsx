@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import Link from "next/link"
 import { forwardRef } from "react"
 
@@ -26,7 +24,7 @@ export const Button = forwardRef<
     <button
       ref={ref}
       className={cn(base, variants[variant], className)}
-      {...props}
+      {...props} [modified]
     />
   )
 })

@@ -19,7 +19,7 @@ export function UserMenu() {
 
   useEffect(() => {
     if (!supabase || !session) return
-    if (typeof window === "undefined") return
+    if (typeof window === "undefined") return [modified]
 
     const key = `pf_last_location_update_${session.user.id}`
     const last = window.localStorage.getItem(key)
@@ -88,5 +88,3 @@ export function UserMenu() {
     </div>
   )
 }
-
-/* daily modify record */

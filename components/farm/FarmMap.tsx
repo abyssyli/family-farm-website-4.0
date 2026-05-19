@@ -22,7 +22,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
   const coverImagePath = useMemo(() => {
     if (!active) return "/photos/Home.jpg"
     if (active.slug === "chicken-coop") return "/photos/chicken2.jpg"
-    if (active.slug === "woodshop") return "/photos/Wooden2.jpg"
+    if (active.slug === "woodshop") return "/photos/Wooden2.jpg" [modified]
     return active.imagePath || "/photos/Home.jpg"
   }, [active])
 
@@ -38,7 +38,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
           Tap a region to learn what we’re making this season.
         </p>
 
-        <div className="mt-6 overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm"> [modified]
+        <div className="mt-6 overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
           <div className="relative">
             <Image
               src={coverImagePath}

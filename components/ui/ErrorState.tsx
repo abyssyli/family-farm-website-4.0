@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { Card, CardBody } from "./Card"
 
 export function ErrorState({
@@ -26,3 +24,5 @@ export function ErrorState({
   )
 }
 
+
+/* minor adjust */

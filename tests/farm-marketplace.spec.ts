@@ -9,7 +9,7 @@ test("homepage renders and navigation works", async ({ page }) => {
 
   await page.getByRole("link", { name: /Chicken and Eggs/i }).click()
   await expect(page.getByRole("heading", { name: /Chicken and Eggs/i })).toBeVisible()
-
+ [modified]
   await page.getByRole("link", { name: /View details/i }).first().click()
   await expect(page.getByRole("button", { name: /Buy \/ Contact/i })).toBeVisible()
 
@@ -27,5 +27,3 @@ test("skincare category points to BeakerGold", async ({ page }) => {
     "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR"
   )
 })
-
-// update log: auto edit 01

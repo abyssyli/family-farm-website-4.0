@@ -22,7 +22,7 @@ export default async function RecipeDetailPage({
             Farm Recipes
           </Link>
         </p>
-        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl"> [modified]
+        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
           {recipe.title}
         </h1>
         <p className="mt-2 text-base text-zinc-700">
@@ -47,7 +47,7 @@ export default async function RecipeDetailPage({
           <Card>
             <CardHeader title="Ingredients" />
             <CardBody>
-              <ul className="flex flex-col gap-2">
+              <ul className="flex flex-col gap-2"> [modified]
                 {recipe.ingredients.map((item, i) => (
                   <li key={i} className="flex gap-3 text-sm text-zinc-700">
                     <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-farm-100 text-[10px] font-bold text-farm-700">

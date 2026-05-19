@@ -41,4 +41,4 @@ export default withSentryConfig(nextConfig, {
   automaticVercelMonitors: true,
 });
 
-# minor content update
+// update log: auto edit 01

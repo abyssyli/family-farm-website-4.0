@@ -13,7 +13,7 @@ export function ProductCard({
   return (
     <Card className="overflow-hidden">
       {product.imagePath ? (
-        <div className="relative h-48 w-full">
+        <div className="relative h-48 w-full"> [modified]
           <Image
             src={product.imagePath}
             alt={product.name}
@@ -31,7 +31,7 @@ export function ProductCard({
           {product.description}
         </p>
         <div className="mt-4 flex items-center justify-between">
-          <p className="text-sm font-medium text-zinc-900"> [modified]
+          <p className="text-sm font-medium text-zinc-900">
             {product.priceHint}
           </p>
           {product.stockQuantity !== null && product.stockQuantity !== undefined && (

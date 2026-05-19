@@ -45,7 +45,7 @@ async function runOnce() {
     updated_at: new Date().toISOString()
   }))
 
-  const farmRegions = catalog.farmRegions.map((r) => ({ [modified]
+  const farmRegions = catalog.farmRegions.map((r) => ({
     id: r.id,
     slug: r.slug,
     title: r.title,
@@ -115,3 +115,6 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+
+
+/* minor adjust */

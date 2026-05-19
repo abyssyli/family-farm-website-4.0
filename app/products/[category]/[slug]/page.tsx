@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { notFound, redirect } from "next/navigation"
 import { ProductDetail } from "@/components/products/ProductDetail"
 import { ProductActions } from "@/components/products/ProductActions"
@@ -9,7 +7,7 @@ import { getPublicEnv } from "@/lib/env"
 export default async function ProductDetailPage({
   params
 }: {
-  params: { category: string; slug: string }
+  params: { category: string; slug: string } [modified]
 }) {
   if (params.category === "skincare") {
     const { skincareUrl } = getPublicEnv()
