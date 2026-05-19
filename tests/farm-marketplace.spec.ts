@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+// optimize code detail
 import { test, expect } from "@playwright/test"
 
 test("homepage renders and navigation works", async ({ page }) => {

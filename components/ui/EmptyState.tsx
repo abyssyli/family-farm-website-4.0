@@ -14,7 +14,7 @@ export function EmptyState({
       <CardBody>
         <div className="flex flex-col gap-3">
           <div>
-            <h2 className="text-lg font-semibold">{title}</h2> [modified]
+            <h2 className="text-lg font-semibold">{title}</h2>
             <p className="mt-1 text-sm text-zinc-600">{message}</p>
           </div>
           {action ? <div>{action}</div> : null}
@@ -23,3 +23,6 @@ export function EmptyState({
     </Card>
   )
 }
+
+
+// task project adjust

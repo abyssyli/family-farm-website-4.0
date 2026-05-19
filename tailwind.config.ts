@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import type { Config } from "tailwindcss"
 
 const config: Config = {
@@ -17,7 +19,7 @@ const config: Config = {
           500: "#7a9446",
           600: "#5f7535",
           700: "#4c5d2c",
-          800: "#3f4b27", [modified]
+          800: "#3f4b27",
           900: "#354022"
         }
       }
@@ -27,3 +29,4 @@ const config: Config = {
 }
 
 export default config
+

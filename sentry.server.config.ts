@@ -1,3 +1,5 @@
+
+# minor content update
 import * as Sentry from "@sentry/nextjs";
 
 Sentry.init({
@@ -5,5 +7,3 @@ Sentry.init({
   tracesSampleRate: 1.0,
   debug: false,
 });
-
-// optimize code detail

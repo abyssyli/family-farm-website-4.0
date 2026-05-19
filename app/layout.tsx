@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -25,7 +23,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen">
         <div className="mx-auto flex min-h-screen max-w-6xl flex-col px-4">
-          <header className="flex items-center justify-between py-6">
+          <header className="flex items-center justify-between py-6"> [modified]
             <Link href="/" className="group inline-flex items-center gap-2">
               <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-farm-700 text-white">
                 PF

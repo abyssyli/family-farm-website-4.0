@@ -44,7 +44,7 @@ export function getEnv(): Env {
     cachedEnv = result.data
   }
   return result.data
-}
+} [modified]
 
 export function getPublicEnv() {
   const env = getEnv()
@@ -53,5 +53,3 @@ export function getPublicEnv() {
     skincareUrl: env.NEXT_PUBLIC_SKINCARE_URL,
   }
 }
-
-# minor content update

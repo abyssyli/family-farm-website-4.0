@@ -84,5 +84,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
       </svg>
       <span className="font-medium">{likes}</span>
     </button>
-  ) [modified]
+  )
 }
+
+/* daily modify record */

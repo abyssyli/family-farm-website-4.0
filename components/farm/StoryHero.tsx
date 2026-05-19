@@ -32,7 +32,7 @@ export function StoryHero() {
     setHoursSlide((current) => (current - 1 + slideCount) % slideCount)
     startAuto()
   }, [slideCount, startAuto])
-
+ [modified]
   const goNext = useCallback(() => {
     setHoursSlide((current) => (current + 1) % slideCount)
     startAuto()
@@ -138,5 +138,3 @@ export function StoryHero() {
     </section>
   )
 }
-
-/* minor adjust */

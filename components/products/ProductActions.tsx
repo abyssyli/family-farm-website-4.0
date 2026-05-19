@@ -10,7 +10,7 @@ export function ProductActions({
   product,
   categorySlug
 }: {
-  product: CatalogProduct
+  product: CatalogProduct [modified]
   categorySlug: string
 }) {
   const { skincareUrl } = getPublicEnv()
@@ -20,7 +20,7 @@ export function ProductActions({
     const href = skincareUrl
     return (
       <ButtonLink href={href} variant="primary" className="w-fit">
-        Shop on BeakerGold [modified]
+        Shop on BeakerGold
       </ButtonLink>
     )
   }

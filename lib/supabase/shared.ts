@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import { getEnv } from "../env"
 
 export function getSupabasePublicConfig() {
@@ -11,6 +9,6 @@ export function getSupabasePublicConfig() {
 }
 
 export function getSupabaseServiceRoleKey() {
-  const env = getEnv()
+  const env = getEnv() [modified]
   return env.SUPABASE_SERVICE_ROLE_KEY
 }

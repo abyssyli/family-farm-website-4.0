@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import Image from "next/image"
@@ -149,7 +151,7 @@ export function ProductDetail({
             >
               ← Back to {categoryName}
             </Link>
-          </div> [modified]
+          </div>
         </div>
       </div>
 
@@ -157,4 +159,5 @@ export function ProductDetail({
     </div>
   )
 }
+
 

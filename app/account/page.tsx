@@ -8,7 +8,7 @@ import { UserMenu } from "@/components/auth/UserMenu"
 export default async function AccountPage() {
   const catalog = await getCatalog()
   const categories = catalog.categories.map((c) => ({ slug: c.slug, name: c.name }))
- [modified]
+
   return (
     <div className="flex flex-col gap-6 pb-12">
       <div>
@@ -35,3 +35,6 @@ export default async function AccountPage() {
     </div>
   )
 }
+
+
+# minor content update

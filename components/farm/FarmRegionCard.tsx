@@ -30,8 +30,6 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
           </div>
         ) : null}
       </div>
-    </Card>
+    </Card> [modified]
   )
 }
-
-/* minor adjust */

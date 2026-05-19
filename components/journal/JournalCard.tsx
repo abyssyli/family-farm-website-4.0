@@ -20,7 +20,4 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
       ) : null}
     </Card>
   )
-}
-
-
-// optimize code detail
+} [modified]

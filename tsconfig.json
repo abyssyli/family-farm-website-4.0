@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2022",
     "lib": [
-      "DOM",
+      "DOM", [modified]
       "DOM.Iterable",
       "ES2022"
     ],
@@ -35,7 +35,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts"
   ],
-  "exclude": [ [modified]
+  "exclude": [
     "node_modules"
   ]
 }

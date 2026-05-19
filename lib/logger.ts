@@ -1,10 +1,10 @@
-import * as Sentry from "@sentry/nextjs"; [modified]
+import * as Sentry from "@sentry/nextjs";
 
 type LogLevel = "info" | "warn" | "error"
 
 export function logEvent(level: LogLevel, message: string, data?: any) {
   const timestamp = new Date().toISOString()
-  const logEntry = {
+  const logEntry = { [modified]
     timestamp,
     level,
     message,

@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -64,7 +66,7 @@ export function AddressManager() {
       city: "",
       state: "",
       postal_code: "",
-      is_default: false [modified]
+      is_default: false
     })
     fetchAddresses()
   }

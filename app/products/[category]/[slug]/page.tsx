@@ -1,5 +1,5 @@
 import { notFound, redirect } from "next/navigation"
-import { ProductDetail } from "@/components/products/ProductDetail" [modified]
+import { ProductDetail } from "@/components/products/ProductDetail"
 import { ProductActions } from "@/components/products/ProductActions"
 import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
@@ -31,3 +31,5 @@ export default async function ProductDetailPage({
     />
   )
 }
+
+// optimize code detail

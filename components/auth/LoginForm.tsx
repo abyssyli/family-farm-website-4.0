@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -18,7 +16,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       if (parsed.hostname.includes("_")) {
         return "Your Supabase URL looks invalid (it contains an underscore). Use the Project URL from Supabase → Project Settings → API."
       }
-      return null
+      return null [modified]
     } catch {
       return "Your Supabase URL is not a valid URL. Use the Project URL from Supabase → Project Settings → API."
     }

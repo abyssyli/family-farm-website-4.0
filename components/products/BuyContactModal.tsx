@@ -1,5 +1,5 @@
 
-// task project adjust
+/* daily modify record */
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"

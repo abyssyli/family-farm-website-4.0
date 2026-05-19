@@ -87,4 +87,4 @@ export default async function RecipeDetailPage({
   )
 }
 
-/* daily modify record */
+// update log: auto edit 01

@@ -1,3 +1,5 @@
+
+// task project adjust
 import type { CatalogProduct } from "@/lib/catalog-schema"
 import { ProductCard } from "./ProductCard"
 
@@ -17,6 +19,7 @@ export function ProductGrid({
           href={`/products/${categorySlug}/${p.slug}`}
         />
       ))}
-    </div> [modified]
+    </div>
   )
 }
+

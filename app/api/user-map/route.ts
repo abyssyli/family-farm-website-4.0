@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { NextResponse } from "next/server"
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 
@@ -31,7 +33,7 @@ function jitteredCoords(lat: number, lng: number, seed: string) {
   const a = hashToUnit(`${seed}|a`) * 2 - 1
   const b = hashToUnit(`${seed}|b`) * 2 - 1
   const latJitter = a * 0.35
-  const lngJitter = b * 0.5 [modified]
+  const lngJitter = b * 0.5
   return { lat: lat + latJitter, lng: lng + lngJitter }
 }
 

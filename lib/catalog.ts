@@ -5,7 +5,7 @@ import { createServerSupabaseClient } from "./supabase/server"
 export function getSeedCatalog(): Catalog {
   return CatalogSchema.parse(seedJson)
 }
- [modified]
+
 export async function getCatalog(): Promise<Catalog> {
   const supabase = createServerSupabaseClient()
   if (!supabase) return getSeedCatalog()
@@ -110,7 +110,7 @@ export async function getCatalog(): Promise<Catalog> {
   }))
 
   const dbFarmRegions = regionsRes.data.map((r) => ({
-    id: r.id,
+    id: r.id, [modified]
     slug: r.slug,
     title: r.title,
     description: r.description,
