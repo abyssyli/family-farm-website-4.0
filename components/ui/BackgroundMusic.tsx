@@ -18,7 +18,7 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
         tryPlay().finally(() => {
           window.removeEventListener("pointerdown", onFirstInteraction)
           window.removeEventListener("keydown", onFirstInteraction)
-          window.removeEventListener("touchstart", onFirstInteraction)
+          window.removeEventListener("touchstart", onFirstInteraction) [modified]
         })
       }
 
@@ -32,6 +32,6 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
       audioRef.current = null
     }
   }, [src])
- [modified]
+
   return null
 }

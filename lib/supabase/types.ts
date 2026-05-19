@@ -1,5 +1,3 @@
-
-// task project adjust
 export type Json =
   | string
   | number
@@ -230,7 +228,7 @@ export type Database = {
             referencedColumns: ["id"]
           }
         ]
-      }
+      } [modified]
       sunday_rsvps: {
         Row: {
           id: string

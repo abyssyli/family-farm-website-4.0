@@ -9,7 +9,7 @@ export default async function RecipesPage() {
 
   return (
     <div className="flex flex-col gap-10 pb-12">
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4"> [modified]
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
           Farm Recipes
         </h1>
@@ -34,7 +34,7 @@ export default async function RecipesPage() {
                   />
                 </div>
                 <CardBody>
-                  <h3 className="text-lg font-semibold group-hover:text-farm-700"> [modified]
+                  <h3 className="text-lg font-semibold group-hover:text-farm-700">
                     {recipe.title}
                   </h3>
                   <p className="mt-2 line-clamp-2 text-sm text-zinc-600">

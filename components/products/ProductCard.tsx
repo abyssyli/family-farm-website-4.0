@@ -1,3 +1,5 @@
+
+// optimize code detail
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
@@ -39,7 +41,7 @@ export function ProductCard({
               className={`text-[10px] font-bold uppercase tracking-wider ${
                 product.stockQuantity > 0
                   ? "text-farm-700"
-                  : "text-red-600" [modified]
+                  : "text-red-600"
               }`}
             >
               {product.stockQuantity > 0
@@ -60,3 +62,4 @@ export function ProductCard({
     </Card>
   )
 }
+

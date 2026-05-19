@@ -33,4 +33,4 @@ export function useSupabaseAuth() {
 }
 
 
-// optimize code detail
+/* daily modify record */

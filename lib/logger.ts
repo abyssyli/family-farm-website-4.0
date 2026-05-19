@@ -1,3 +1,5 @@
+
+// task project adjust
 import * as Sentry from "@sentry/nextjs";
 
 type LogLevel = "info" | "warn" | "error"
@@ -35,5 +37,3 @@ export function logError(message: string, error: any) {
     stack: error instanceof Error ? error.stack : undefined,
   })
 }
-
-/* daily modify record */

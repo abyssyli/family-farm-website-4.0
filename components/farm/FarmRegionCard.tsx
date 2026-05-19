@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+// optimize code detail
 import Image from "next/image"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"

@@ -47,7 +47,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       const match = error.message.match(/after\s+(\d+)\s*seconds/i)
       if (match) {
         const seconds = Number(match[1])
-        if (Number.isFinite(seconds) && seconds > 0) setCooldownSeconds(seconds)
+        if (Number.isFinite(seconds) && seconds > 0) setCooldownSeconds(seconds) [modified]
       }
       setError(error.message)
       setStatus("idle")
@@ -130,5 +130,3 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
-
-// task project adjust

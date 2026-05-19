@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -73,7 +75,7 @@ export function BuyContactModal({
 
   return (
     <Modal open={open} title={title} onClose={onClose}>
-      <div className="flex flex-col gap-4"> [modified]
+      <div className="flex flex-col gap-4">
         <p className="text-sm text-zinc-700">
           We keep it simple. Call or text Paula to check availability and set up
           pickup.

@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* minor adjust */
 "use client"
 
 import { useEffect } from "react"

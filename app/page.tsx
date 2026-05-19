@@ -191,7 +191,7 @@ export default async function HomePage() {
                 href="/products/woodcraft"
                 className="text-sm font-medium text-farm-800 hover:text-farm-900"
               >
-                View all →
+                View all → [modified]
               </Link>
             </div>
           </Card>
@@ -253,7 +253,7 @@ export default async function HomePage() {
               <h2 className="text-xl font-semibold tracking-tight">
                 Farm Recipes
               </h2>
-              <p className="mt-2 text-sm text-zinc-700"> [modified]
+              <p className="mt-2 text-sm text-zinc-700">
                 Delicious ways to use our farm-fresh ingredients.
               </p>
             </div>

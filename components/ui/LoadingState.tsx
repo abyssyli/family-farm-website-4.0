@@ -14,4 +14,4 @@ export function LoadingState({ label }: { label: string }) {
 }
 
 
-/* daily modify record */
+// optimize code detail

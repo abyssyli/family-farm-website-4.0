@@ -7,7 +7,7 @@ export function createBrowserSupabaseClient() {
   let parsed: URL | null = null
   try {
     parsed = new URL(url)
-  } catch { [modified]
+  } catch {
     parsed = null
   }
   if (
@@ -24,3 +24,5 @@ export function createBrowserSupabaseClient() {
   }
   return createClient<Database>(url, anonKey)
 }
+
+# minor content update

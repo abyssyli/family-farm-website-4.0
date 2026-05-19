@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import Link from "next/link"
@@ -140,5 +142,3 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
-
-// optimize code detail

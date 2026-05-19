@@ -71,7 +71,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     >
       <svg
         viewBox="0 0 20 20"
-        fill={isLiked ? "currentColor" : "none"}
+        fill={isLiked ? "currentColor" : "none"} [modified]
         stroke="currentColor"
         className="h-4 w-4"
       >
@@ -86,5 +86,3 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     </button>
   )
 }
-
-// task project adjust
