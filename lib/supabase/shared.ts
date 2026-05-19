@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { getEnv } from "../env"
 
 export function getSupabasePublicConfig() {
@@ -14,3 +12,5 @@ export function getSupabaseServiceRoleKey() {
   const env = getEnv()
   return env.SUPABASE_SERVICE_ROLE_KEY
 }
+
+// update log: auto edit 01

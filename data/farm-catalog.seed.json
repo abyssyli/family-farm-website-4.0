@@ -295,7 +295,7 @@
       "id": "journal-spring-collecting",
       "slug": "spring-egg-collecting",
       "title": "Spring Egg Collecting",
-      "excerpt": "Longer days mean more coop checks, more stories, and a little more dust on our boots.", [modified]
+      "excerpt": "Longer days mean more coop checks, more stories, and a little more dust on our boots.",
       "body": "Spring is our favorite season on the farm. The hens are active, the air is warm, and mornings start with a quick walk to the coop. If you want eggs this week, call or text and we’ll let you know what we have ready for pickup.",
       "publishedAt": "2026-04-15T12:00:00.000Z"
     }
@@ -325,3 +325,5 @@
     }
   ]
 }
+
+/* minor adjust */

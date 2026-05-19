@@ -1,5 +1,5 @@
 
-// task project adjust
+/* daily modify record */
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
 import type { CatalogJournalPost } from "@/lib/catalog-schema"

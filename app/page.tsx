@@ -191,13 +191,13 @@ export default async function HomePage() {
                 href="/products/woodcraft"
                 className="text-sm font-medium text-farm-800 hover:text-farm-900"
               >
-                View all → [modified]
+                View all →
               </Link>
             </div>
           </Card>
         </div>
       </section>
-
+ [modified]
 
       <section className="mt-2">
         <div className="flex items-end justify-between gap-6">

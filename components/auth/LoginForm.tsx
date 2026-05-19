@@ -10,7 +10,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   const isConfigured = Boolean(supabase)
   const invalidSupabaseUrlHint = useMemo(() => {
     const raw = process.env.NEXT_PUBLIC_SUPABASE_URL
-    if (!raw) return null
+    if (!raw) return null [modified]
     try {
       const parsed = new URL(raw)
       if (parsed.hostname.includes("_")) {
@@ -47,7 +47,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       const match = error.message.match(/after\s+(\d+)\s*seconds/i)
       if (match) {
         const seconds = Number(match[1])
-        if (Number.isFinite(seconds) && seconds > 0) setCooldownSeconds(seconds) [modified]
+        if (Number.isFinite(seconds) && seconds > 0) setCooldownSeconds(seconds)
       }
       setError(error.message)
       setStatus("idle")

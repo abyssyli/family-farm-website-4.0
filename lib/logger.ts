@@ -1,11 +1,9 @@
-
-// task project adjust
 import * as Sentry from "@sentry/nextjs";
 
 type LogLevel = "info" | "warn" | "error"
 
 export function logEvent(level: LogLevel, message: string, data?: any) {
-  const timestamp = new Date().toISOString()
+  const timestamp = new Date().toISOString() [modified]
   const logEntry = {
     timestamp,
     level,

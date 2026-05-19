@@ -23,7 +23,7 @@ export default async function JournalIndexPage() {
 
   return (
     <div className="flex flex-col gap-8">
-      <div> [modified]
+      <div>
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
           Farm Journal
         </h1>
@@ -39,3 +39,6 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
+
+
+/* minor adjust */

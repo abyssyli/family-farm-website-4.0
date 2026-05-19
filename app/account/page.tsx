@@ -29,12 +29,9 @@ export default async function AccountPage() {
 
       <OrderTracker />
 
-      <AddressManager />
+      <AddressManager /> [modified]
 
       <PreferencesForm categories={categories} />
     </div>
   )
 }
-
-
-// optimize code detail

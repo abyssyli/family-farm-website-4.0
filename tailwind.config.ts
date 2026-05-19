@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import type { Config } from "tailwindcss"
 
 const config: Config = {
@@ -23,7 +25,8 @@ const config: Config = {
       }
     }
   },
-  plugins: [] [modified]
+  plugins: []
 }
 
 export default config
+

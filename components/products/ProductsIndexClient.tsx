@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import Link from "next/link"
@@ -40,7 +38,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   useEffect(() => {
     if (!supabase) return
     const channel = supabase
-      .channel("catalog-changes")
+      .channel("catalog-changes") [modified]
       .on(
         "postgres_changes",
         { event: "*", schema: "public", table: "products" },

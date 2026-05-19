@@ -99,7 +99,7 @@ export type Database = {
           cta_href: string | null
           x: number
           y: number
-        }
+        } [modified]
         Insert: {
           id: string
           slug: string
@@ -228,7 +228,7 @@ export type Database = {
             referencedColumns: ["id"]
           }
         ]
-      } [modified]
+      }
       sunday_rsvps: {
         Row: {
           id: string

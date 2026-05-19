@@ -1,5 +1,5 @@
 
-// task project adjust
+// update log: auto edit 01
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"

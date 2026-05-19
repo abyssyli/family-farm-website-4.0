@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import Image from "next/image"
@@ -131,7 +129,7 @@ export function StoryHero() {
         <Image
           src="/photos/Home.jpg"
           alt="Paula’s farm home"
-          width={1200}
+          width={1200} [modified]
           height={900}
           className="h-[320px] w-full object-cover sm:h-[420px]"
           priority

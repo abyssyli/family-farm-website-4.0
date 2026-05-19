@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+# minor content update
 import { getCatalog } from "@/lib/catalog"
 import { ProductsIndexClient } from "@/components/products/ProductsIndexClient"
 

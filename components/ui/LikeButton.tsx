@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useEffect, useState } from "react"
@@ -71,7 +73,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     >
       <svg
         viewBox="0 0 20 20"
-        fill={isLiked ? "currentColor" : "none"} [modified]
+        fill={isLiked ? "currentColor" : "none"}
         stroke="currentColor"
         className="h-4 w-4"
       >

@@ -1,5 +1,3 @@
-
-# minor content update
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
@@ -19,7 +17,7 @@ export default async function RecipeDetailPage({
   return (
     <div className="flex flex-col gap-8 pb-12">
       <div className="flex flex-col gap-4">
-        <p className="text-sm font-medium text-farm-800">
+        <p className="text-sm font-medium text-farm-800"> [modified]
           <Link href="/recipes" className="hover:underline">
             Farm Recipes
           </Link>
