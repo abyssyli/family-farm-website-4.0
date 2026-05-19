@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
@@ -7,7 +5,7 @@ import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import { getCatalog } from "@/lib/catalog"
 
-export default async function RecipeDetailPage({
+export default async function RecipeDetailPage({ [modified]
   params
 }: {
   params: { slug: string }

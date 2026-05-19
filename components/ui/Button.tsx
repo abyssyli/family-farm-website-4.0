@@ -1,5 +1,5 @@
 
-# minor content update
+// optimize code detail
 import Link from "next/link"
 import { forwardRef } from "react"
 

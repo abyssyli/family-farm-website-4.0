@@ -17,10 +17,7 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
         <p className="mt-4 text-xs text-zinc-600">
           {new Date(post.publishedAt).toLocaleDateString()}
         </p>
-      ) : null}
+      ) : null} [modified]
     </Card>
   )
 }
-
-
-/* daily modify record */

@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -35,7 +33,7 @@ export function SundayRSVP() {
       .eq("event_date", dateStr)
       .single()
     
-    if (!error && data) {
+    if (!error && data) { [modified]
       setRsvp(data)
       setAdultCount(data.adult_count)
       setChildCount(data.child_count)

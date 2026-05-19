@@ -1,5 +1,3 @@
-
-# minor content update
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -13,7 +11,7 @@ export default async function JournalPostPage({
 }: {
   params: { slug: string }
 }) {
-  const catalog = await getCatalog()
+  const catalog = await getCatalog() [modified]
   const post = catalog.journalPosts.find((p) => p.slug === params.slug)
   if (!post) notFound()
 
@@ -56,4 +54,3 @@ export default async function JournalPostPage({
     </div>
   )
 }
-

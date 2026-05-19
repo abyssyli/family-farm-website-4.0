@@ -1,5 +1,5 @@
 {
-  "compilerOptions": { [modified]
+  "compilerOptions": {
     "target": "ES2022",
     "lib": [
       "DOM",
@@ -21,7 +21,7 @@
       {
         "name": "next"
       }
-    ],
+    ], [modified]
     "baseUrl": ".",
     "paths": {
       "@/*": [

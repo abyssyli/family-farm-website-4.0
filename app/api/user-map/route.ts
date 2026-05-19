@@ -90,4 +90,4 @@ export async function GET() {
   return NextResponse.json({ points, status: "ok" }, { status: 200 })
 }
 
-// update log: auto edit 01
+/* minor adjust */

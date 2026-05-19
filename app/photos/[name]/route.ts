@@ -16,7 +16,7 @@ function contentTypeFromExt(ext: string) {
     case ".mp3":
       return "audio/mpeg"
     default:
-      return "application/octet-stream" [modified]
+      return "application/octet-stream"
   }
 }
 
@@ -27,7 +27,7 @@ export async function GET(
   const name = params.name
   if (!name || name.includes("..") || name.includes("/") || name.includes("\\")) {
     return new NextResponse("Not found", { status: 404 })
-  }
+  } [modified]
 
   try {
     const filePath = join(process.cwd(), "photo", name)

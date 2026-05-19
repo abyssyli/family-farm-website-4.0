@@ -1,6 +1,6 @@
 import { Card, CardBody } from "./Card"
 
-export function EmptyState({ [modified]
+export function EmptyState({
   title,
   message,
   action
@@ -17,7 +17,7 @@ export function EmptyState({ [modified]
             <h2 className="text-lg font-semibold">{title}</h2>
             <p className="mt-1 text-sm text-zinc-600">{message}</p>
           </div>
-          {action ? <div>{action}</div> : null}
+          {action ? <div>{action}</div> : null} [modified]
         </div>
       </CardBody>
     </Card>

@@ -16,13 +16,10 @@ export function ErrorState({
           <div>
             <h2 className="text-lg font-semibold text-red-900">{title}</h2>
             <p className="mt-1 text-sm text-red-800">{message}</p>
-          </div>
+          </div> [modified]
           {action ? <div>{action}</div> : null}
         </div>
       </CardBody>
     </Card>
   )
 }
-
-
-/* daily modify record */

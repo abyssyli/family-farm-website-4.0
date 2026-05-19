@@ -291,4 +291,4 @@ export default async function HomePage() {
   )
 }
 
-// optimize code detail
+# minor content update

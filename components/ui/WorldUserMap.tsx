@@ -74,7 +74,7 @@ export function WorldUserMap() {
     }
   }, [])
 
-  const legend = useMemo(() => {
+  const legend = useMemo(() => { [modified]
     if (status === "loading") return "Loading user locations…"
     if (status === "disabled") return message ?? "Map is disabled."
     if (status === "error") return message ?? "Map data is unavailable."
@@ -142,5 +142,3 @@ export function WorldUserMap() {
     </section>
   )
 }
-
-/* daily modify record */

@@ -1,6 +1,6 @@
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
-import { createServerSupabaseClient } from "./supabase/server" [modified]
+import { createServerSupabaseClient } from "./supabase/server"
 
 export function getSeedCatalog(): Catalog {
   return CatalogSchema.parse(seedJson)
@@ -147,7 +147,7 @@ export async function getCatalog(): Promise<Catalog> {
         imagePath: normalizeWoodcraftImagePath(p.slug, p.imagePath ?? null),
         imagePaths: finalImagePaths
       }
-    }
+    } [modified]
     if (p.categorySlug === "eggs") {
       return {
         ...p,

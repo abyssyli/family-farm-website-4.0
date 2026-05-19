@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="format-detection" content="telephone=no" />
+        <meta name="format-detection" content="telephone=no" /> [modified]
       </head>
       <body className="min-h-screen">
         <div className="mx-auto flex min-h-screen max-w-6xl flex-col px-4">
@@ -67,5 +67,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-// update log: auto edit 01

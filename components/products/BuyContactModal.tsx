@@ -1,5 +1,3 @@
-
-# minor content update
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -79,7 +77,7 @@ export function BuyContactModal({
         <p className="text-sm text-zinc-700">
           We keep it simple. Call or text Paula to check availability and set up
           pickup.
-        </p>
+        </p> [modified]
 
         <div className="grid gap-3 sm:grid-cols-2">
           <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">

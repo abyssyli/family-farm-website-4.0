@@ -61,7 +61,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     return (
       <ErrorState
         title="Sign-in failed"
-        message={error} [modified]
+        message={error}
         action={
           <div className="flex flex-wrap gap-3">
             <Button
@@ -130,3 +130,5 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
+
+// update log: auto edit 01
