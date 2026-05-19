@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -72,7 +74,7 @@ export function PreferencesForm({
                       checked={checked}
                       onChange={(e) => {
                         const next = e.target.checked
-                        setSelected((prev) => [modified]
+                        setSelected((prev) =>
                           next
                             ? [...prev, c.slug]
                             : prev.filter((x) => x !== c.slug)
@@ -108,3 +110,4 @@ export function PreferencesForm({
     </Card>
   )
 }
+

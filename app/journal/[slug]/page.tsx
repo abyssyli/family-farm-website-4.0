@@ -56,4 +56,4 @@ export default async function JournalPostPage({
 }
 
 
-// optimize code detail
+// update log: auto edit 01

@@ -19,7 +19,7 @@ export default async function JournalIndexPage() {
         action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
       />
     )
-  } [modified]
+  }
 
   return (
     <div className="flex flex-col gap-8">
@@ -30,7 +30,7 @@ export default async function JournalIndexPage() {
         <p className="mt-2 text-sm text-zinc-700">
           Small stories from the farm, the shop, and the family.
         </p>
-      </div>
+      </div> [modified]
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {posts.map((p) => (
           <JournalCard key={p.id} post={p} />

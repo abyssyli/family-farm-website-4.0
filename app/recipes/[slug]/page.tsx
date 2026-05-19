@@ -60,7 +60,7 @@ export default async function RecipeDetailPage({
             </CardBody>
           </Card>
 
-          <Card>
+          <Card> [modified]
             <CardHeader title="Instructions" />
             <CardBody>
               <ol className="flex flex-col gap-4">
@@ -85,4 +85,4 @@ export default async function RecipeDetailPage({
       </div>
     </div>
   )
-} [modified]
+}

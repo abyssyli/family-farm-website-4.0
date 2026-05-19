@@ -48,4 +48,4 @@ export function createServiceRoleSupabaseClient() {
   return createClient<Database>(url, serviceRoleKey)
 }
 
-/* daily modify record */
+// optimize code detail

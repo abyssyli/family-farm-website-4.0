@@ -29,4 +29,4 @@ const config: Config = {
 export default config
 
 
-/* daily modify record */
+/* minor adjust */

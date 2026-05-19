@@ -1,3 +1,5 @@
+
+# minor content update
 import { defineConfig } from "@playwright/test"
 
 export default defineConfig({
@@ -13,5 +15,3 @@ export default defineConfig({
   }
 })
 
-
-// update log: auto edit 01

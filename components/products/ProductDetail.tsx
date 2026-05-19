@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import Image from "next/image"
@@ -96,7 +94,7 @@ export function ProductDetail({
                           i === currentIdx ? "bg-white" : "bg-white/40"
                         }`}
                       />
-                    ))}
+                    ))} [modified]
                   </div>
                 </>
               )}
@@ -159,5 +157,4 @@ export function ProductDetail({
     </div>
   )
 }
-
 

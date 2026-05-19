@@ -15,7 +15,7 @@ export const ProductSchema = z.object({
   imagePath: z.string().nullable().optional().default(null),
   imagePaths: z.array(z.string()).optional().default([]),
   priceHint: z.string().nullable().optional().default(null),
-  externalUrl: z.string().url().nullable().optional().default(null), [modified]
+  externalUrl: z.string().url().nullable().optional().default(null),
   isActive: z.boolean().default(true),
   stockQuantity: z.number().nullable().optional().default(null)
 })
@@ -65,3 +65,6 @@ export type CatalogProduct = z.infer<typeof ProductSchema>
 export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
 export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
+
+
+/* minor adjust */

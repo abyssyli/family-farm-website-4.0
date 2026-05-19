@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -83,6 +85,6 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
         />
       </svg>
       <span className="font-medium">{likes}</span>
-    </button> [modified]
+    </button>
   )
 }

@@ -1,6 +1,6 @@
 import { getEnv } from "../env"
 
-export function getSupabasePublicConfig() { [modified]
+export function getSupabasePublicConfig() {
   const env = getEnv()
   return {
     url: env.NEXT_PUBLIC_SUPABASE_URL,
@@ -12,3 +12,5 @@ export function getSupabaseServiceRoleKey() {
   const env = getEnv()
   return env.SUPABASE_SERVICE_ROLE_KEY
 }
+
+// task project adjust

@@ -45,7 +45,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
               alt="Farm map"
               width={1400}
               height={900}
-              className="h-[360px] w-full object-cover sm:h-[440px]"
+              className="h-[360px] w-full object-cover sm:h-[440px]" [modified]
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
             {sorted.map((r) => {
@@ -92,5 +92,3 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
-
-// optimize code detail

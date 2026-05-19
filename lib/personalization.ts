@@ -13,4 +13,4 @@ export function sortCategorySlugsByPreference(
 }
 
 
-// optimize code detail
+# minor content update

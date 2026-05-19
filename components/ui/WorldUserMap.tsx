@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useEffect, useMemo, useRef, useState } from "react"
@@ -49,7 +47,7 @@ export function WorldUserMap() {
     setStatus("loading")
     fetch("/api/user-map")
       .then((res) => res.json())
-      .then((json: { points?: MapPoint[]; status?: string; message?: string }) => {
+      .then((json: { points?: MapPoint[]; status?: string; message?: string }) => { [modified]
         if (!active) return
         const nextPoints = Array.isArray(json.points) ? json.points : []
         setPoints(nextPoints)

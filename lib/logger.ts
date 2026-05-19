@@ -21,7 +21,7 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
       Sentry.captureMessage(message, {
         level: "warning",
         extra: logEntry,
-      });
+      }); [modified]
     }
     console.log(JSON.stringify(logEntry))
   } else {
@@ -34,4 +34,4 @@ export function logError(message: string, error: any) {
     error: error instanceof Error ? error.message : String(error),
     stack: error instanceof Error ? error.stack : undefined,
   })
-} [modified]
+}

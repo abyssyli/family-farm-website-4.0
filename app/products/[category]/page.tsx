@@ -27,7 +27,7 @@ export default async function ProductCategoryPage({
           <Link href="/products" className="hover:underline">
             Products
           </Link>
-        </p> [modified]
+        </p>
         <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">
           {category.name}
         </h1>
@@ -40,3 +40,5 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
+
+/* minor adjust */

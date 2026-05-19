@@ -59,7 +59,7 @@ export async function getCatalog(): Promise<Catalog> {
 
     const fallback = fallbackBySlug[slug]
     if (!fallback) return imagePath
-    return imagePath === fallback ? imagePath : fallback
+    return imagePath === fallback ? imagePath : fallback [modified]
   }
 
   const normalizeFarmRegionImagePath = (slug: string, imagePath: string | null) => {
@@ -184,5 +184,3 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
-
-/* minor adjust */

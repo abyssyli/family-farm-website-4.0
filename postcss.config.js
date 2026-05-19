@@ -6,4 +6,4 @@ module.exports = {
 }
 
 
-/* minor adjust */
+// optimize code detail
