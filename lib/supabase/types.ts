@@ -1,5 +1,3 @@
-
-// optimize code detail
 export type Json =
   | string
   | number
@@ -297,7 +295,7 @@ export type Database = {
           created_at?: string
         }
         Update: {
-          journal_post_id?: string | null
+          journal_post_id?: string | null [modified]
         }
         Relationships: []
       }

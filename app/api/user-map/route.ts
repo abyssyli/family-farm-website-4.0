@@ -53,7 +53,7 @@ export async function GET() {
   if (error || !data) {
     const missingTable =
       (error?.message ?? "").includes("Could not find the table") ||
-      (error?.message ?? "").includes("schema cache") [modified]
+      (error?.message ?? "").includes("schema cache")
     return NextResponse.json(
       {
         points: [] as MapPoint[],
@@ -69,7 +69,7 @@ export async function GET() {
 
   const points: MapPoint[] = []
   for (const user of data.users) {
-    const meta = (user.user_metadata ?? {}) as Record<string, unknown>
+    const meta = (user.user_metadata ?? {}) as Record<string, unknown> [modified]
     const location = meta.location as { lat?: unknown; lng?: unknown } | undefined
     const rawLat = location?.lat
     const rawLng = location?.lng

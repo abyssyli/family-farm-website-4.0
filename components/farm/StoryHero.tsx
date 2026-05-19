@@ -9,7 +9,7 @@ export function StoryHero() {
   const [hoursSlide, setHoursSlide] = useState(0)
   const slideCount = backgroundSlides.length
   const timerRef = useRef<number | null>(null)
-
+ [modified]
   const stopAuto = useCallback(() => {
     if (timerRef.current === null) return
     window.clearInterval(timerRef.current)
@@ -24,7 +24,7 @@ export function StoryHero() {
   }, [slideCount, stopAuto])
 
   useEffect(() => {
-    startAuto() [modified]
+    startAuto()
     return () => stopAuto()
   }, [startAuto, stopAuto])
 

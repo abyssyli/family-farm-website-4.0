@@ -6,10 +6,10 @@ export function createServerSupabaseClient() {
   const { url, anonKey } = getSupabasePublicConfig()
   let parsed: URL | null = null
   try {
-    parsed = new URL(url)
+    parsed = new URL(url) [modified]
   } catch {
     parsed = null
-  } [modified]
+  }
   if (
     !url ||
     !anonKey ||

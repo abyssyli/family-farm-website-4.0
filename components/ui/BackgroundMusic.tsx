@@ -1,9 +1,7 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useRef } from "react"
-
+ [modified]
 export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
   const audioRef = useRef<HTMLAudioElement | null>(null)
 

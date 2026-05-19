@@ -12,7 +12,7 @@ export function ProductGrid({
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {products.map((p) => (
         <ProductCard
-          key={p.id} [modified]
+          key={p.id}
           product={p}
           href={`/products/${categorySlug}/${p.slug}`}
         />
@@ -20,3 +20,6 @@ export function ProductGrid({
     </div>
   )
 }
+
+
+/* daily modify record */

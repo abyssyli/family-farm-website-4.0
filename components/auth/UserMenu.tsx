@@ -59,7 +59,7 @@ export function UserMenu() {
           Sign in
         </Button>
         <Modal open={open} title="Sign in" onClose={() => setOpen(false)}>
-          <LoginForm onSuccess={() => setOpen(false)} />
+          <LoginForm onSuccess={() => setOpen(false)} /> [modified]
         </Modal>
       </>
     )
@@ -88,5 +88,3 @@ export function UserMenu() {
     </div>
   )
 }
-
-// task project adjust

@@ -10,7 +10,7 @@ export default async function AccountPage() {
   const categories = catalog.categories.map((c) => ({ slug: c.slug, name: c.name }))
 
   return (
-    <div className="flex flex-col gap-6 pb-12">
+    <div className="flex flex-col gap-6 pb-12"> [modified]
       <div>
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
           Account
@@ -23,7 +23,7 @@ export default async function AccountPage() {
       <Card>
         <CardHeader title="Sign in" subtitle="Use email magic link." />
         <CardBody>
-          <UserMenu /> [modified]
+          <UserMenu />
         </CardBody>
       </Card>
 

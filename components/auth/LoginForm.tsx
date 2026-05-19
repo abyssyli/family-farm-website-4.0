@@ -12,7 +12,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     const raw = process.env.NEXT_PUBLIC_SUPABASE_URL
     if (!raw) return null
     try {
-      const parsed = new URL(raw) [modified]
+      const parsed = new URL(raw)
       if (parsed.hostname.includes("_")) {
         return "Your Supabase URL looks invalid (it contains an underscore). Use the Project URL from Supabase → Project Settings → API."
       }
@@ -65,7 +65,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
         action={
           <div className="flex flex-wrap gap-3">
             <Button
-              variant="secondary"
+              variant="secondary" [modified]
               disabled={cooldownSeconds > 0}
               onClick={() => {
                 if (cooldownSeconds > 0) return

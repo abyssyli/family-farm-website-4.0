@@ -81,7 +81,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   }
 
   return (
-    <div className="flex flex-col gap-8"> [modified]
+    <div className="flex flex-col gap-8">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
@@ -91,7 +91,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
             Browse what we’re making. Chicken, eggs and woodcraft are local
             pickup. Skincare ships via Lisa’s shop.
           </p>
-        </div>
+        </div> [modified]
         {lastUpdate ? (
           <p className="text-xs text-zinc-600">
             Updated {lastUpdate.toLocaleTimeString()}

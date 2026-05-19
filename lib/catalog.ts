@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -54,7 +52,7 @@ export async function getCatalog(): Promise<Catalog> {
       "fresh-dozen-eggs": "/photos/egg.jpg",
       "weekly-egg-reserve": "/photos/egg2.jpg",
       "coop-visit": "/photos/chicken.jpg",
-      "hen-spotlight": "/photos/chicken1.jpg",
+      "hen-spotlight": "/photos/chicken1.jpg", [modified]
       "coop-morning": "/photos/chicken2.jpg",
       "baby-chicks": "/photos/0.jpg"
     }

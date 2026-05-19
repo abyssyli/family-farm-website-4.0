@@ -7,7 +7,7 @@ import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 
 export function SundayRSVP() {
   const { supabase, session } = useSupabaseAuth()
-  const [rsvp, setRsvp] = useState<any>(null) [modified]
+  const [rsvp, setRsvp] = useState<any>(null)
   const [adultCount, setAdultCount] = useState(1)
   const [childCount, setChildCount] = useState(0)
   const [notes, setNotes] = useState("")
@@ -129,3 +129,5 @@ export function SundayRSVP() {
     </Card>
   )
 }
+
+# minor content update

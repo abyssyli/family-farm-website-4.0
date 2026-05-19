@@ -14,4 +14,4 @@ export default defineConfig({
 })
 
 
-# minor content update
+/* daily modify record */

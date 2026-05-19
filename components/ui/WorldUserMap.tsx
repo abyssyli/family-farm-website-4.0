@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useMemo, useRef, useState } from "react"
@@ -103,7 +105,7 @@ export function WorldUserMap() {
           <div
             className="relative w-full bg-gradient-to-b from-zinc-50 to-white"
             style={{ height: usable ? size.height : 320 }}
-          > [modified]
+          >
             <div
               className="absolute inset-0 opacity-70"
               style={{

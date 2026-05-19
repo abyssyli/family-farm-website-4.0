@@ -6,4 +6,4 @@ module.exports = {
 }
 
 
-// task project adjust
+// optimize code detail

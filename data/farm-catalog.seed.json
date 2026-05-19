@@ -5,7 +5,7 @@
     { "slug": "woodcraft", "name": "Handmade Woodcraft", "sortOrder": 2 },
     { "slug": "skincare", "name": "Lisa’s Skincare", "sortOrder": 3 }
   ],
-  "products": [ [modified]
+  "products": [
     {
       "id": "food-zucchini-pancakes",
       "categorySlug": "food",
@@ -179,7 +179,7 @@
       "isActive": true,
       "stockQuantity": 5
     },
-    {
+    { [modified]
       "id": "eggs-weekly-reserve",
       "categorySlug": "eggs",
       "slug": "weekly-egg-reserve",

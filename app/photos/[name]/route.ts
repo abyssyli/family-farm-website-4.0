@@ -1,4 +1,4 @@
-import { readFile } from "node:fs/promises"
+import { readFile } from "node:fs/promises" [modified]
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
 
@@ -9,7 +9,7 @@ function contentTypeFromExt(ext: string) {
       return "image/jpeg"
     case ".png":
       return "image/png"
-    case ".webp": [modified]
+    case ".webp":
       return "image/webp"
     case ".gif":
       return "image/gif"

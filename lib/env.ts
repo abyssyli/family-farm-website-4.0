@@ -1,5 +1,3 @@
-
-# minor content update
 import { z } from "zod"
 
 const envSchema = z.object({
@@ -8,7 +6,7 @@ const envSchema = z.object({
   SUPABASE_SERVICE_ROLE_KEY: z.string().min(1).optional(),
   NEXT_PUBLIC_CONTACT_PHONE: z.string().default("+1 (806) 290-4949"),
   NEXT_PUBLIC_SKINCARE_URL: z.string().url().default("https://beakergold.com/"),
-  NEXT_PUBLIC_SENTRY_DSN: z.string().url().optional(),
+  NEXT_PUBLIC_SENTRY_DSN: z.string().url().optional(), [modified]
 })
 
 export type Env = z.infer<typeof envSchema>

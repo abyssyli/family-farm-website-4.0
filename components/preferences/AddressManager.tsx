@@ -238,4 +238,4 @@ export function AddressManager() {
   )
 }
 
-/* daily modify record */
+// optimize code detail
