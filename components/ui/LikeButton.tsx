@@ -26,7 +26,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     
     if (!error) setLikes(count || 0)
 
-    // Check if user liked [modified]
+    // Check if user liked
     if (session) {
       const { data } = await supabase
         .from("likes")
@@ -74,7 +74,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
         fill={isLiked ? "currentColor" : "none"}
         stroke="currentColor"
         className="h-4 w-4"
-      >
+      > [modified]
         <path
           strokeLinecap="round"
           strokeLinejoin="round"

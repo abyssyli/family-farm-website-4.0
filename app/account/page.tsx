@@ -1,3 +1,5 @@
+
+# minor content update
 import { getCatalog } from "@/lib/catalog"
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { AddressManager } from "@/components/preferences/AddressManager"
@@ -36,5 +38,3 @@ export default async function AccountPage() {
   )
 }
 
-
-// update log: auto edit 01

@@ -1,5 +1,5 @@
 
-/* daily modify record */
+/* minor adjust */
 /// <reference types="next" />
 /// <reference types="next/image-types/global" />
 

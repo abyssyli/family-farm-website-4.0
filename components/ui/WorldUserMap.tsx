@@ -104,7 +104,7 @@ export function WorldUserMap() {
             className="relative w-full bg-gradient-to-b from-zinc-50 to-white"
             style={{ height: usable ? size.height : 320 }}
           >
-            <div
+            <div [modified]
               className="absolute inset-0 opacity-70"
               style={{
                 backgroundImage:
@@ -142,5 +142,3 @@ export function WorldUserMap() {
     </section>
   )
 }
-
-// optimize code detail

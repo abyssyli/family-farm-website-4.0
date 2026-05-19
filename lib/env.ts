@@ -1,5 +1,5 @@
 
-/* minor adjust */
+// optimize code detail
 import { z } from "zod"
 
 const envSchema = z.object({

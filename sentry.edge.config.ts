@@ -6,4 +6,4 @@ Sentry.init({
   debug: false,
 });
 
-// optimize code detail
+# minor content update

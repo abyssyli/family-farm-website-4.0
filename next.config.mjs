@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { withSentryConfig } from "@sentry/nextjs";
 
 /** @type {import('next').NextConfig} */
@@ -33,7 +31,7 @@ export default withSentryConfig(nextConfig, {
   // Hides source maps from visitors
   hideSourceMaps: true,
 
-  // Automatically tree-shake Sentry logger statements to reduce bundle size
+  // Automatically tree-shake Sentry logger statements to reduce bundle size [modified]
   disableLogger: true,
 
   // Enables automatic instrumentation of Vercel Cron Monitors.

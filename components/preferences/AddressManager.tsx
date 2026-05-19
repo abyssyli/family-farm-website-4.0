@@ -165,7 +165,7 @@ export function AddressManager() {
                   value={formData.postal_code}
                   onChange={(e) => setFormData({ ...formData, postal_code: e.target.value })}
                   className="rounded-xl border border-zinc-200 px-3 py-2 outline-none focus:border-farm-700 focus:ring-2 focus:ring-farm-700/20"
-                /> [modified]
+                />
               </label>
               <label className="flex items-center gap-2 text-sm font-medium">
                 <input
@@ -237,3 +237,5 @@ export function AddressManager() {
     </Card>
   )
 }
+
+// update log: auto edit 01

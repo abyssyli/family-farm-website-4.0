@@ -32,7 +32,7 @@ export async function getCatalog(): Promise<Catalog> {
 
   const normalizeWoodcraftImagePath = (slug: string, imagePath: string | null) => {
     const fallbackBySlug: Record<string, string> = {
-      "cutting-board": "/photos/Wooden1.jpg",
+      "cutting-board": "/photos/Wooden1.jpg", [modified]
       "farmhouse-sign": "/photos/Wooden2.jpg",
       "wall-shelf": "/photos/Wooden3.jpg",
       "handmade-stool": "/photos/Wooden.jpg"
@@ -184,5 +184,3 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
-
-// optimize code detail

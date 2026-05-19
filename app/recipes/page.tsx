@@ -36,12 +36,12 @@ export default async function RecipesPage() {
                 <CardBody>
                   <h3 className="text-lg font-semibold group-hover:text-farm-700">
                     {recipe.title}
-                  </h3> [modified]
+                  </h3>
                   <p className="mt-2 line-clamp-2 text-sm text-zinc-600">
                     {recipe.description}
                   </p>
                   <p className="mt-4 text-xs font-bold uppercase tracking-wider text-farm-700">
-                    View Recipe →
+                    View Recipe → [modified]
                   </p>
                 </CardBody>
               </Card>

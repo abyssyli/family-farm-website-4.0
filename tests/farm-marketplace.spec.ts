@@ -28,4 +28,4 @@ test("skincare category points to BeakerGold", async ({ page }) => {
   )
 })
 
-// optimize code detail
+/* minor adjust */

@@ -7,4 +7,4 @@ export default async function ProductsPage() {
 }
 
 
-/* minor adjust */
+// optimize code detail

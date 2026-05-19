@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import Image from "next/image"
@@ -31,7 +33,7 @@ export function StoryHero() {
   const goPrev = useCallback(() => {
     setHoursSlide((current) => (current - 1 + slideCount) % slideCount)
     startAuto()
-  }, [slideCount, startAuto]) [modified]
+  }, [slideCount, startAuto])
 
   const goNext = useCallback(() => {
     setHoursSlide((current) => (current + 1) % slideCount)

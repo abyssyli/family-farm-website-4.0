@@ -99,7 +99,7 @@ export function BuyContactModal({
               <Link
                 href="/account"
                 className="text-xs text-farm-700 hover:underline"
-              >
+              > [modified]
                 Manage addresses
               </Link>
             </div>
@@ -176,5 +176,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-
-// optimize code detail

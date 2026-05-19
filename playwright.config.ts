@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { defineConfig } from "@playwright/test"
 
 export default defineConfig({
@@ -15,3 +13,5 @@ export default defineConfig({
   }
 })
 
+
+// task project adjust

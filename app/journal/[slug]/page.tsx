@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -40,7 +42,7 @@ export default async function JournalPostPage({
         <CardBody>
           <div className="prose prose-zinc max-w-none">
             <p className="whitespace-pre-wrap">{post.body}</p>
-          </div> [modified]
+          </div>
         </CardBody>
       </Card>
 
@@ -54,3 +56,4 @@ export default async function JournalPostPage({
     </div>
   )
 }
+

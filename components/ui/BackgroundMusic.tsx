@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useRef } from "react"
@@ -9,7 +11,7 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
     const audio = new Audio(src)
     audio.loop = true
     audio.preload = "none"
-    audioRef.current = audio [modified]
+    audioRef.current = audio
 
     const tryPlay = () => audio.play()
 

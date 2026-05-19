@@ -1,3 +1,5 @@
+
+/* minor adjust */
 export type Json =
   | string
   | number
@@ -322,7 +324,7 @@ export type Database = {
         }
         Update: {
           title?: string
-          slug?: string [modified]
+          slug?: string
           description?: string | null
           ingredients?: string[]
           instructions?: string[]

@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -100,7 +98,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
           type="email"
           required
           disabled={!isConfigured || status === "sending" || cooldownSeconds > 0}
-          className="mt-2 w-full rounded-xl border border-zinc-200 bg-white px-3 py-2 text-sm outline-none focus:border-farm-700 focus:ring-2 focus:ring-farm-700/20"
+          className="mt-2 w-full rounded-xl border border-zinc-200 bg-white px-3 py-2 text-sm outline-none focus:border-farm-700 focus:ring-2 focus:ring-farm-700/20" [modified]
           placeholder="you@example.com"
         />
       </label>

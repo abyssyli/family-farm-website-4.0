@@ -1,6 +1,8 @@
+
+// update log: auto edit 01
 import { Card, CardBody } from "./Card"
 
-export function EmptyState({ [modified]
+export function EmptyState({
   title,
   message,
   action
@@ -23,3 +25,4 @@ export function EmptyState({ [modified]
     </Card>
   )
 }
+
