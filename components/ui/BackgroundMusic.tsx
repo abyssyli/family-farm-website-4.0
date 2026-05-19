@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useRef } from "react"
@@ -37,3 +35,5 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
 
   return null
 }
+
+/* minor adjust */

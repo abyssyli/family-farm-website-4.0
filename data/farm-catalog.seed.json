@@ -1,5 +1,3 @@
-
-/* daily modify record */
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -220,7 +218,7 @@
       "slug": "coop-morning",
       "name": "Coop Morning Update",
       "description": "A quick morning snapshot from the coop with availability notes for today’s egg pickups.",
-      "imagePath": "/photos/chicken2.jpg",
+      "imagePath": "/photos/chicken2.jpg", [modified]
       "priceHint": "Text to arrange",
       "externalUrl": null,
       "isActive": true

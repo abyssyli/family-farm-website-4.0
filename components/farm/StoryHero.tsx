@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import Image from "next/image"
@@ -46,7 +44,7 @@ export function StoryHero() {
         <p className="text-sm font-medium text-farm-800">
           Texas family farm · Chicken and Eggs · Woodcraft · Skincare
         </p>
-        <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
+        <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl"> [modified]
           A warm marketplace built around our family and the land we care for.
         </h1>
         <p className="mt-4 max-w-prose text-base text-zinc-700">

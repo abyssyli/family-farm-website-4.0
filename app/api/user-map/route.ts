@@ -32,7 +32,7 @@ function jitteredCoords(lat: number, lng: number, seed: string) {
   const b = hashToUnit(`${seed}|b`) * 2 - 1
   const latJitter = a * 0.35
   const lngJitter = b * 0.5
-  return { lat: lat + latJitter, lng: lng + lngJitter }
+  return { lat: lat + latJitter, lng: lng + lngJitter } [modified]
 }
 
 export async function GET() {
@@ -89,5 +89,3 @@ export async function GET() {
 
   return NextResponse.json({ points, status: "ok" }, { status: 200 })
 }
-
-// optimize code detail

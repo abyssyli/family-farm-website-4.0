@@ -1,5 +1,3 @@
-
-// optimize code detail
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
@@ -13,7 +11,7 @@ export function ProductCard({
   href: string
 }) {
   return (
-    <Card className="overflow-hidden">
+    <Card className="overflow-hidden"> [modified]
       {product.imagePath ? (
         <div className="relative h-48 w-full">
           <Image
@@ -62,4 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-

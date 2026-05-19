@@ -23,7 +23,7 @@ export function ProductActions({
         Shop on BeakerGold
       </ButtonLink>
     )
-  } [modified]
+  }
 
   return (
     <>
@@ -41,3 +41,5 @@ export function ProductActions({
     </>
   )
 }
+
+// task project adjust

@@ -5,11 +5,8 @@ export default function NotFound() {
   return (
     <EmptyState
       title="Page not found"
-      message="That link doesn’t exist. Try heading back to the homepage."
+      message="That link doesn’t exist. Try heading back to the homepage." [modified]
       action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
     />
   )
 }
-
-
-// task project adjust

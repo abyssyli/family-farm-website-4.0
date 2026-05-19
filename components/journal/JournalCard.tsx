@@ -6,7 +6,7 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
   return (
     <Card className="p-6">
       <h3 className="text-base font-semibold">
-        <Link href={`/journal/${post.slug}`} className="hover:underline"> [modified]
+        <Link href={`/journal/${post.slug}`} className="hover:underline">
           {post.title}
         </Link>
       </h3>
@@ -21,3 +21,6 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
     </Card>
   )
 }
+
+
+/* daily modify record */

@@ -25,4 +25,4 @@ export function ErrorState({
 }
 
 
-// update log: auto edit 01
+// optimize code detail

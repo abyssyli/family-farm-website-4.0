@@ -15,9 +15,9 @@ export function PreferencesForm({
   const [selected, setSelected] = useState<string[]>([])
   const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
 
-  useEffect(() => { [modified]
+  useEffect(() => {
     if (!supabase) return
-    supabase.auth.getUser().then(async ({ data }) => {
+    supabase.auth.getUser().then(async ({ data }) => { [modified]
       const id = data.user?.id ?? null
       setUserId(id)
       if (!id) return

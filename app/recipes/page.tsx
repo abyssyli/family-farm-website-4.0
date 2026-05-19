@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -12,7 +14,7 @@ export default async function RecipesPage() {
       <div className="flex flex-col gap-4">
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
           Farm Recipes
-        </h1> [modified]
+        </h1>
         <p className="mt-2 text-sm text-zinc-700">
           Delicious ways to enjoy our farm-fresh ingredients at home.
         </p>

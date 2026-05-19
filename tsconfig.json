@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -39,5 +41,3 @@
     "node_modules"
   ]
 }
-
-// update log: auto edit 01

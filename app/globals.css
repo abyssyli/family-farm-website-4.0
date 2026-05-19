@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html, [modified]
+html,
 body {
   height: 100%;
 }
@@ -10,3 +10,6 @@ body {
 body {
   @apply bg-farm-50 text-zinc-900;
 }
+
+
+// task project adjust

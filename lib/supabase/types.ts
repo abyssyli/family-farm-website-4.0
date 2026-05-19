@@ -1,5 +1,5 @@
 
-// optimize code detail
+// update log: auto edit 01
 export type Json =
   | string
   | number

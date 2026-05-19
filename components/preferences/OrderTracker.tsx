@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -30,7 +32,7 @@ export function OrderTracker() {
       setInquiries(data as Inquiry[])
     }
   }
- [modified]
+
   const getStatusColor = (status: string) => {
     switch (status) {
       case "pending":

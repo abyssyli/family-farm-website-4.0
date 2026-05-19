@@ -137,6 +137,8 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           )
         })}
       </div>
-    </div> [modified]
+    </div>
   )
 }
+
+// optimize code detail

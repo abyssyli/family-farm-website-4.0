@@ -77,7 +77,7 @@ export function WorldUserMap() {
   const legend = useMemo(() => {
     if (status === "loading") return "Loading user locations…"
     if (status === "disabled") return message ?? "Map is disabled."
-    if (status === "error") return message ?? "Map data is unavailable."
+    if (status === "error") return message ?? "Map data is unavailable." [modified]
     if (points.length === 0) return "No locations yet."
     return `${points.length} users shown`
   }, [message, points.length, status])
@@ -97,7 +97,7 @@ export function WorldUserMap() {
           </p>
         </div>
         <p className="text-sm text-zinc-700">{legend}</p>
-      </div> [modified]
+      </div>
       <Card className="overflow-hidden">
         <div ref={containerRef} className="relative w-full">
           <div

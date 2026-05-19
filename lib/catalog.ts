@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -124,7 +126,7 @@ export async function getCatalog(): Promise<Catalog> {
   const categoriesBySlug = new Map(seedCatalog.categories.map((c) => [c.slug, c] as const))
   for (const c of dbCategories) categoriesBySlug.set(c.slug, c)
   const categories = Array.from(categoriesBySlug.values()).sort(
-    (a, b) => a.sortOrder - b.sortOrder [modified]
+    (a, b) => a.sortOrder - b.sortOrder
   )
 
   const productsById = new Map(seedCatalog.products.map((p) => [p.id, p] as const))

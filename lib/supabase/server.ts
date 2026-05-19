@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* minor adjust */
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
 import type { Database } from "./types"

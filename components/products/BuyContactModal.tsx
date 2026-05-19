@@ -70,7 +70,7 @@ export function BuyContactModal({
     })
     setStatus("saved")
   }
- [modified]
+
   return (
     <Modal open={open} title={title} onClose={onClose}>
       <div className="flex flex-col gap-4">
@@ -176,3 +176,5 @@ export function BuyContactModal({
     </Modal>
   )
 }
+
+/* daily modify record */

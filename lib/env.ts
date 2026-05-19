@@ -29,7 +29,7 @@ export function getEnv(): Env {
     const message = ["❌ Invalid environment variables:", result.error.format()]
     if (process.env.NODE_ENV === "production") {
       console.error(...message)
-    } else { [modified]
+    } else {
       console.warn(...message)
     }
     // In production, we might want to throw an error
@@ -53,3 +53,5 @@ export function getPublicEnv() {
     skincareUrl: env.NEXT_PUBLIC_SKINCARE_URL,
   }
 }
+
+/* minor adjust */

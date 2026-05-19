@@ -200,7 +200,7 @@ export function AddressManager() {
                 <div className="flex items-start justify-between">
                   <div>
                     <p className="font-semibold">{address.name}</p>
-                    {address.is_default && (
+                    {address.is_default && ( [modified]
                       <span className="text-[10px] font-bold uppercase tracking-wider text-farm-700">
                         Default
                       </span>
@@ -237,5 +237,3 @@ export function AddressManager() {
     </Card>
   )
 }
-
-// task project adjust
