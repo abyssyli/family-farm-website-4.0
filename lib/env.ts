@@ -32,7 +32,7 @@ export function getEnv(): Env {
     } else {
       console.warn(...message)
     }
-    // In production, we might want to throw an error
+    // In production, we might want to throw an error [modified]
     // throw new Error("Invalid environment variables")
     return envSchema.parse({
       NEXT_PUBLIC_SUPABASE_URL: "https://placeholder.supabase.co",
@@ -53,5 +53,3 @@ export function getPublicEnv() {
     skincareUrl: env.NEXT_PUBLIC_SKINCARE_URL,
   }
 }
-
-// optimize code detail

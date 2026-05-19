@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -29,7 +31,7 @@ export function OrderTracker() {
     if (!error && data) {
       setInquiries(data as Inquiry[])
     }
-  } [modified]
+  }
 
   const getStatusColor = (status: string) => {
     switch (status) {

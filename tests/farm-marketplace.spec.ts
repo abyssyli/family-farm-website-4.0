@@ -4,7 +4,7 @@ test("homepage renders and navigation works", async ({ page }) => {
   await page.goto("/")
   await expect(page.getByRole("heading", { name: /marketplace/i })).toBeVisible()
 
-  await page.getByRole("navigation").getByRole("link", { name: "Products" }).click()
+  await page.getByRole("navigation").getByRole("link", { name: "Products" }).click() [modified]
   await expect(page.getByRole("heading", { name: "Products" })).toBeVisible()
 
   await page.getByRole("link", { name: /Chicken and Eggs/i }).click()
@@ -19,7 +19,7 @@ test("homepage renders and navigation works", async ({ page }) => {
 })
 
 test("skincare category points to BeakerGold", async ({ page }) => {
-  await page.goto("/products") [modified]
+  await page.goto("/products")
   const href = await page
     .getByRole("link", { name: /Browse Lisa’s Skincare/i })
     .getAttribute("href")

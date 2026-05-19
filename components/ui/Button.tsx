@@ -46,7 +46,7 @@ export function ButtonLink({
       <a
         href={href}
         target="_blank"
-        rel="noreferrer noopener"
+        rel="noreferrer noopener" [modified]
         className={cn(base, variants[variant], className)}
       >
         {children}
@@ -59,5 +59,3 @@ export function ButtonLink({
     </Link>
   )
 }
-
-// task project adjust

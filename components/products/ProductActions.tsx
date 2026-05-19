@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Button, ButtonLink } from "@/components/ui/Button"
 import { BuyContactModal } from "./BuyContactModal"
-import { getPublicEnv } from "@/lib/env"
+import { getPublicEnv } from "@/lib/env" [modified]
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductActions({
@@ -41,5 +41,3 @@ export function ProductActions({
     </>
   )
 }
-
-/* daily modify record */

@@ -23,4 +23,6 @@ export function createBrowserSupabaseClient() {
     return null
   }
   return createClient<Database>(url, anonKey)
-} [modified]
+}
+
+# minor content update

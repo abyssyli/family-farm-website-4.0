@@ -12,7 +12,7 @@ export default async function ProductDetailPage({
   if (params.category === "skincare") {
     const { skincareUrl } = getPublicEnv()
     redirect(skincareUrl)
-  }
+  } [modified]
 
   const catalog = await getCatalog()
   const category = catalog.categories.find((c) => c.slug === params.category)
@@ -27,7 +27,7 @@ export default async function ProductDetailPage({
     <ProductDetail
       product={product}
       categoryName={category.name}
-      primaryAction={<ProductActions product={product} categorySlug={category.slug} />} [modified]
+      primaryAction={<ProductActions product={product} categorySlug={category.slug} />}
     />
   )
 }

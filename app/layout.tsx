@@ -26,7 +26,7 @@ export default function RootLayout({
           <header className="flex items-center justify-between py-6">
             <Link href="/" className="group inline-flex items-center gap-2">
               <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-farm-700 text-white">
-                PF
+                PF [modified]
               </span>
               <span className="font-semibold tracking-tight">
                 Paula’s Farm Family Marketplace
@@ -67,5 +67,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-# minor content update

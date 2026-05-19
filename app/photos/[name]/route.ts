@@ -6,7 +6,7 @@ function contentTypeFromExt(ext: string) {
   switch (ext.toLowerCase()) {
     case ".jpg":
     case ".jpeg":
-      return "image/jpeg"
+      return "image/jpeg" [modified]
     case ".png":
       return "image/png"
     case ".webp":
@@ -43,5 +43,3 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
-
-// update log: auto edit 01

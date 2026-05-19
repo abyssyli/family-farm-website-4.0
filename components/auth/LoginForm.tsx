@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -108,7 +110,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       >
         {status === "sending" ? "Sending…" : "Send magic link"}
       </Button>
-      {status === "sent" ? ( [modified]
+      {status === "sent" ? (
         <p className="text-sm text-zinc-600">
           Check your inbox for a sign-in link.
         </p>

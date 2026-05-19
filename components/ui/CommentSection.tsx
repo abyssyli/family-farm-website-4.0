@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -14,7 +12,7 @@ export function CommentSection({
   productId?: string
   journalPostId?: string
 }) {
-  const { supabase, session } = useSupabaseAuth()
+  const { supabase, session } = useSupabaseAuth() [modified]
   const [comments, setComments] = useState<any[]>([])
   const [newComment, setNewComment] = useState("")
   const [isSubmitting, setIsSubmitting] = useState(false)

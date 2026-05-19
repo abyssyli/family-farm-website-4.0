@@ -147,7 +147,7 @@ export type Database = {
           user_id: string
           name: string
           phone: string | null
-          address_line1: string
+          address_line1: string [modified]
           address_line2: string | null
           city: string
           state: string
@@ -308,7 +308,7 @@ export type Database = {
           ingredients: string[]
           instructions: string[]
           image_path: string | null
-          created_at: string [modified]
+          created_at: string
         }
         Insert: {
           id?: string

@@ -142,7 +142,7 @@ export function AddressManager() {
               </label>
               <label className="flex flex-col gap-1 text-sm font-medium">
                 City
-                <input [modified]
+                <input
                   type="text"
                   value={formData.city}
                   onChange={(e) => setFormData({ ...formData, city: e.target.value })}
@@ -237,3 +237,5 @@ export function AddressManager() {
     </Card>
   )
 }
+
+// optimize code detail

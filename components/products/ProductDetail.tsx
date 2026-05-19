@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import Image from "next/image"
@@ -123,7 +121,7 @@ export function ProductDetail({
           {product.description ? (
             <p className="mt-4 max-w-prose text-base text-zinc-700 whitespace-pre-wrap">
               {product.description}
-            </p>
+            </p> [modified]
           ) : null}
           {product.priceHint ? (
             <p className="mt-4 text-sm font-medium text-zinc-700">
@@ -159,5 +157,4 @@ export function ProductDetail({
     </div>
   )
 }
-
 

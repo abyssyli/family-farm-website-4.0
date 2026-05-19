@@ -84,9 +84,7 @@ export function UserMenu() {
         }}
       >
         Sign out
-      </Button>
+      </Button> [modified]
     </div>
   )
 }
-
-/* minor adjust */

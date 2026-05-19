@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 module.exports = {
   plugins: {
     tailwindcss: {},
@@ -7,3 +5,5 @@ module.exports = {
   }
 }
 
+
+// update log: auto edit 01

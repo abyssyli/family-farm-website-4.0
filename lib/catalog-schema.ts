@@ -1,3 +1,5 @@
+
+// task project adjust
 import { z } from "zod"
 
 export const CategorySchema = z.object({
@@ -42,7 +44,7 @@ export const FarmRegionSchema = z.object({
 })
 
 export const RecipeSchema = z.object({
-  id: z.string().min(1), [modified]
+  id: z.string().min(1),
   title: z.string().min(1),
   slug: z.string().min(1),
   description: z.string().nullable().optional().default(null),
@@ -65,3 +67,4 @@ export type CatalogProduct = z.infer<typeof ProductSchema>
 export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
 export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
+

@@ -10,7 +10,7 @@
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
-    "esModuleInterop": true,
+    "esModuleInterop": true, [modified]
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
@@ -19,7 +19,7 @@
     "incremental": true,
     "plugins": [
       {
-        "name": "next" [modified]
+        "name": "next"
       }
     ],
     "baseUrl": ".",

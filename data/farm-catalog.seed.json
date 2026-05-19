@@ -1,3 +1,5 @@
+
+/* minor adjust */
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -325,5 +327,3 @@
     }
   ]
 }
-
-// update log: auto edit 01

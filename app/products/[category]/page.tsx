@@ -10,7 +10,7 @@ export default async function ProductCategoryPage({
   params: { category: string }
 }) {
   if (params.category === "skincare") {
-    const { skincareUrl } = getPublicEnv()
+    const { skincareUrl } = getPublicEnv() [modified]
     redirect(skincareUrl)
   }
 
@@ -25,7 +25,7 @@ export default async function ProductCategoryPage({
       <div>
         <p className="text-sm font-medium text-farm-800">
           <Link href="/products" className="hover:underline">
-            Products [modified]
+            Products
           </Link>
         </p>
         <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">
