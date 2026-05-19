@@ -1,4 +1,4 @@
-import { ButtonLink } from "@/components/ui/Button"
+import { ButtonLink } from "@/components/ui/Button" [modified]
 import { EmptyState } from "@/components/ui/EmptyState"
 
 export default function NotFound() {
@@ -10,6 +10,3 @@ export default function NotFound() {
     />
   )
 }
-
-
-// update log: auto edit 01

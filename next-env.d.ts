@@ -1,6 +1,4 @@
-
-/* daily modify record */
-/// <reference types="next" />
+/// <reference types="next" /> [modified]
 /// <reference types="next/image-types/global" />
 
 // NOTE: This file should not be edited

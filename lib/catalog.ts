@@ -22,7 +22,7 @@ export async function getCatalog(): Promise<Catalog> {
 
   if (
     categoriesRes.error ||
-    productsRes.error ||
+    productsRes.error || [modified]
     journalRes.error ||
     regionsRes.error ||
     recipesRes.error
@@ -168,7 +168,7 @@ export async function getCatalog(): Promise<Catalog> {
     imagePath: normalizeFarmRegionImagePath(r.slug, r.imagePath ?? null)
   }))
 
-  const recipes = recipesRes.data.map((r) => ({ [modified]
+  const recipes = recipesRes.data.map((r) => ({
     id: r.id,
     title: r.title,
     slug: r.slug,

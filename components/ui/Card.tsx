@@ -1,6 +1,6 @@
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")
-}
+} [modified]
 
 export function Card({
   children,
@@ -39,6 +39,3 @@ export function CardHeader({
 export function CardBody({ children }: { children: React.ReactNode }) {
   return <div className="px-6 pb-6 pt-4">{children}</div>
 }
-
-
-// update log: auto edit 01

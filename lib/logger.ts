@@ -1,5 +1,7 @@
+
+/* daily modify record */
 import * as Sentry from "@sentry/nextjs";
- [modified]
+
 type LogLevel = "info" | "warn" | "error"
 
 export function logEvent(level: LogLevel, message: string, data?: any) {

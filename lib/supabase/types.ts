@@ -242,7 +242,7 @@ export type Database = {
         Insert: {
           id?: string
           user_id: string
-          event_date: string [modified]
+          event_date: string
           adult_count?: number
           child_count?: number
           notes?: string | null
@@ -362,3 +362,5 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
+
+/* minor adjust */

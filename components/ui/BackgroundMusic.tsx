@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useEffect, useRef } from "react"
@@ -7,7 +9,7 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
 
   useEffect(() => {
     const audio = new Audio(src)
-    audio.loop = true [modified]
+    audio.loop = true
     audio.preload = "none"
     audioRef.current = audio
 

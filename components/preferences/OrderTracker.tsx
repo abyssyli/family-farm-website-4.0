@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"
@@ -34,7 +32,7 @@ export function OrderTracker() {
   }
 
   const getStatusColor = (status: string) => {
-    switch (status) {
+    switch (status) { [modified]
       case "pending":
         return "bg-amber-100 text-amber-700 border-amber-200"
       case "confirmed":

@@ -108,7 +108,7 @@ export function ProductDetail({
 
         <div>
           <p className="text-sm font-medium text-farm-800">
-            <Link [modified]
+            <Link
               href={`/products/${product.categorySlug}`}
               className="hover:underline"
             >
@@ -158,3 +158,6 @@ export function ProductDetail({
   )
 }
 
+
+
+# minor content update

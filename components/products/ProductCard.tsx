@@ -11,9 +11,9 @@ export function ProductCard({
   href: string
 }) {
   return (
-    <Card className="overflow-hidden">
+    <Card className="overflow-hidden"> [modified]
       {product.imagePath ? (
-        <div className="relative h-48 w-full"> [modified]
+        <div className="relative h-48 w-full">
           <Image
             src={product.imagePath}
             alt={product.name}

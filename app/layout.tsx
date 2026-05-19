@@ -30,7 +30,7 @@ export default function RootLayout({
               </span>
               <span className="font-semibold tracking-tight">
                 Paula’s Farm Family Marketplace
-              </span> [modified]
+              </span>
             </Link>
             <nav className="flex items-center gap-6 text-sm">
               <Link href="/products" className="group inline-flex items-center gap-2 hover:text-farm-700">
@@ -63,7 +63,7 @@ export default function RootLayout({
             </div>
           </footer>
         </div>
-      </body>
+      </body> [modified]
     </html>
   )
 }

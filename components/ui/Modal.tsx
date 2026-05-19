@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useEffect } from "react"
@@ -58,6 +60,7 @@ export function Modal({
         </div>
         <div className="px-6 py-5">{children}</div>
       </div>
-    </div> [modified]
+    </div>
   )
 }
+

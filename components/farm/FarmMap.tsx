@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import Image from "next/image"
@@ -22,7 +24,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
   const coverImagePath = useMemo(() => {
     if (!active) return "/photos/Home.jpg"
     if (active.slug === "chicken-coop") return "/photos/chicken2.jpg"
-    if (active.slug === "woodshop") return "/photos/Wooden2.jpg" [modified]
+    if (active.slug === "woodshop") return "/photos/Wooden2.jpg"
     return active.imagePath || "/photos/Home.jpg"
   }, [active])
 

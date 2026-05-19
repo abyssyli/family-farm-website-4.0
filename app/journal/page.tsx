@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
@@ -20,7 +18,7 @@ export default async function JournalIndexPage() {
         message="When we share farm updates, they’ll show up here."
         action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
       />
-    )
+    ) [modified]
   }
 
   return (
@@ -41,4 +39,3 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
-

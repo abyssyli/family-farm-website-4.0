@@ -16,7 +16,7 @@ export default async function JournalPostPage({
   if (!post) notFound()
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-6"> [modified]
       <div>
         <p className="text-sm font-medium text-farm-800">
           <Link href="/journal" className="hover:underline">
@@ -37,7 +37,7 @@ export default async function JournalPostPage({
       </div>
 
       <Card>
-        <CardBody> [modified]
+        <CardBody>
           <div className="prose prose-zinc max-w-none">
             <p className="whitespace-pre-wrap">{post.body}</p>
           </div>

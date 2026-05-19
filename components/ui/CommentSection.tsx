@@ -43,7 +43,7 @@ export function CommentSection({
     e.preventDefault()
     if (!supabase || !session || !newComment.trim()) return
 
-    setIsSubmitting(true)
+    setIsSubmitting(true) [modified]
     const { error } = await supabase.from("comments").insert({
       user_id: session.user.id,
       content: newComment.trim(),
@@ -58,7 +58,7 @@ export function CommentSection({
     setIsSubmitting(false)
   }
 
-  return ( [modified]
+  return (
     <div className="mt-12 flex flex-col gap-8 border-t border-zinc-200 pt-12">
       <div className="flex flex-col gap-2">
         <h2 className="text-xl font-semibold">Comments & Reviews</h2>

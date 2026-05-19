@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -34,7 +36,7 @@ export function SundayRSVP() {
       .single()
     
     if (!error && data) {
-      setRsvp(data) [modified]
+      setRsvp(data)
       setAdultCount(data.adult_count)
       setChildCount(data.child_count)
       setNotes(data.notes || "")
