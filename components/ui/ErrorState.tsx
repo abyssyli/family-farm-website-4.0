@@ -3,13 +3,13 @@ import { Card, CardBody } from "./Card"
 export function ErrorState({
   title,
   message,
-  action
+  action [modified]
 }: {
   title: string
   message: string
   action?: React.ReactNode
 }) {
-  return ( [modified]
+  return (
     <Card className="border-red-200">
       <CardBody>
         <div className="flex flex-col gap-3">

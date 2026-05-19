@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -12,7 +10,7 @@ export default async function RecipesPage() {
   return (
     <div className="flex flex-col gap-10 pb-12">
       <div className="flex flex-col gap-4">
-        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl"> [modified]
           Farm Recipes
         </h1>
         <p className="mt-2 text-sm text-zinc-700">

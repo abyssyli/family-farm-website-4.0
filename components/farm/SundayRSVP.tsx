@@ -72,7 +72,7 @@ export function SundayRSVP() {
         title="Sunday Family Gathering"
         subtitle={`RSVP for our next gathering on Sunday, ${new Date(dateStr).toLocaleDateString("en-US", { month: "long", day: "numeric" })}.`}
       />
-      <CardBody> [modified]
+      <CardBody>
         {!session ? (
           <p className="text-sm text-zinc-600 italic">
             Please sign in to RSVP for the family gathering.
@@ -80,7 +80,7 @@ export function SundayRSVP() {
         ) : (
           <div className="flex flex-col gap-4">
             <div className="grid gap-4 sm:grid-cols-2">
-              <label className="flex flex-col gap-1 text-sm font-medium">
+              <label className="flex flex-col gap-1 text-sm font-medium"> [modified]
                 Adults
                 <input
                   type="number"

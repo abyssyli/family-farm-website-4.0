@@ -25,7 +25,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle")
   const [error, setError] = useState<string | null>(null)
   const [cooldownSeconds, setCooldownSeconds] = useState(0)
- [modified]
+
   useEffect(() => {
     if (cooldownSeconds <= 0) return
     const timer = window.setInterval(() => {
@@ -130,3 +130,5 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
+
+// task project adjust

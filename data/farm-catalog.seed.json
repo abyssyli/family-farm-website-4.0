@@ -120,7 +120,7 @@
       "description": "Rich creamy corn paired with crispy garlic bread.",
       "imagePath": "/photos/eat18.jpg",
       "imagePaths": ["/photos/eat18.jpg", "/photos/eat19.jpg"],
-      "priceHint": "Sunday Gathering · Pre-order available", [modified]
+      "priceHint": "Sunday Gathering · Pre-order available",
       "isActive": true
     },
     {
@@ -325,3 +325,5 @@
     }
   ]
 }
+
+/* daily modify record */

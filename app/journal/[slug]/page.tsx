@@ -30,7 +30,7 @@ export default async function JournalPostPage({
           <LikeButton journalPostId={post.id} />
         </div>
         {post.publishedAt ? (
-          <p className="mt-2 text-sm text-zinc-600"> [modified]
+          <p className="mt-2 text-sm text-zinc-600">
             {new Date(post.publishedAt).toLocaleDateString()}
           </p>
         ) : null}
@@ -54,3 +54,6 @@ export default async function JournalPostPage({
     </div>
   )
 }
+
+
+// optimize code detail

@@ -1,5 +1,3 @@
-
-// task project adjust
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -270,7 +268,7 @@ export default async function HomePage() {
                   <div className="relative h-40 w-full">
                     <Image
                       src={recipe.imagePath || "/photos/background.jpg"}
-                      alt={recipe.title}
+                      alt={recipe.title} [modified]
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />

@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"
@@ -27,7 +29,7 @@ export function AddressManager() {
   useEffect(() => {
     if (supabase && session) {
       fetchAddresses()
-    } [modified]
+    }
   }, [supabase, session])
 
   async function fetchAddresses() {

@@ -15,7 +15,7 @@ export function ProductActions({
 }) {
   const { skincareUrl } = getPublicEnv()
   const [open, setOpen] = useState(false)
- [modified]
+
   if (product.externalUrl) {
     const href = skincareUrl
     return (
@@ -41,3 +41,5 @@ export function ProductActions({
     </>
   )
 }
+
+// update log: auto edit 01

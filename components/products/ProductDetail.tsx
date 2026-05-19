@@ -160,4 +160,4 @@ export function ProductDetail({
 
 
 
-// task project adjust
+/* minor adjust */

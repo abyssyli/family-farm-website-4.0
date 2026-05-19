@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { z } from "zod"
 
 export const CategorySchema = z.object({
@@ -6,7 +8,7 @@ export const CategorySchema = z.object({
   sortOrder: z.number().int().nonnegative().default(0)
 })
 
-export const ProductSchema = z.object({ [modified]
+export const ProductSchema = z.object({
   id: z.string().min(1),
   categorySlug: z.string().min(1),
   slug: z.string().min(1),
@@ -65,3 +67,4 @@ export type CatalogProduct = z.infer<typeof ProductSchema>
 export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
 export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
+

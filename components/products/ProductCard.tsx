@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
@@ -63,3 +61,5 @@ export function ProductCard({
   )
 }
 
+
+// task project adjust

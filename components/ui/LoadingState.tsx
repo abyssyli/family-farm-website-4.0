@@ -14,4 +14,4 @@ export function LoadingState({ label }: { label: string }) {
 }
 
 
-# minor content update
+// optimize code detail

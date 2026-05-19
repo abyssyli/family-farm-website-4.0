@@ -16,7 +16,7 @@ export function createBrowserSupabaseClient() {
     !parsed ||
     parsed.hostname.includes("_") ||
     url.includes("placeholder.supabase.co") ||
-    url === "your_supabase_url" || [modified]
+    url === "your_supabase_url" ||
     anonKey === "placeholder" ||
     anonKey === "your_supabase_anon_key"
   ) {
@@ -24,3 +24,5 @@ export function createBrowserSupabaseClient() {
   }
   return createClient<Database>(url, anonKey)
 }
+
+/* daily modify record */

@@ -17,7 +17,7 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
       Sentry.captureException(data?.error || message, {
         extra: logEntry,
       });
-    } else if (level === "warn") {
+    } else if (level === "warn") { [modified]
       Sentry.captureMessage(message, {
         level: "warning",
         extra: logEntry,
@@ -35,5 +35,3 @@ export function logError(message: string, error: any) {
     stack: error instanceof Error ? error.stack : undefined,
   })
 }
-
-// update log: auto edit 01

@@ -36,7 +36,7 @@ export function CommentSection({
     const { data, error } = await query
     if (!error && data) {
       setComments(data)
-    } [modified]
+    }
   }
 
   async function handleSubmit(e: React.FormEvent) {
@@ -110,3 +110,5 @@ export function CommentSection({
     </div>
   )
 }
+
+// task project adjust

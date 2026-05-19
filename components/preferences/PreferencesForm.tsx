@@ -100,7 +100,7 @@ export function PreferencesForm({
               <p className="text-xs text-zinc-600">
                 Drag ordering is coming later—selection order controls priority
                 for now.
-              </p> [modified]
+              </p>
             </div>
           </div>
         )}
@@ -108,3 +108,6 @@ export function PreferencesForm({
     </Card>
   )
 }
+
+
+// optimize code detail

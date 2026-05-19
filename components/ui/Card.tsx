@@ -24,7 +24,7 @@ export function Card({
 export function CardHeader({
   title,
   subtitle
-}: { [modified]
+}: {
   title: string
   subtitle?: string | null
 }) {
@@ -34,7 +34,7 @@ export function CardHeader({
       {subtitle ? <p className="mt-1 text-sm text-zinc-600">{subtitle}</p> : null}
     </div>
   )
-}
+} [modified]
 
 export function CardBody({ children }: { children: React.ReactNode }) {
   return <div className="px-6 pb-6 pt-4">{children}</div>

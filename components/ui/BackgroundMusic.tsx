@@ -24,7 +24,7 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
 
       window.addEventListener("pointerdown", onFirstInteraction, { once: true })
       window.addEventListener("keydown", onFirstInteraction, { once: true })
-      window.addEventListener("touchstart", onFirstInteraction, { once: true }) [modified]
+      window.addEventListener("touchstart", onFirstInteraction, { once: true })
     })
 
     return () => {
@@ -35,3 +35,5 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
 
   return null
 }
+
+// update log: auto edit 01

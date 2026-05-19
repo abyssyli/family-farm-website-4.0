@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -45,3 +43,5 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
+
+// task project adjust

@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import { EmptyState } from "@/components/ui/EmptyState"
-import { SundayRSVP } from "@/components/farm/SundayRSVP" [modified]
+import { SundayRSVP } from "@/components/farm/SundayRSVP"
 import { getPublicEnv } from "@/lib/env"
 import { createBrowserSupabaseClient } from "@/lib/supabase/client"
 import { sortCategorySlugsByPreference } from "@/lib/personalization"
@@ -140,3 +140,5 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
+
+// update log: auto edit 01

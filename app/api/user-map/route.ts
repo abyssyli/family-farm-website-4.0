@@ -79,7 +79,7 @@ export async function GET() {
 
     const j = jitteredCoords(lat, lng, user.id)
     points.push({
-      id: stableId(user.id), [modified]
+      id: stableId(user.id),
       label: "User",
       lat: j.lat,
       lng: j.lng,
@@ -89,3 +89,5 @@ export async function GET() {
 
   return NextResponse.json({ points, status: "ok" }, { status: 200 })
 }
+
+// update log: auto edit 01

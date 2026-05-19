@@ -1,6 +1,4 @@
-
-// update log: auto edit 01
-@tailwind base;
+@tailwind base; [modified]
 @tailwind components;
 @tailwind utilities;
 
@@ -12,4 +10,3 @@ body {
 body {
   @apply bg-farm-50 text-zinc-900;
 }
-

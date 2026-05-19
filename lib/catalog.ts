@@ -1,3 +1,5 @@
+
+// task project adjust
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -34,7 +36,7 @@ export async function getCatalog(): Promise<Catalog> {
     const fallbackBySlug: Record<string, string> = {
       "cutting-board": "/photos/Wooden1.jpg",
       "farmhouse-sign": "/photos/Wooden2.jpg",
-      "wall-shelf": "/photos/Wooden3.jpg", [modified]
+      "wall-shelf": "/photos/Wooden3.jpg",
       "handmade-stool": "/photos/Wooden.jpg"
     }
 
