@@ -1,5 +1,3 @@
-
-# minor content update
 import { getCatalog } from "@/lib/catalog"
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { AddressManager } from "@/components/preferences/AddressManager"
@@ -20,7 +18,7 @@ export default async function AccountPage() {
         <p className="mt-2 text-sm text-zinc-700">
           Sign in to manage your addresses, preferences, and track inquiries.
         </p>
-      </div>
+      </div> [modified]
 
       <Card>
         <CardHeader title="Sign in" subtitle="Use email magic link." />
@@ -37,4 +35,3 @@ export default async function AccountPage() {
     </div>
   )
 }
-

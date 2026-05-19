@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -32,5 +34,3 @@ export function useSupabaseAuth() {
   return { supabase, session, ready }
 }
 
-
-# minor content update

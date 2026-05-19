@@ -85,7 +85,7 @@ export function StoryHero() {
               className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/20 bg-zinc-950/45 text-white backdrop-blur transition hover:bg-zinc-950/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
             >
               <svg
-                viewBox="0 0 20 20" [modified]
+                viewBox="0 0 20 20"
                 fill="currentColor"
                 className="h-5 w-5"
                 aria-hidden="true"
@@ -138,3 +138,5 @@ export function StoryHero() {
     </section>
   )
 }
+
+// optimize code detail

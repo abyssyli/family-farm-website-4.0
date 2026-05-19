@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import { notFound, redirect } from "next/navigation"
 import { ProductDetail } from "@/components/products/ProductDetail"
 import { ProductActions } from "@/components/products/ProductActions"
@@ -14,7 +12,7 @@ export default async function ProductDetailPage({
   if (params.category === "skincare") {
     const { skincareUrl } = getPublicEnv()
     redirect(skincareUrl)
-  }
+  } [modified]
 
   const catalog = await getCatalog()
   const category = catalog.categories.find((c) => c.slug === params.category)

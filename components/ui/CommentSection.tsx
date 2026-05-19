@@ -16,7 +16,7 @@ export function CommentSection({
   const [comments, setComments] = useState<any[]>([])
   const [newComment, setNewComment] = useState("")
   const [isSubmitting, setIsSubmitting] = useState(false)
- [modified]
+
   useEffect(() => {
     if (supabase) {
       fetchComments()
@@ -36,7 +36,7 @@ export function CommentSection({
     const { data, error } = await query
     if (!error && data) {
       setComments(data)
-    }
+    } [modified]
   }
 
   async function handleSubmit(e: React.FormEvent) {

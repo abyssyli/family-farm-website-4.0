@@ -11,7 +11,7 @@ export function Card({
 }) {
   return (
     <div
-      className={cn( [modified]
+      className={cn(
         "rounded-2xl border border-zinc-200 bg-white shadow-sm",
         className
       )}
@@ -24,7 +24,7 @@ export function Card({
 export function CardHeader({
   title,
   subtitle
-}: {
+}: { [modified]
   title: string
   subtitle?: string | null
 }) {

@@ -24,7 +24,7 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
 
       window.addEventListener("pointerdown", onFirstInteraction, { once: true })
       window.addEventListener("keydown", onFirstInteraction, { once: true })
-      window.addEventListener("touchstart", onFirstInteraction, { once: true })
+      window.addEventListener("touchstart", onFirstInteraction, { once: true }) [modified]
     })
 
     return () => {
@@ -35,5 +35,3 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
 
   return null
 }
-
-// task project adjust

@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -102,7 +100,7 @@ export function PreferencesForm({
               <p className="text-xs text-zinc-600">
                 Drag ordering is coming later—selection order controls priority
                 for now.
-              </p>
+              </p> [modified]
             </div>
           </div>
         )}
@@ -110,4 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-

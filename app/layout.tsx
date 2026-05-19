@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -29,7 +31,7 @@ export default function RootLayout({
                 PF
               </span>
               <span className="font-semibold tracking-tight">
-                Paula’s Farm Family Marketplace [modified]
+                Paula’s Farm Family Marketplace
               </span>
             </Link>
             <nav className="flex items-center gap-6 text-sm">

@@ -72,7 +72,7 @@ export function SundayRSVP() {
         title="Sunday Family Gathering"
         subtitle={`RSVP for our next gathering on Sunday, ${new Date(dateStr).toLocaleDateString("en-US", { month: "long", day: "numeric" })}.`}
       />
-      <CardBody>
+      <CardBody> [modified]
         {!session ? (
           <p className="text-sm text-zinc-600 italic">
             Please sign in to RSVP for the family gathering.
@@ -103,7 +103,7 @@ export function SundayRSVP() {
                 />
               </label>
             </div>
-            <label className="flex flex-col gap-1 text-sm font-medium"> [modified]
+            <label className="flex flex-col gap-1 text-sm font-medium">
               Special Notes (Dietary needs, etc.)
               <textarea
                 value={notes}

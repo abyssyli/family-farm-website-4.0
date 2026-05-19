@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"
@@ -21,7 +23,7 @@ export function OrderTracker() {
   }, [supabase, session])
 
   async function fetchInquiries() {
-    if (!supabase || !session) return [modified]
+    if (!supabase || !session) return
     const { data, error } = await supabase
       .from("inquiries")
       .select("*, products(name)")

@@ -1,3 +1,5 @@
+
+# minor content update
 {
   "name": "paulas-farm-family-marketplace",
   "version": "0.1.0",
@@ -14,7 +16,7 @@
     "test:ui": "playwright test --ui",
     "worker:sync": "tsx workers/catalog-sync.ts"
   },
-  "dependencies": { [modified]
+  "dependencies": {
     "@sentry/nextjs": "^10.53.1",
     "@supabase/supabase-js": "^2.49.1",
     "next": "^14.2.20",

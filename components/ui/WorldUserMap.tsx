@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useEffect, useMemo, useRef, useState } from "react"
@@ -133,7 +135,7 @@ export function WorldUserMap() {
                   )
                 })
               : null}
-          </div> [modified]
+          </div>
         </div>
       </Card>
       <p className="text-xs text-zinc-500">

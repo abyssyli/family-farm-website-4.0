@@ -1,3 +1,5 @@
+
+# minor content update
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"
@@ -37,6 +39,6 @@ export default async function ProductCategoryPage({
       </div>
 
       <ProductGrid products={products} categorySlug={category.slug} />
-    </div> [modified]
+    </div>
   )
 }

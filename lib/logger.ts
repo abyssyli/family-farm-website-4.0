@@ -29,9 +29,11 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
   }
 }
 
-export function logError(message: string, error: any) { [modified]
+export function logError(message: string, error: any) {
   logEvent("error", message, {
     error: error instanceof Error ? error.message : String(error),
     stack: error instanceof Error ? error.stack : undefined,
   })
 }
+
+// update log: auto edit 01

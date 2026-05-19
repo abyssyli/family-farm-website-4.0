@@ -3,10 +3,10 @@ import { z } from "zod"
 export const CategorySchema = z.object({
   slug: z.string().min(1),
   name: z.string().min(1),
-  sortOrder: z.number().int().nonnegative().default(0) [modified]
+  sortOrder: z.number().int().nonnegative().default(0)
 })
 
-export const ProductSchema = z.object({
+export const ProductSchema = z.object({ [modified]
   id: z.string().min(1),
   categorySlug: z.string().min(1),
   slug: z.string().min(1),

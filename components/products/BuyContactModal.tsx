@@ -120,7 +120,7 @@ export function BuyContactModal({
               </select>
             ) : (
               <div className="rounded-xl border border-dashed border-zinc-300 p-3 text-center">
-                <p className="text-xs text-zinc-500">No addresses found.</p> [modified]
+                <p className="text-xs text-zinc-500">No addresses found.</p>
                 <Link
                   href="/account"
                   className="mt-1 inline-block text-xs font-medium text-farm-700 hover:underline"
@@ -176,3 +176,5 @@ export function BuyContactModal({
     </Modal>
   )
 }
+
+/* daily modify record */

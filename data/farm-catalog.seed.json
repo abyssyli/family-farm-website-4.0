@@ -81,7 +81,7 @@
       "isActive": true
     },
     {
-      "id": "food-curry-rice-combo", [modified]
+      "id": "food-curry-rice-combo",
       "categorySlug": "food",
       "slug": "curry-rice-combo",
       "name": "Japanese curry rice and fried chicken tenders combo",
@@ -120,7 +120,7 @@
       "description": "Rich creamy corn paired with crispy garlic bread.",
       "imagePath": "/photos/eat18.jpg",
       "imagePaths": ["/photos/eat18.jpg", "/photos/eat19.jpg"],
-      "priceHint": "Sunday Gathering · Pre-order available",
+      "priceHint": "Sunday Gathering · Pre-order available", [modified]
       "isActive": true
     },
     {

@@ -34,7 +34,7 @@ export async function getCatalog(): Promise<Catalog> {
     const fallbackBySlug: Record<string, string> = {
       "cutting-board": "/photos/Wooden1.jpg",
       "farmhouse-sign": "/photos/Wooden2.jpg",
-      "wall-shelf": "/photos/Wooden3.jpg",
+      "wall-shelf": "/photos/Wooden3.jpg", [modified]
       "handmade-stool": "/photos/Wooden.jpg"
     }
 
@@ -77,7 +77,7 @@ export async function getCatalog(): Promise<Catalog> {
 
   const dbCategories = categoriesRes.data.map((c) => ({
     slug: c.slug,
-    name: c.name, [modified]
+    name: c.name,
     sortOrder: c.sort_order
   }))
 

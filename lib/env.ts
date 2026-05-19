@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { z } from "zod"
 
 const envSchema = z.object({
@@ -23,7 +21,7 @@ export function getEnv(): Env {
     NEXT_PUBLIC_SUPABASE_ANON_KEY: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
     SUPABASE_SERVICE_ROLE_KEY: process.env.SUPABASE_SERVICE_ROLE_KEY,
     NEXT_PUBLIC_CONTACT_PHONE: process.env.NEXT_PUBLIC_CONTACT_PHONE,
-    NEXT_PUBLIC_SKINCARE_URL: process.env.NEXT_PUBLIC_SKINCARE_URL,
+    NEXT_PUBLIC_SKINCARE_URL: process.env.NEXT_PUBLIC_SKINCARE_URL, [modified]
     NEXT_PUBLIC_SENTRY_DSN: process.env.NEXT_PUBLIC_SENTRY_DSN,
   })
 

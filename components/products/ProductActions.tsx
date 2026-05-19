@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useState } from "react"
@@ -17,7 +15,7 @@ export function ProductActions({
 }) {
   const { skincareUrl } = getPublicEnv()
   const [open, setOpen] = useState(false)
-
+ [modified]
   if (product.externalUrl) {
     const href = skincareUrl
     return (

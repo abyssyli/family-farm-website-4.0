@@ -1,3 +1,5 @@
+
+# minor content update
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -39,5 +41,3 @@
     "node_modules"
   ]
 }
-
-// task project adjust

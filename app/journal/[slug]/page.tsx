@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -32,7 +30,7 @@ export default async function JournalPostPage({
           <LikeButton journalPostId={post.id} />
         </div>
         {post.publishedAt ? (
-          <p className="mt-2 text-sm text-zinc-600">
+          <p className="mt-2 text-sm text-zinc-600"> [modified]
             {new Date(post.publishedAt).toLocaleDateString()}
           </p>
         ) : null}
@@ -56,4 +54,3 @@ export default async function JournalPostPage({
     </div>
   )
 }
-
