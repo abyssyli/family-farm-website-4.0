@@ -203,6 +203,17 @@ export default function UpdatesPage() {
               <div className="p-6">
                 <h3 className="text-base font-semibold">{u.title}</h3>
                 <p className="mt-2 text-sm text-zinc-700">{u.summary}</p>
+                {u.id === "update-hands-planet" ? (
+                  <a
+                    href="https://www.minecraft.net/en-us/about-minecraft"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="mt-2 inline-flex text-sm font-medium text-farm-800 hover:text-farm-900 hover:underline"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    https://www.minecraft.net/en-us/about-minecraft
+                  </a>
+                ) : null}
                 <p className="mt-4 text-sm font-medium text-farm-800">View →</p>
               </div>
             </Card>
