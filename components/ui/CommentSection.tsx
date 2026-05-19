@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/Button"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
-import Image from "next/image"
 
 export function CommentSection({
   productId,
@@ -27,7 +26,7 @@ export function CommentSection({
     if (!supabase) return
     let query = supabase
       .from("comments")
-      .select("*, profiles:user_id(email)") // Assuming a profiles view or just email
+      .select("*")
       .order("created_at", { ascending: false })
     
     if (productId) query = query.eq("product_id", productId)
@@ -96,7 +95,9 @@ export function CommentSection({
             <div key={comment.id} className="flex flex-col gap-2 rounded-2xl bg-zinc-50/50 p-4">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-bold text-zinc-900">
-                  {comment.profiles?.email?.split("@")[0] || "User"}
+                  {typeof comment.user_id === "string"
+                    ? comment.user_id.slice(0, 8)
+                    : "User"}
                 </span>
                 <span className="text-[10px] text-zinc-500">
                   {new Date(comment.created_at).toLocaleDateString()}

@@ -1,5 +1,42 @@
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
+import { readFileSync } from "node:fs"
+import { join } from "node:path"
+
+function loadEnvFile(filePath: string) {
+  let raw = ""
+  try {
+    raw = readFileSync(filePath, "utf8")
+  } catch {
+    return
+  }
+  const lines = raw.split(/\r?\n/)
+  for (const line of lines) {
+    const trimmed = line.trim()
+    if (!trimmed || trimmed.startsWith("#")) continue
+    const eq = trimmed.indexOf("=")
+    if (eq <= 0) continue
+    const key = trimmed.slice(0, eq).trim()
+    let value = trimmed.slice(eq + 1).trim()
+    if (
+      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))
+    ) {
+      value = value.slice(1, -1)
+    }
+    if (!(key in process.env)) {
+      process.env[key] = value
+    }
+  }
+}
+
+function loadLocalEnv() {
+  const cwd = process.cwd()
+  loadEnvFile(join(cwd, ".env.local"))
+  loadEnvFile(join(cwd, ".env"))
+}
+
+loadLocalEnv()
 
 function sleep(ms: number) {
   return new Promise<void>((resolve) => setTimeout(resolve, ms))
@@ -115,4 +152,3 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
-

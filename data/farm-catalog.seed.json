@@ -298,6 +298,30 @@
       "excerpt": "Longer days mean more coop checks, more stories, and a little more dust on our boots.",
       "body": "Spring is our favorite season on the farm. The hens are active, the air is warm, and mornings start with a quick walk to the coop. If you want eggs this week, call or text and we’ll let you know what we have ready for pickup.",
       "publishedAt": "2026-04-15T12:00:00.000Z"
+    },
+    {
+      "id": "update-farm-weekly",
+      "slug": "update-farm-weekly",
+      "title": "What’s new this week on the farm",
+      "excerpt": "Summer is coming! The chickens enjoy iced watermelon.",
+      "body": "Summer is coming! The chickens enjoy iced watermelon.",
+      "publishedAt": "2026-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "update-hands-village",
+      "slug": "update-hands-village",
+      "title": "News from the Hands Village",
+      "excerpt": "Congratulations on Thomas’s graduation!",
+      "body": "Congratulations on Thomas’s graduation!",
+      "publishedAt": "2026-05-02T12:00:00.000Z"
+    },
+    {
+      "id": "update-hands-planet",
+      "slug": "update-hands-planet",
+      "title": "What’s new in Hands’s Planet",
+      "excerpt": "New screenshots from Hands’s Planet.",
+      "body": "New screenshots from Hands’s Planet.",
+      "publishedAt": "2026-05-03T12:00:00.000Z"
     }
   ],
   "farmRegions": [

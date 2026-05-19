@@ -45,6 +45,9 @@ export default function RootLayout({
                 </span>
                 <span>Products</span>
               </Link>
+              <Link href="/updates" className="hover:text-farm-700">
+                Updates
+              </Link>
               <Link href="/journal" className="hover:text-farm-700">
                 Journal
               </Link>

@@ -25,89 +25,11 @@ export default async function HomePage() {
       <StoryHero />
       <FarmMap regions={regions} />
 
-      <section>
-        <div className="flex items-end justify-between gap-6">
-          <div>
-            <h2 className="text-xl font-semibold tracking-tight">Updates</h2>
-            <p className="mt-2 text-sm text-zinc-700">
-              The latest notes from the farm and Hands&apos; Village.
-            </p>
-          </div>
-        </div>
-
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <Card className="h-full overflow-hidden">
-            <div className="relative h-44 w-full">
-              <Image
-                src="/photos/farm1.jpg"
-                alt="What's new this week on the farm"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="p-6">
-              <h3 className="text-base font-semibold">
-                What&apos;s new this week on the farm
-              </h3>
-              <p className="mt-2 text-sm text-zinc-700">
-                Summer is coming! The chickens enjoy iced watermelon.
-              </p>
-            </div>
-          </Card>
-
-          <Card className="h-full overflow-hidden">
-            <div className="relative h-44 w-full">
-              <Image
-                src="/photos/village1.jpg"
-                alt="News from the Hands Village"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="p-6">
-              <h3 className="text-base font-semibold">News from the Hands Village</h3>
-              <p className="mt-2 text-sm text-zinc-700">
-                Congratulations on Thomas’s graduation!
-              </p>
-            </div>
-          </Card>
-
-          <Card className="h-full overflow-hidden">
-            <div className="relative h-44 w-full">
-              <Image
-                src="/photos/background1.jpg"
-                alt="What's new in Hands’s Planet"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="p-6">
-              <h3 className="text-base font-semibold">
-                What&apos;s new in Hands’s Planet
-              </h3>
-              <div className="mt-4">
-                <a
-                  href="https://www.minecraft.net/en-us/about-minecraft"
-                  className="inline-flex items-center justify-center rounded-xl bg-white px-4 py-2 text-sm font-medium text-zinc-900 ring-1 ring-zinc-200 hover:bg-zinc-50"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  Open
-                </a>
-              </div>
-            </div>
-          </Card>
-        </div>
-      </section>
-
       <WorldUserMap />
       <section>
         <div className="flex items-end justify-between gap-6">
           <div>
             <h2 className="text-xl font-semibold tracking-tight">News</h2>
-            <p className="mt-2 text-sm text-zinc-700">
-              What’s on the farm this week: eggs, Hands&apos; Village dishes, and woodcraft.
-            </p>
           </div>
         </div>
 
