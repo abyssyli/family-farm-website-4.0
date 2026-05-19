@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -112,3 +110,5 @@ export function CommentSection({
     </div>
   )
 }
+
+// optimize code detail

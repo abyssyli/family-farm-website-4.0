@@ -17,7 +17,7 @@ export function Modal({
   title: string
   children: React.ReactNode
   onClose: () => void
-  className?: string [modified]
+  className?: string
 }) {
   useEffect(() => {
     if (!open) return
@@ -61,3 +61,6 @@ export function Modal({
     </div>
   )
 }
+
+
+# minor content update

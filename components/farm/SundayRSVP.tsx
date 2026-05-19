@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -128,6 +126,6 @@ export function SundayRSVP() {
           </div>
         )}
       </CardBody>
-    </Card>
+    </Card> [modified]
   )
 }

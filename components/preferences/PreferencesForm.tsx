@@ -29,7 +29,7 @@ export function PreferencesForm({
       setSelected(pref?.preferred_categories ?? [])
     })
   }, [supabase])
-
+ [modified]
   async function save() {
     if (!supabase || !userId) return
     setStatus("saving")
@@ -85,7 +85,7 @@ export function PreferencesForm({
                 )
               })}
             </div>
-            <div className="flex items-center gap-3"> [modified]
+            <div className="flex items-center gap-3">
               <Button
                 type="button"
                 onClick={save}

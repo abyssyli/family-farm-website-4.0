@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useEffect, useRef } from "react"
@@ -24,7 +22,7 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
         })
       }
 
-      window.addEventListener("pointerdown", onFirstInteraction, { once: true })
+      window.addEventListener("pointerdown", onFirstInteraction, { once: true }) [modified]
       window.addEventListener("keydown", onFirstInteraction, { once: true })
       window.addEventListener("touchstart", onFirstInteraction, { once: true })
     })

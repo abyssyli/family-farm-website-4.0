@@ -28,4 +28,4 @@ test("skincare category points to BeakerGold", async ({ page }) => {
   )
 })
 
-# minor content update
+// task project adjust

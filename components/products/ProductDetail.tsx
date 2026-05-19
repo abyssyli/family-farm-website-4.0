@@ -130,7 +130,7 @@ export function ProductDetail({
           ) : null}
           {product.stockQuantity !== null && product.stockQuantity !== undefined && (
             <p
-              className={`mt-2 text-xs font-bold uppercase tracking-wider ${
+              className={`mt-2 text-xs font-bold uppercase tracking-wider ${ [modified]
                 product.stockQuantity > 0 ? "text-farm-700" : "text-red-600"
               }`}
             >
@@ -138,7 +138,7 @@ export function ProductDetail({
                 ? `${product.stockQuantity} items remaining today`
                 : "Out of stock for today"}
             </p>
-          )} [modified]
+          )}
 
           <div className="mt-7 flex flex-wrap gap-3">{primaryAction}</div>
 

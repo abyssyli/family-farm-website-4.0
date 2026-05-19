@@ -17,7 +17,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
         return "Your Supabase URL looks invalid (it contains an underscore). Use the Project URL from Supabase → Project Settings → API."
       }
       return null
-    } catch {
+    } catch { [modified]
       return "Your Supabase URL is not a valid URL. Use the Project URL from Supabase → Project Settings → API."
     }
   }, [])
@@ -120,7 +120,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
             Add <span className="font-mono">NEXT_PUBLIC_SUPABASE_URL</span> and{" "}
             <span className="font-mono">NEXT_PUBLIC_SUPABASE_ANON_KEY</span> in{" "}
             <span className="font-mono">.env.local</span>, then restart{" "}
-            <span className="font-mono">npm run dev</span>. [modified]
+            <span className="font-mono">npm run dev</span>.
           </p>
           {invalidSupabaseUrlHint ? (
             <p className="mt-2 text-sm text-zinc-700">{invalidSupabaseUrlHint}</p>

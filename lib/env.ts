@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { z } from "zod"
 
 const envSchema = z.object({
@@ -13,7 +15,7 @@ export type Env = z.infer<typeof envSchema>
 
 let cachedEnv: Env | null = null
 
-export function getEnv(): Env { [modified]
+export function getEnv(): Env {
   if (process.env.NODE_ENV === "production" && cachedEnv) return cachedEnv
 
   const result = envSchema.safeParse({

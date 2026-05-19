@@ -21,7 +21,7 @@ export default withSentryConfig(nextConfig, {
 
   // Upload a larger set of source maps for prettier stack traces (increases build time)
   widenClientFileUpload: true,
- [modified]
+
   // Transpiles SDK to be compatible with IE11 (increases bundle size)
   transpileClientSDK: true,
 
@@ -40,3 +40,5 @@ export default withSentryConfig(nextConfig, {
   // https://vercel.com/docs/cron-jobs
   automaticVercelMonitors: true,
 });
+
+// update log: auto edit 01

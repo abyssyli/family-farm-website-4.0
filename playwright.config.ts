@@ -1,3 +1,5 @@
+
+// task project adjust
 import { defineConfig } from "@playwright/test"
 
 export default defineConfig({
@@ -13,5 +15,3 @@ export default defineConfig({
   }
 })
 
-
-/* daily modify record */

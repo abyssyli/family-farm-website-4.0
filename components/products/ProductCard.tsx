@@ -56,7 +56,10 @@ export function ProductCard({
             View details →
           </Link>
         </div>
-      </div> [modified]
+      </div>
     </Card>
   )
 }
+
+
+# minor content update

@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import Image from "next/image"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
@@ -29,7 +27,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
             <ButtonLink href={region.ctaHref} variant="secondary">
               {region.ctaLabel || "Explore"}
             </ButtonLink>
-          </div>
+          </div> [modified]
         ) : null}
       </div>
     </Card>

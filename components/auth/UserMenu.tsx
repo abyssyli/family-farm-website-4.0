@@ -1,8 +1,10 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
 import { Button } from "@/components/ui/Button"
-import { Modal } from "@/components/ui/Modal" [modified]
+import { Modal } from "@/components/ui/Modal"
 import { LoginForm } from "./LoginForm"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 

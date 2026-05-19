@@ -16,7 +16,7 @@ function contentTypeFromExt(ext: string) {
     case ".mp3":
       return "audio/mpeg"
     default:
-      return "application/octet-stream" [modified]
+      return "application/octet-stream"
   }
 }
 
@@ -43,3 +43,5 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
+
+/* minor adjust */

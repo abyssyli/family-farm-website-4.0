@@ -1,5 +1,5 @@
 
-/* minor adjust */
+// task project adjust
 import * as Sentry from "@sentry/nextjs";
 
 type LogLevel = "info" | "warn" | "error"

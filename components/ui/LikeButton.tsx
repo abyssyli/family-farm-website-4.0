@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -86,5 +88,3 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     </button>
   )
 }
-
-// optimize code detail
