@@ -32,7 +32,7 @@ export function UserMenu() {
         const lat = pos.coords.latitude
         const lng = pos.coords.longitude
         if (!Number.isFinite(lat) || !Number.isFinite(lng)) return
-
+ [modified]
         await supabase.auth.updateUser({
           data: {
             location: {
@@ -88,5 +88,3 @@ export function UserMenu() {
     </div>
   )
 }
-
-/* minor adjust */

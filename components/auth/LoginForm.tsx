@@ -10,7 +10,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   const isConfigured = Boolean(supabase)
   const invalidSupabaseUrlHint = useMemo(() => {
     const raw = process.env.NEXT_PUBLIC_SUPABASE_URL
-    if (!raw) return null [modified]
+    if (!raw) return null
     try {
       const parsed = new URL(raw)
       if (parsed.hostname.includes("_")) {
@@ -66,7 +66,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
           <div className="flex flex-wrap gap-3">
             <Button
               variant="secondary"
-              disabled={cooldownSeconds > 0}
+              disabled={cooldownSeconds > 0} [modified]
               onClick={() => {
                 if (cooldownSeconds > 0) return
                 setError(null)

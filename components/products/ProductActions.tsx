@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useState } from "react"
@@ -43,3 +41,5 @@ export function ProductActions({
     </>
   )
 }
+
+// update log: auto edit 01

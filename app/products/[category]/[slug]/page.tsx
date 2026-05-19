@@ -24,8 +24,8 @@ export default async function ProductDetailPage({
   if (!product) notFound()
 
   return (
-    <ProductDetail
-      product={product} [modified]
+    <ProductDetail [modified]
+      product={product}
       categoryName={category.name}
       primaryAction={<ProductActions product={product} categorySlug={category.slug} />}
     />

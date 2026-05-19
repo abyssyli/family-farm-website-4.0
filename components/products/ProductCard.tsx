@@ -62,4 +62,4 @@ export function ProductCard({
 }
 
 
-// update log: auto edit 01
+// optimize code detail

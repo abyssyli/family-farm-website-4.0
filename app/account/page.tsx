@@ -29,9 +29,12 @@ export default async function AccountPage() {
 
       <OrderTracker />
 
-      <AddressManager /> [modified]
+      <AddressManager />
 
       <PreferencesForm categories={categories} />
     </div>
   )
 }
+
+
+// task project adjust

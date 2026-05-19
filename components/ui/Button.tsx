@@ -39,7 +39,7 @@ export function ButtonLink({
   children: React.ReactNode
   variant?: Variant
   className?: string
-}) {
+}) { [modified]
   const external = /^https?:\/\//i.test(href)
   if (external) {
     return (
@@ -49,7 +49,7 @@ export function ButtonLink({
         rel="noreferrer noopener"
         className={cn(base, variants[variant], className)}
       >
-        {children} [modified]
+        {children}
       </a>
     )
   }

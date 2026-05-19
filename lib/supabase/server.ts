@@ -1,5 +1,5 @@
 
-// task project adjust
+/* daily modify record */
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
 import type { Database } from "./types"

@@ -1,5 +1,3 @@
-
-// task project adjust
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -13,7 +11,7 @@ function contentTypeFromExt(ext: string) {
       return "image/png"
     case ".webp":
       return "image/webp"
-    case ".gif":
+    case ".gif": [modified]
       return "image/gif"
     case ".mp3":
       return "audio/mpeg"

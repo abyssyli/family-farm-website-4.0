@@ -99,7 +99,7 @@ export type Database = {
           cta_href: string | null
           x: number
           y: number
-        } [modified]
+        }
         Insert: {
           id: string
           slug: string
@@ -207,7 +207,7 @@ export type Database = {
         Update: {
           user_id?: string | null
           product_id?: string | null
-          category_slug?: string
+          category_slug?: string [modified]
           address_id?: string | null
           message?: string
           status?: "pending" | "confirmed" | "completed" | "cancelled"

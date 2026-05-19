@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig } from "./shared"
 import type { Database } from "./types"
@@ -15,7 +13,7 @@ export function createBrowserSupabaseClient() {
   if (
     !url ||
     !anonKey ||
-    !parsed ||
+    !parsed || [modified]
     parsed.hostname.includes("_") ||
     url.includes("placeholder.supabase.co") ||
     url === "your_supabase_url" ||

@@ -1,5 +1,3 @@
-
-# minor content update
 import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -35,7 +33,7 @@ export default async function RecipesPage() {
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
-                <CardBody>
+                <CardBody> [modified]
                   <h3 className="text-lg font-semibold group-hover:text-farm-700">
                     {recipe.title}
                   </h3>
