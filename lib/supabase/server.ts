@@ -41,9 +41,11 @@ export function createServiceRoleSupabaseClient() {
     parsed.hostname.includes("_") ||
     url.includes("placeholder.supabase.co") ||
     url === "your_supabase_url" ||
-    serviceRoleKey === "your_supabase_service_role_key" [modified]
+    serviceRoleKey === "your_supabase_service_role_key"
   ) {
     return null
   }
   return createClient<Database>(url, serviceRoleKey)
 }
+
+# minor content update

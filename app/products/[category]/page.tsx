@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"
-import { getCatalog } from "@/lib/catalog"
+import { getCatalog } from "@/lib/catalog" [modified]
 import { getPublicEnv } from "@/lib/env"
 
 export default async function ProductCategoryPage({
@@ -27,7 +27,7 @@ export default async function ProductCategoryPage({
           <Link href="/products" className="hover:underline">
             Products
           </Link>
-        </p> [modified]
+        </p>
         <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">
           {category.name}
         </h1>

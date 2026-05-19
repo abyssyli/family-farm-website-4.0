@@ -92,7 +92,7 @@ export function WorldUserMap() {
       <div className="flex items-end justify-between gap-6">
         <div>
           <h2 className="text-xl font-semibold tracking-tight">User World Map</h2>
-          <p className="mt-2 text-sm text-zinc-700">
+          <p className="mt-2 text-sm text-zinc-700"> [modified]
             Each user’s location is shown on the world map.
           </p>
         </div>
@@ -142,5 +142,3 @@ export function WorldUserMap() {
     </section>
   )
 }
-
-# minor content update

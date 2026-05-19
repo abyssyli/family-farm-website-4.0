@@ -139,4 +139,4 @@ export function StoryHero() {
   )
 }
 
-/* minor adjust */
+# minor content update

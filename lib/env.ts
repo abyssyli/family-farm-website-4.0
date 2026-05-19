@@ -38,7 +38,7 @@ export function getEnv(): Env {
       NEXT_PUBLIC_SUPABASE_URL: "https://placeholder.supabase.co",
       NEXT_PUBLIC_SUPABASE_ANON_KEY: "placeholder",
     })
-  }
+  } [modified]
 
   if (process.env.NODE_ENV === "production") {
     cachedEnv = result.data
@@ -53,5 +53,3 @@ export function getPublicEnv() {
     skincareUrl: env.NEXT_PUBLIC_SKINCARE_URL,
   }
 }
-
-// update log: auto edit 01

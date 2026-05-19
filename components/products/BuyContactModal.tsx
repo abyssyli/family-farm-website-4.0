@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+# minor content update
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"

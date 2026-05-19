@@ -44,7 +44,7 @@ export default async function RecipesPage() {
                     View Recipe →
                   </p>
                 </CardBody>
-              </Card> [modified]
+              </Card>
             </Link>
           ))}
         </div>
@@ -52,3 +52,5 @@ export default async function RecipesPage() {
     </div>
   )
 }
+
+# minor content update

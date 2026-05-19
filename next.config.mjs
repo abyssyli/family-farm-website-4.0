@@ -1,10 +1,8 @@
-
-/* minor adjust */
 import { withSentryConfig } from "@sentry/nextjs";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
+  images: { [modified]
     formats: ["image/avif", "image/webp"]
   }
 }

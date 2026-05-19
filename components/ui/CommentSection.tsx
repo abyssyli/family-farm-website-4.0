@@ -45,7 +45,7 @@ export function CommentSection({
 
     setIsSubmitting(true)
     const { error } = await supabase.from("comments").insert({
-      user_id: session.user.id, [modified]
+      user_id: session.user.id,
       content: newComment.trim(),
       product_id: productId || null,
       journal_post_id: journalPostId || null
@@ -62,7 +62,7 @@ export function CommentSection({
     <div className="mt-12 flex flex-col gap-8 border-t border-zinc-200 pt-12">
       <div className="flex flex-col gap-2">
         <h2 className="text-xl font-semibold">Comments & Reviews</h2>
-        <p className="text-sm text-zinc-600">
+        <p className="text-sm text-zinc-600"> [modified]
           Share your experience with this {productId ? "dish" : "story"}.
         </p>
       </div>

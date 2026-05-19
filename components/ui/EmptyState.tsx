@@ -3,7 +3,7 @@ import { Card, CardBody } from "./Card"
 export function EmptyState({
   title,
   message,
-  action [modified]
+  action
 }: {
   title: string
   message: string
@@ -23,3 +23,6 @@ export function EmptyState({
     </Card>
   )
 }
+
+
+// update log: auto edit 01

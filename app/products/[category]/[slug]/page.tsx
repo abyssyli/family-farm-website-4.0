@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { notFound, redirect } from "next/navigation"
 import { ProductDetail } from "@/components/products/ProductDetail"
 import { ProductActions } from "@/components/products/ProductActions"
@@ -24,7 +22,7 @@ export default async function ProductDetailPage({
     (p) => p.categorySlug === category.slug && p.slug === params.slug
   )
   if (!product) notFound()
-
+ [modified]
   return (
     <ProductDetail
       product={product}

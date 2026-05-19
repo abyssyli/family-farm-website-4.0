@@ -22,7 +22,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     const { count, error } = await supabase
       .from("likes")
       .select("*", { count: "exact", head: true })
-      .eq("journal_post_id", journalPostId) [modified]
+      .eq("journal_post_id", journalPostId)
     
     if (!error) setLikes(count || 0)
 
@@ -86,3 +86,5 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     </button>
   )
 }
+
+/* minor adjust */

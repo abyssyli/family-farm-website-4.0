@@ -58,7 +58,7 @@
       "priceHint": "Sunday Gathering · Pre-order available",
       "isActive": true
     },
-    {
+    { [modified]
       "id": "food-dumplings",
       "categorySlug": "food",
       "slug": "dumplings",
@@ -306,7 +306,7 @@
       "slug": "chicken-coop",
       "title": "Chicken Coop",
       "description": "Where the day starts: fresh eggs, feed time, and a lot of personality.",
-      "imagePath": "/photos/chicken.jpg", [modified]
+      "imagePath": "/photos/chicken.jpg",
       "ctaLabel": "Explore Chicken and Eggs",
       "ctaHref": "/products/eggs",
       "x": 35,

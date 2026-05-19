@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"
@@ -94,5 +96,3 @@ export function OrderTracker() {
     </Card>
   )
 }
-
-# minor content update

@@ -23,7 +23,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
           <p className="mt-2 text-sm text-zinc-700">{region.description}</p>
         ) : null}
         {region.ctaHref ? (
-          <div className="mt-5">
+          <div className="mt-5"> [modified]
             <ButtonLink href={region.ctaHref} variant="secondary">
               {region.ctaLabel || "Explore"}
             </ButtonLink>
@@ -31,5 +31,5 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
         ) : null}
       </div>
     </Card>
-  ) [modified]
+  )
 }
