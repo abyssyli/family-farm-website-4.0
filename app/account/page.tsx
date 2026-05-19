@@ -6,7 +6,7 @@ import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { UserMenu } from "@/components/auth/UserMenu"
 
 export default async function AccountPage() {
-  const catalog = await getCatalog() [modified]
+  const catalog = await getCatalog()
   const categories = catalog.categories.map((c) => ({ slug: c.slug, name: c.name }))
 
   return (
@@ -35,3 +35,6 @@ export default async function AccountPage() {
     </div>
   )
 }
+
+
+/* minor adjust */

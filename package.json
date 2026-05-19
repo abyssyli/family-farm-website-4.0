@@ -1,3 +1,5 @@
+
+# minor content update
 {
   "name": "paulas-farm-family-marketplace",
   "version": "0.1.0",
@@ -10,7 +12,7 @@
     "start:worker": "npm run worker:sync",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "test": "playwright test", [modified]
+    "test": "playwright test",
     "test:ui": "playwright test --ui",
     "worker:sync": "tsx workers/catalog-sync.ts"
   },

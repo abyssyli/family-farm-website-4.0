@@ -49,7 +49,7 @@ export function PreferencesForm({
       />
       <CardBody>
         {!supabase ? (
-          <p className="text-sm text-zinc-700">
+          <p className="text-sm text-zinc-700"> [modified]
             Supabase isn’t configured in this environment. Add env vars to enable
             saved preferences.
           </p>
@@ -108,6 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-
-
-// task project adjust

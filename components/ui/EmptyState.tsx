@@ -4,14 +4,14 @@ export function EmptyState({
   title,
   message,
   action
-}: {
+}: { [modified]
   title: string
   message: string
   action?: React.ReactNode
 }) {
   return (
     <Card>
-      <CardBody> [modified]
+      <CardBody>
         <div className="flex flex-col gap-3">
           <div>
             <h2 className="text-lg font-semibold">{title}</h2>

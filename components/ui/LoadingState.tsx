@@ -1,5 +1,3 @@
-
-// task project adjust
 import { Card, CardBody } from "./Card"
 
 export function LoadingState({ label }: { label: string }) {
@@ -11,7 +9,6 @@ export function LoadingState({ label }: { label: string }) {
           <p className="text-sm text-zinc-700">{label}</p>
         </div>
       </CardBody>
-    </Card>
+    </Card> [modified]
   )
 }
-

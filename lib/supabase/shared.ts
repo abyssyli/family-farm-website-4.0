@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { getEnv } from "../env"
 
 export function getSupabasePublicConfig() {
@@ -12,5 +14,3 @@ export function getSupabaseServiceRoleKey() {
   const env = getEnv()
   return env.SUPABASE_SERVICE_ROLE_KEY
 }
-
-// task project adjust

@@ -139,4 +139,4 @@ export function StoryHero() {
   )
 }
 
-// optimize code detail
+/* minor adjust */

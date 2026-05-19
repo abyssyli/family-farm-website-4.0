@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -226,7 +224,7 @@ export function AddressManager() {
                 <div className="text-sm text-zinc-600">
                   <p>{address.address_line1}</p>
                   {address.address_line2 && <p>{address.address_line2}</p>}
-                  <p>
+                  <p> [modified]
                     {address.city}, {address.state} {address.postal_code}
                   </p>
                   {address.phone && <p className="mt-1 text-xs">{address.phone}</p>}

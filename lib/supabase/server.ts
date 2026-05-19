@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
 import type { Database } from "./types"
@@ -30,7 +28,7 @@ export function createServerSupabaseClient() {
 export function createServiceRoleSupabaseClient() {
   const { url } = getSupabasePublicConfig()
   const serviceRoleKey = getSupabaseServiceRoleKey()
-  let parsed: URL | null = null
+  let parsed: URL | null = null [modified]
   try {
     parsed = new URL(url)
   } catch {

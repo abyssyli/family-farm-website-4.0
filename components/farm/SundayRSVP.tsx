@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -45,7 +47,7 @@ export function SundayRSVP() {
     if (!supabase || !session) return
     setStatus("saving")
 
-    const rsvpData = { [modified]
+    const rsvpData = {
       user_id: session.user.id,
       event_date: dateStr,
       adult_count: adultCount,

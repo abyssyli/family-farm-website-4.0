@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useState } from "react"
@@ -31,7 +29,7 @@ export function ProductActions({
     <>
       <Button type="button" onClick={() => setOpen(true)}>
         Buy / Contact
-      </Button>
+      </Button> [modified]
       <BuyContactModal
         open={open}
         onClose={() => setOpen(false)}

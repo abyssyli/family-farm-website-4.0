@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useEffect } from "react"
@@ -61,4 +63,4 @@ export function Modal({
     </div>
   )
 }
- [modified]
+

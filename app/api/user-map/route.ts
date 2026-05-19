@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 
-type MapPoint = { [modified]
+type MapPoint = {
   id: string
   label: string
   lat: number
@@ -65,7 +65,7 @@ export async function GET() {
       },
       { status: 200 }
     )
-  }
+  } [modified]
 
   const points: MapPoint[] = []
   for (const user of data.users) {
