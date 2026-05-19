@@ -13,7 +13,7 @@ export function UserMenu() {
   const avatarLabel = useMemo(() => {
     if (!email) return "U"
     const trimmed = email.trim()
-    if (!trimmed) return "U"
+    if (!trimmed) return "U" [modified]
     return trimmed[0]?.toUpperCase() ?? "U"
   }, [email])
 
@@ -54,7 +54,7 @@ export function UserMenu() {
 
   if (!session) {
     return (
-      <> [modified]
+      <>
         <Button variant="secondary" onClick={() => setOpen(true)}>
           Sign in
         </Button>

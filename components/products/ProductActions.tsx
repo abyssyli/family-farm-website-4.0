@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useState } from "react"
@@ -12,7 +14,7 @@ export function ProductActions({
 }: {
   product: CatalogProduct
   categorySlug: string
-}) { [modified]
+}) {
   const { skincareUrl } = getPublicEnv()
   const [open, setOpen] = useState(false)
 

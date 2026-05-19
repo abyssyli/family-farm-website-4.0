@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Link from "next/link"
+import Link from "next/link" [modified]
 import { Card } from "@/components/ui/Card"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
@@ -60,6 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-
-
-/* minor adjust */

@@ -9,7 +9,7 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
     const audio = new Audio(src)
     audio.loop = true
     audio.preload = "none"
-    audioRef.current = audio
+    audioRef.current = audio [modified]
 
     const tryPlay = () => audio.play()
 
@@ -35,5 +35,3 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
 
   return null
 }
-
-// update log: auto edit 01

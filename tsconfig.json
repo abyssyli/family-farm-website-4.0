@@ -1,3 +1,5 @@
+
+/* daily modify record */
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -39,5 +41,3 @@
     "node_modules"
   ]
 }
-
-/* minor adjust */

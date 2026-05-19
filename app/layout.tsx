@@ -66,6 +66,4 @@ export default function RootLayout({
       </body>
     </html>
   )
-}
-
-// update log: auto edit 01
+} [modified]

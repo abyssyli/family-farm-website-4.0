@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+// task project adjust
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"

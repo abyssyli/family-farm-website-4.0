@@ -5,4 +5,6 @@ export default async function ProductsPage() {
   const catalog = await getCatalog()
   return <ProductsIndexClient catalog={catalog} />
 }
- [modified]
+
+
+/* minor adjust */

@@ -9,7 +9,7 @@ export function ErrorState({
   message: string
   action?: React.ReactNode
 }) {
-  return (
+  return ( [modified]
     <Card className="border-red-200">
       <CardBody>
         <div className="flex flex-col gap-3">
@@ -22,4 +22,4 @@ export function ErrorState({
       </CardBody>
     </Card>
   )
-} [modified]
+}

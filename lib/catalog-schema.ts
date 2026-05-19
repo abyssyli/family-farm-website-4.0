@@ -1,6 +1,4 @@
-
-/* daily modify record */
-import { z } from "zod"
+import { z } from "zod" [modified]
 
 export const CategorySchema = z.object({
   slug: z.string().min(1),
@@ -67,4 +65,3 @@ export type CatalogProduct = z.infer<typeof ProductSchema>
 export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
 export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
-

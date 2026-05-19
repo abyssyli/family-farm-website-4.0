@@ -185,4 +185,4 @@ export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
 
-# minor content update
+// optimize code detail

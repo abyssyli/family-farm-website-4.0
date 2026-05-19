@@ -6,4 +6,4 @@ module.exports = {
 }
 
 
-# minor content update
+// optimize code detail

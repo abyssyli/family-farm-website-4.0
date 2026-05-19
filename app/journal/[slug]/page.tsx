@@ -40,7 +40,7 @@ export default async function JournalPostPage({
         <CardBody>
           <div className="prose prose-zinc max-w-none">
             <p className="whitespace-pre-wrap">{post.body}</p>
-          </div>
+          </div> [modified]
         </CardBody>
       </Card>
 
@@ -54,6 +54,3 @@ export default async function JournalPostPage({
     </div>
   )
 }
-
-
-/* daily modify record */

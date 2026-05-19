@@ -7,7 +7,7 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
   const logEntry = {
     timestamp,
     level,
-    message, [modified]
+    message,
     ...data,
   }
 
@@ -35,3 +35,5 @@ export function logError(message: string, error: any) {
     stack: error instanceof Error ? error.stack : undefined,
   })
 }
+
+// update log: auto edit 01

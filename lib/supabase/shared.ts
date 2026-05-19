@@ -13,4 +13,4 @@ export function getSupabaseServiceRoleKey() {
   return env.SUPABASE_SERVICE_ROLE_KEY
 }
 
-// task project adjust
+// update log: auto edit 01

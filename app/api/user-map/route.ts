@@ -51,7 +51,7 @@ export async function GET() {
   const { data, error } = await supabase.auth.admin.listUsers({ page: 1, perPage: 200 })
 
   if (error || !data) {
-    const missingTable = [modified]
+    const missingTable =
       (error?.message ?? "").includes("Could not find the table") ||
       (error?.message ?? "").includes("schema cache")
     return NextResponse.json(
@@ -89,3 +89,5 @@ export async function GET() {
 
   return NextResponse.json({ points, status: "ok" }, { status: 200 })
 }
+
+// optimize code detail

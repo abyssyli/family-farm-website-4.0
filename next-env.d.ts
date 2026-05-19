@@ -1,5 +1,5 @@
 
-// task project adjust
+/* daily modify record */
 /// <reference types="next" />
 /// <reference types="next/image-types/global" />
 

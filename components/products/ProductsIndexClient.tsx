@@ -141,4 +141,4 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   )
 }
 
-// update log: auto edit 01
+// task project adjust

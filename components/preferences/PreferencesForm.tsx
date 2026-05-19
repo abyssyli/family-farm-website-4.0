@@ -16,7 +16,7 @@ export function PreferencesForm({
   const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
 
   useEffect(() => {
-    if (!supabase) return [modified]
+    if (!supabase) return
     supabase.auth.getUser().then(async ({ data }) => {
       const id = data.user?.id ?? null
       setUserId(id)
@@ -108,3 +108,6 @@ export function PreferencesForm({
     </Card>
   )
 }
+
+
+# minor content update
