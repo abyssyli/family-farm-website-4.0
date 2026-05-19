@@ -45,7 +45,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     })
     if (error) {
       const match = error.message.match(/after\s+(\d+)\s*seconds/i)
-      if (match) { [modified]
+      if (match) {
         const seconds = Number(match[1])
         if (Number.isFinite(seconds) && seconds > 0) setCooldownSeconds(seconds)
       }
@@ -108,7 +108,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       >
         {status === "sending" ? "Sending…" : "Send magic link"}
       </Button>
-      {status === "sent" ? (
+      {status === "sent" ? ( [modified]
         <p className="text-sm text-zinc-600">
           Check your inbox for a sign-in link.
         </p>

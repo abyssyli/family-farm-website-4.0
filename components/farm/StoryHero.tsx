@@ -119,7 +119,7 @@ export function StoryHero() {
           </div>
         </div>
         <div className="mt-6 flex flex-wrap gap-3">
-          <ButtonLink href="/products">Browse products</ButtonLink> [modified]
+          <ButtonLink href="/products">Browse products</ButtonLink>
           <ButtonLink href="/products/eggs" variant="secondary">
             See today’s eggs
           </ButtonLink>
@@ -138,3 +138,5 @@ export function StoryHero() {
     </section>
   )
 }
+
+/* daily modify record */

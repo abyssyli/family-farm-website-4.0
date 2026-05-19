@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -111,3 +109,5 @@ export function PreferencesForm({
   )
 }
 
+
+/* minor adjust */

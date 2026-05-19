@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useEffect } from "react"
@@ -64,3 +62,5 @@ export function Modal({
   )
 }
 
+
+/* minor adjust */

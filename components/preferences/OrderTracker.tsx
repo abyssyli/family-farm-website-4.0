@@ -29,7 +29,7 @@ export function OrderTracker() {
     if (!error && data) {
       setInquiries(data as Inquiry[])
     }
-  }
+  } [modified]
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -94,5 +94,3 @@ export function OrderTracker() {
     </Card>
   )
 }
-
-// optimize code detail

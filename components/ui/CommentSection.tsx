@@ -1,5 +1,5 @@
 
-// task project adjust
+/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"

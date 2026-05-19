@@ -20,14 +20,14 @@ export default async function ProductDetailPage({
 
   const product = catalog.products.find(
     (p) => p.categorySlug === category.slug && p.slug === params.slug
-  ) [modified]
+  )
   if (!product) notFound()
 
   return (
     <ProductDetail
       product={product}
       categoryName={category.name}
-      primaryAction={<ProductActions product={product} categorySlug={category.slug} />}
+      primaryAction={<ProductActions product={product} categorySlug={category.slug} />} [modified]
     />
   )
 }

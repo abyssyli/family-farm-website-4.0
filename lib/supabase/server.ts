@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
 import type { Database } from "./types"
@@ -46,6 +44,6 @@ export function createServiceRoleSupabaseClient() {
     serviceRoleKey === "your_supabase_service_role_key"
   ) {
     return null
-  }
+  } [modified]
   return createClient<Database>(url, serviceRoleKey)
 }

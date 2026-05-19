@@ -34,7 +34,7 @@ export async function GET(
     const bytes = await readFile(filePath)
     const ext = extname(name)
     return new NextResponse(bytes, {
-      headers: { [modified]
+      headers: {
         "content-type": contentTypeFromExt(ext),
         "cache-control": "public, max-age=31536000, immutable"
       }
@@ -43,3 +43,5 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
+
+// update log: auto edit 01

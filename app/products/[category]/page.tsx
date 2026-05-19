@@ -25,7 +25,7 @@ export default async function ProductCategoryPage({
       <div>
         <p className="text-sm font-medium text-farm-800">
           <Link href="/products" className="hover:underline">
-            Products
+            Products [modified]
           </Link>
         </p>
         <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">
@@ -40,5 +40,3 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
-
-// task project adjust

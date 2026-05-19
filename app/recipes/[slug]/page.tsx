@@ -59,7 +59,7 @@ export default async function RecipeDetailPage({
               </ul>
             </CardBody>
           </Card>
- [modified]
+
           <Card>
             <CardHeader title="Instructions" />
             <CardBody>
@@ -86,3 +86,5 @@ export default async function RecipeDetailPage({
     </div>
   )
 }
+
+// optimize code detail

@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// update log: auto edit 01
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"

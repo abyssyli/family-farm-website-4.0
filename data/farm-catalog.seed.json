@@ -102,7 +102,7 @@
       "isActive": true
     },
     {
-      "id": "food-spam-fried-rice", [modified]
+      "id": "food-spam-fried-rice",
       "categorySlug": "food",
       "slug": "spam-fried-rice",
       "name": "Spam fried rice",
@@ -325,3 +325,5 @@
     }
   ]
 }
+
+// update log: auto edit 01

@@ -1,7 +1,7 @@
 import { Card, CardBody } from "./Card"
 
 export function ErrorState({
-  title,
+  title, [modified]
   message,
   action
 }: {
@@ -23,6 +23,3 @@ export function ErrorState({
     </Card>
   )
 }
-
-
-// optimize code detail

@@ -1,5 +1,5 @@
 
-/* daily modify record */
+/* minor adjust */
 import { NextResponse } from "next/server"
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 

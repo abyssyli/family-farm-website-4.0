@@ -1,7 +1,5 @@
-
-/* minor adjust */
 import { getEnv } from "../env"
-
+ [modified]
 export function getSupabasePublicConfig() {
   const env = getEnv()
   return {

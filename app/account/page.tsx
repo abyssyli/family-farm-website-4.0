@@ -1,7 +1,7 @@
 import { getCatalog } from "@/lib/catalog"
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
-import { AddressManager } from "@/components/preferences/AddressManager" [modified]
-import { OrderTracker } from "@/components/preferences/OrderTracker"
+import { AddressManager } from "@/components/preferences/AddressManager"
+import { OrderTracker } from "@/components/preferences/OrderTracker" [modified]
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { UserMenu } from "@/components/auth/UserMenu"
 

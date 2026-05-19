@@ -33,4 +33,4 @@ export function useSupabaseAuth() {
 }
 
 
-# minor content update
+/* daily modify record */

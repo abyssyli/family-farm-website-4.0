@@ -1,5 +1,3 @@
-
-/* daily modify record */
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -21,7 +19,7 @@
     "incremental": true,
     "plugins": [
       {
-        "name": "next"
+        "name": "next" [modified]
       }
     ],
     "baseUrl": ".",

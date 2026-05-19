@@ -129,7 +129,7 @@ export type Database = {
           preferred_categories: string[]
           updated_at: string
         }
-        Insert: { [modified]
+        Insert: {
           user_id: string
           preferred_categories?: string[]
           updated_at?: string
@@ -308,7 +308,7 @@ export type Database = {
           ingredients: string[]
           instructions: string[]
           image_path: string | null
-          created_at: string
+          created_at: string [modified]
         }
         Insert: {
           id?: string

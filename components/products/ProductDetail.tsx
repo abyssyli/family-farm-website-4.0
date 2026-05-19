@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import Image from "next/image"
@@ -13,7 +15,7 @@ export function ProductDetail({
   primaryAction
 }: {
   product: CatalogProduct
-  categoryName: string [modified]
+  categoryName: string
   primaryAction: React.ReactNode
 }) {
   const images =
@@ -157,4 +159,5 @@ export function ProductDetail({
     </div>
   )
 }
+
 

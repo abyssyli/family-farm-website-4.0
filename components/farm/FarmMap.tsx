@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import Image from "next/image"
@@ -7,7 +9,7 @@ import type { CatalogFarmRegion } from "@/lib/catalog-schema"
 
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")
-} [modified]
+}
 
 export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
   const sorted = useMemo(
