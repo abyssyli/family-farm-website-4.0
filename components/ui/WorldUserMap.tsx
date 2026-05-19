@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useMemo, useRef, useState } from "react"
@@ -142,5 +144,3 @@ export function WorldUserMap() {
     </section>
   )
 }
-
-// optimize code detail

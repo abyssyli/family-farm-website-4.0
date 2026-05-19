@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useState } from "react"
@@ -25,7 +27,7 @@ export function ProductActions({
     )
   }
 
-  return ( [modified]
+  return (
     <>
       <Button type="button" onClick={() => setOpen(true)}>
         Buy / Contact

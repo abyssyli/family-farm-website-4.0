@@ -66,7 +66,7 @@ export default async function RecipeDetailPage({
               <ol className="flex flex-col gap-4">
                 {recipe.instructions.map((step, i) => (
                   <li key={i} className="flex gap-4 text-sm text-zinc-700">
-                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-zinc-200 bg-white font-mono text-xs font-bold text-zinc-500 shadow-sm">
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-zinc-200 bg-white font-mono text-xs font-bold text-zinc-500 shadow-sm"> [modified]
                       {i + 1}
                     </span>
                     <p className="mt-0.5 leading-relaxed">{step}</p>
@@ -86,5 +86,3 @@ export default async function RecipeDetailPage({
     </div>
   )
 }
-
-// task project adjust

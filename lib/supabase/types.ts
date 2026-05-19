@@ -62,7 +62,7 @@ export type Database = {
       journal_posts: {
         Row: {
           id: string
-          slug: string [modified]
+          slug: string
           title: string
           excerpt: string | null
           body: string
@@ -362,3 +362,5 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
+
+# minor content update

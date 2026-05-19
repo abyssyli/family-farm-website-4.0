@@ -1,7 +1,5 @@
-
-// update log: auto edit 01
 "use client"
-
+ [modified]
 import { useEffect, useState } from "react"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"

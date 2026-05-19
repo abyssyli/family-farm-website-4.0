@@ -80,7 +80,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
                 setError(null)
               }}
             >
-              Dismiss [modified]
+              Dismiss
             </Button>
           </div>
         }
@@ -107,7 +107,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
         disabled={!isConfigured || status === "sending" || cooldownSeconds > 0}
       >
         {status === "sending" ? "Sending…" : "Send magic link"}
-      </Button>
+      </Button> [modified]
       {status === "sent" ? (
         <p className="text-sm text-zinc-600">
           Check your inbox for a sign-in link.

@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { z } from "zod"
 
 export const CategorySchema = z.object({
@@ -68,3 +66,5 @@ export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
 export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
 
+
+/* minor adjust */

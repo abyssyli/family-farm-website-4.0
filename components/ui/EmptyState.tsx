@@ -20,6 +20,6 @@ export function EmptyState({
           {action ? <div>{action}</div> : null}
         </div>
       </CardBody>
-    </Card> [modified]
+    </Card>
   )
-}
+} [modified]

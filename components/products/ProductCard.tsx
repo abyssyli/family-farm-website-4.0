@@ -45,7 +45,7 @@ export function ProductCard({
               {product.stockQuantity > 0
                 ? `${product.stockQuantity} in stock`
                 : "Out of stock"}
-            </span>
+            </span> [modified]
           )}
         </div>
         <div className="mt-5">
@@ -60,6 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-
-
-/* daily modify record */

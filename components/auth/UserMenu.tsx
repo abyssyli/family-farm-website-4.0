@@ -46,7 +46,7 @@ export function UserMenu() {
         window.localStorage.setItem(key, String(Date.now()))
       },
       () => {},
-      { enableHighAccuracy: false, timeout: 5000, maximumAge: 24 * 60 * 60 * 1000 }
+      { enableHighAccuracy: false, timeout: 5000, maximumAge: 24 * 60 * 60 * 1000 } [modified]
     )
   }, [session, supabase])
 
@@ -88,5 +88,3 @@ export function UserMenu() {
     </div>
   )
 }
-
-# minor content update

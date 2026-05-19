@@ -16,13 +16,13 @@ export default async function AccountPage() {
           Account
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
-          Sign in to manage your addresses, preferences, and track inquiries. [modified]
+          Sign in to manage your addresses, preferences, and track inquiries.
         </p>
       </div>
 
       <Card>
         <CardHeader title="Sign in" subtitle="Use email magic link." />
-        <CardBody>
+        <CardBody> [modified]
           <UserMenu />
         </CardBody>
       </Card>

@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import Image from "next/image"
@@ -129,7 +127,7 @@ export function ProductDetail({
             <p className="mt-4 text-sm font-medium text-zinc-700">
               {product.priceHint}
             </p>
-          ) : null}
+          ) : null} [modified]
           {product.stockQuantity !== null && product.stockQuantity !== undefined && (
             <p
               className={`mt-2 text-xs font-bold uppercase tracking-wider ${
@@ -159,5 +157,4 @@ export function ProductDetail({
     </div>
   )
 }
-
 

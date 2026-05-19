@@ -26,7 +26,7 @@ export default async function JournalIndexPage() {
       <div>
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
           Farm Journal
-        </h1> [modified]
+        </h1>
         <p className="mt-2 text-sm text-zinc-700">
           Small stories from the farm, the shop, and the family.
         </p>
@@ -34,7 +34,7 @@ export default async function JournalIndexPage() {
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {posts.map((p) => (
           <JournalCard key={p.id} post={p} />
-        ))}
+        ))} [modified]
       </div>
     </div>
   )

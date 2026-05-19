@@ -284,7 +284,7 @@
       "slug": "muscle-creme",
       "name": "Muscle Crème",
       "description": "A soothing crème made with botanicals like boswellia, comfrey, peppermint, and eucalyptus.",
-      "imagePath": "/photos/background.jpg",
+      "imagePath": "/photos/background.jpg", [modified]
       "priceHint": "Ships from Lisa’s shop",
       "externalUrl": "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR",
       "isActive": true
@@ -325,5 +325,3 @@
     }
   ]
 }
-
-// task project adjust

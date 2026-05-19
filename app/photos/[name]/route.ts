@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -10,7 +12,7 @@ function contentTypeFromExt(ext: string) {
     case ".png":
       return "image/png"
     case ".webp":
-      return "image/webp" [modified]
+      return "image/webp"
     case ".gif":
       return "image/gif"
     case ".mp3":

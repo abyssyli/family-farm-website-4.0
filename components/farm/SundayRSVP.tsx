@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -75,7 +73,7 @@ export function SundayRSVP() {
         subtitle={`RSVP for our next gathering on Sunday, ${new Date(dateStr).toLocaleDateString("en-US", { month: "long", day: "numeric" })}.`}
       />
       <CardBody>
-        {!session ? (
+        {!session ? ( [modified]
           <p className="text-sm text-zinc-600 italic">
             Please sign in to RSVP for the family gathering.
           </p>

@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import Image from "next/image"
@@ -69,7 +67,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
                 </button>
               )
             })}
-          </div>
+          </div> [modified]
         </div>
       </div>
 

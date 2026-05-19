@@ -9,7 +9,7 @@
     "start:web": "next start",
     "start:worker": "npm run worker:sync",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsc --noEmit", [modified]
     "test": "playwright test",
     "test:ui": "playwright test --ui",
     "worker:sync": "tsx workers/catalog-sync.ts"
@@ -38,5 +38,3 @@
     "typescript": "^5.4.5"
   }
 }
-
-// update log: auto edit 01

@@ -5,9 +5,9 @@ import type { Database } from "./types"
 export function createBrowserSupabaseClient() {
   const { url, anonKey } = getSupabasePublicConfig()
   let parsed: URL | null = null
-  try { [modified]
+  try {
     parsed = new URL(url)
-  } catch {
+  } catch { [modified]
     parsed = null
   }
   if (

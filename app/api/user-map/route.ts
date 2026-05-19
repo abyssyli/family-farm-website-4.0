@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { NextResponse } from "next/server"
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 
@@ -58,7 +56,7 @@ export async function GET() {
       (error?.message ?? "").includes("schema cache")
     return NextResponse.json(
       {
-        points: [] as MapPoint[],
+        points: [] as MapPoint[], [modified]
         status: missingTable ? "disabled" : "error",
         message:
           (missingTable ? "User locations are not available." : null) ??

@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -43,7 +45,7 @@ export function CommentSection({
     e.preventDefault()
     if (!supabase || !session || !newComment.trim()) return
 
-    setIsSubmitting(true) [modified]
+    setIsSubmitting(true)
     const { error } = await supabase.from("comments").insert({
       user_id: session.user.id,
       content: newComment.trim(),
