@@ -1,7 +1,7 @@
 import { Card, CardBody } from "./Card"
 
 export function LoadingState({ label }: { label: string }) {
-  return (
+  return ( [modified]
     <Card>
       <CardBody>
         <div className="flex items-center gap-3">
@@ -9,6 +9,6 @@ export function LoadingState({ label }: { label: string }) {
           <p className="text-sm text-zinc-700">{label}</p>
         </div>
       </CardBody>
-    </Card> [modified]
+    </Card>
   )
 }

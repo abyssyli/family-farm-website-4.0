@@ -5,7 +5,7 @@ import type { Database } from "./types"
 export function createBrowserSupabaseClient() {
   const { url, anonKey } = getSupabasePublicConfig()
   let parsed: URL | null = null
-  try {
+  try { [modified]
     parsed = new URL(url)
   } catch {
     parsed = null
@@ -17,7 +17,7 @@ export function createBrowserSupabaseClient() {
     parsed.hostname.includes("_") ||
     url.includes("placeholder.supabase.co") ||
     url === "your_supabase_url" ||
-    anonKey === "placeholder" || [modified]
+    anonKey === "placeholder" ||
     anonKey === "your_supabase_anon_key"
   ) {
     return null

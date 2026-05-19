@@ -25,11 +25,11 @@ export function ProductActions({
     )
   }
 
-  return (
+  return ( [modified]
     <>
       <Button type="button" onClick={() => setOpen(true)}>
         Buy / Contact
-      </Button> [modified]
+      </Button>
       <BuyContactModal
         open={open}
         onClose={() => setOpen(false)}

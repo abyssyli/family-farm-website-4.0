@@ -80,7 +80,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
                 setError(null)
               }}
             >
-              Dismiss
+              Dismiss [modified]
             </Button>
           </div>
         }
@@ -130,5 +130,3 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
-
-// optimize code detail

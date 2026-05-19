@@ -4,7 +4,7 @@ export function EmptyState({
   title,
   message,
   action
-}: { [modified]
+}: {
   title: string
   message: string
   action?: React.ReactNode
@@ -20,6 +20,6 @@ export function EmptyState({
           {action ? <div>{action}</div> : null}
         </div>
       </CardBody>
-    </Card>
+    </Card> [modified]
   )
 }

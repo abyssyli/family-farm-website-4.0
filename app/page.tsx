@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -109,7 +107,7 @@ export default async function HomePage() {
             <h2 className="text-xl font-semibold tracking-tight">News</h2>
             <p className="mt-2 text-sm text-zinc-700">
               What’s on the farm this week: eggs, Hands&apos; Village dishes, and woodcraft.
-            </p>
+            </p> [modified]
           </div>
         </div>
 

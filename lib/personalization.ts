@@ -1,5 +1,3 @@
-
-/* minor adjust */
 export function sortCategorySlugsByPreference(
   categorySlugs: string[],
   preferred: string[] | null | undefined
@@ -12,5 +10,4 @@ export function sortCategorySlugsByPreference(
     if (ra !== rb) return ra - rb
     return a.localeCompare(b)
   })
-}
-
+} [modified]

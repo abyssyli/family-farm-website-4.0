@@ -1,5 +1,5 @@
 
-# minor content update
+/* minor adjust */
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"

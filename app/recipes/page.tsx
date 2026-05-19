@@ -1,4 +1,4 @@
-import Link from "next/link" [modified]
+import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
 import { getCatalog } from "@/lib/catalog"
@@ -52,3 +52,5 @@ export default async function RecipesPage() {
     </div>
   )
 }
+
+# minor content update

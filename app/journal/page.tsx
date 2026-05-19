@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
@@ -28,7 +26,7 @@ export default async function JournalIndexPage() {
       <div>
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
           Farm Journal
-        </h1>
+        </h1> [modified]
         <p className="mt-2 text-sm text-zinc-700">
           Small stories from the farm, the shop, and the family.
         </p>
@@ -41,4 +39,3 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
-

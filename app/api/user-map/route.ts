@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import { NextResponse } from "next/server"
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 
@@ -65,7 +67,7 @@ export async function GET() {
       },
       { status: 200 }
     )
-  } [modified]
+  }
 
   const points: MapPoint[] = []
   for (const user of data.users) {

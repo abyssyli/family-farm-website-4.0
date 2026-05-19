@@ -16,7 +16,7 @@ export default async function AccountPage() {
           Account
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
-          Sign in to manage your addresses, preferences, and track inquiries.
+          Sign in to manage your addresses, preferences, and track inquiries. [modified]
         </p>
       </div>
 
@@ -35,6 +35,3 @@ export default async function AccountPage() {
     </div>
   )
 }
-
-
-/* minor adjust */

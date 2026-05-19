@@ -7,7 +7,7 @@
       "ES2022"
     ],
     "allowJs": false,
-    "skipLibCheck": true, [modified]
+    "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -30,7 +30,7 @@
     }
   },
   "include": [
-    "next-env.d.ts",
+    "next-env.d.ts", [modified]
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"

@@ -1,5 +1,3 @@
-
-# minor content update
 export type Json =
   | string
   | number
@@ -64,7 +62,7 @@ export type Database = {
       journal_posts: {
         Row: {
           id: string
-          slug: string
+          slug: string [modified]
           title: string
           excerpt: string | null
           body: string

@@ -190,7 +190,7 @@
       "externalUrl": null,
       "isActive": true
     },
-    { [modified]
+    {
       "id": "eggs-coop-visit",
       "categorySlug": "eggs",
       "slug": "coop-visit",
@@ -325,3 +325,5 @@
     }
   ]
 }
+
+// task project adjust

@@ -43,7 +43,7 @@ export function CommentSection({
     e.preventDefault()
     if (!supabase || !session || !newComment.trim()) return
 
-    setIsSubmitting(true)
+    setIsSubmitting(true) [modified]
     const { error } = await supabase.from("comments").insert({
       user_id: session.user.id,
       content: newComment.trim(),
@@ -55,7 +55,7 @@ export function CommentSection({
       setNewComment("")
       fetchComments()
     }
-    setIsSubmitting(false) [modified]
+    setIsSubmitting(false)
   }
 
   return (

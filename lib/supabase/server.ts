@@ -28,7 +28,7 @@ export function createServerSupabaseClient() {
 export function createServiceRoleSupabaseClient() {
   const { url } = getSupabasePublicConfig()
   const serviceRoleKey = getSupabaseServiceRoleKey()
-  let parsed: URL | null = null [modified]
+  let parsed: URL | null = null
   try {
     parsed = new URL(url)
   } catch {
@@ -47,3 +47,5 @@ export function createServiceRoleSupabaseClient() {
   }
   return createClient<Database>(url, serviceRoleKey)
 }
+
+// update log: auto edit 01
