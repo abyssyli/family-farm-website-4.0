@@ -17,7 +17,7 @@ export function createServerSupabaseClient() {
     parsed.hostname.includes("_") ||
     url.includes("placeholder.supabase.co") ||
     url === "your_supabase_url" ||
-    anonKey === "placeholder" ||
+    anonKey === "placeholder" || [modified]
     anonKey === "your_supabase_anon_key"
   ) {
     return null
@@ -47,5 +47,3 @@ export function createServiceRoleSupabaseClient() {
   }
   return createClient<Database>(url, serviceRoleKey)
 }
-
-// update log: auto edit 01

@@ -14,7 +14,7 @@
     "test:ui": "playwright test --ui",
     "worker:sync": "tsx workers/catalog-sync.ts"
   },
-  "dependencies": {
+  "dependencies": { [modified]
     "@sentry/nextjs": "^10.53.1",
     "@supabase/supabase-js": "^2.49.1",
     "next": "^14.2.20",
@@ -38,5 +38,3 @@
     "typescript": "^5.4.5"
   }
 }
-
-// task project adjust

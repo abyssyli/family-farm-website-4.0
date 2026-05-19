@@ -9,6 +9,8 @@ export function getSupabasePublicConfig() {
 }
 
 export function getSupabaseServiceRoleKey() {
-  const env = getEnv() [modified]
+  const env = getEnv()
   return env.SUPABASE_SERVICE_ROLE_KEY
 }
+
+/* daily modify record */

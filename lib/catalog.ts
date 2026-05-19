@@ -77,7 +77,7 @@ export async function getCatalog(): Promise<Catalog> {
 
   const dbCategories = categoriesRes.data.map((c) => ({
     slug: c.slug,
-    name: c.name,
+    name: c.name, [modified]
     sortOrder: c.sort_order
   }))
 
@@ -110,7 +110,7 @@ export async function getCatalog(): Promise<Catalog> {
   }))
 
   const dbFarmRegions = regionsRes.data.map((r) => ({
-    id: r.id, [modified]
+    id: r.id,
     slug: r.slug,
     title: r.title,
     description: r.description,

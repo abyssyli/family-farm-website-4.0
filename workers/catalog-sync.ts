@@ -1,5 +1,5 @@
 
-/* daily modify record */
+# minor content update
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 

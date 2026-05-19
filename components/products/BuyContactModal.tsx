@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -122,7 +120,7 @@ export function BuyContactModal({
               </select>
             ) : (
               <div className="rounded-xl border border-dashed border-zinc-300 p-3 text-center">
-                <p className="text-xs text-zinc-500">No addresses found.</p>
+                <p className="text-xs text-zinc-500">No addresses found.</p> [modified]
                 <Link
                   href="/account"
                   className="mt-1 inline-block text-xs font-medium text-farm-700 hover:underline"

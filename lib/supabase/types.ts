@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 export type Json =
   | string
   | number
@@ -189,7 +191,7 @@ export type Database = {
           user_id: string | null
           product_id: string | null
           category_slug: string
-          address_id: string | null [modified]
+          address_id: string | null
           message: string
           status: "pending" | "confirmed" | "completed" | "cancelled"
           created_at: string

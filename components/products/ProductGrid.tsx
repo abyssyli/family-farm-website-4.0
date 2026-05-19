@@ -1,5 +1,5 @@
 
-// task project adjust
+/* minor adjust */
 import type { CatalogProduct } from "@/lib/catalog-schema"
 import { ProductCard } from "./ProductCard"
 

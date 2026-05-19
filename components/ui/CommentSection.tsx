@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -18,7 +16,7 @@ export function CommentSection({
   const [comments, setComments] = useState<any[]>([])
   const [newComment, setNewComment] = useState("")
   const [isSubmitting, setIsSubmitting] = useState(false)
-
+ [modified]
   useEffect(() => {
     if (supabase) {
       fetchComments()

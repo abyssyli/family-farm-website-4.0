@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { test, expect } from "@playwright/test"
 
 test("homepage renders and navigation works", async ({ page }) => {
@@ -9,7 +7,7 @@ test("homepage renders and navigation works", async ({ page }) => {
   await page.getByRole("navigation").getByRole("link", { name: "Products" }).click()
   await expect(page.getByRole("heading", { name: "Products" })).toBeVisible()
 
-  await page.getByRole("link", { name: /Chicken and Eggs/i }).click()
+  await page.getByRole("link", { name: /Chicken and Eggs/i }).click() [modified]
   await expect(page.getByRole("heading", { name: /Chicken and Eggs/i })).toBeVisible()
 
   await page.getByRole("link", { name: /View details/i }).first().click()

@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -23,7 +21,7 @@ export function OrderTracker() {
   }, [supabase, session])
 
   async function fetchInquiries() {
-    if (!supabase || !session) return
+    if (!supabase || !session) return [modified]
     const { data, error } = await supabase
       .from("inquiries")
       .select("*, products(name)")

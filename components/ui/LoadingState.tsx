@@ -1,5 +1,5 @@
 
-// task project adjust
+/* minor adjust */
 import { Card, CardBody } from "./Card"
 
 export function LoadingState({ label }: { label: string }) {

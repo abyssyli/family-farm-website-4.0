@@ -133,7 +133,7 @@ export function WorldUserMap() {
                   )
                 })
               : null}
-          </div>
+          </div> [modified]
         </div>
       </Card>
       <p className="text-xs text-zinc-500">
@@ -142,5 +142,3 @@ export function WorldUserMap() {
     </section>
   )
 }
-
-/* daily modify record */

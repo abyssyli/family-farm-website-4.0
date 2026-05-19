@@ -10,7 +10,4 @@ export function sortCategorySlugsByPreference(
     if (ra !== rb) return ra - rb
     return a.localeCompare(b)
   })
-}
-
-
-// optimize code detail
+} [modified]

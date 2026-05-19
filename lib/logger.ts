@@ -4,7 +4,7 @@ type LogLevel = "info" | "warn" | "error"
 
 export function logEvent(level: LogLevel, message: string, data?: any) {
   const timestamp = new Date().toISOString()
-  const logEntry = { [modified]
+  const logEntry = {
     timestamp,
     level,
     message,
@@ -29,7 +29,7 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
   }
 }
 
-export function logError(message: string, error: any) {
+export function logError(message: string, error: any) { [modified]
   logEvent("error", message, {
     error: error instanceof Error ? error.message : String(error),
     stack: error instanceof Error ? error.stack : undefined,

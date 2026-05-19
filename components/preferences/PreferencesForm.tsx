@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -5,7 +7,7 @@ import { Button } from "@/components/ui/Button"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { createBrowserSupabaseClient } from "@/lib/supabase/client"
 
-export function PreferencesForm({ [modified]
+export function PreferencesForm({
   categories
 }: {
   categories: Array<{ slug: string; name: string }>
@@ -108,3 +110,4 @@ export function PreferencesForm({ [modified]
     </Card>
   )
 }
+

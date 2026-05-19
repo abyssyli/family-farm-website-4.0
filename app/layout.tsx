@@ -23,13 +23,13 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen">
         <div className="mx-auto flex min-h-screen max-w-6xl flex-col px-4">
-          <header className="flex items-center justify-between py-6"> [modified]
+          <header className="flex items-center justify-between py-6">
             <Link href="/" className="group inline-flex items-center gap-2">
               <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-farm-700 text-white">
                 PF
               </span>
               <span className="font-semibold tracking-tight">
-                Paula’s Farm Family Marketplace
+                Paula’s Farm Family Marketplace [modified]
               </span>
             </Link>
             <nav className="flex items-center gap-6 text-sm">

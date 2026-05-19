@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { readFile } from "node:fs/promises"
 import { CatalogSchema, type Catalog } from "@/lib/catalog-schema"
 
@@ -23,5 +25,3 @@ export async function loadCatalogFromSource(): Promise<{
   return { catalog, sourceLabel: localPath }
 }
 
-
-// optimize code detail

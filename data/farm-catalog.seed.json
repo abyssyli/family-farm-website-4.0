@@ -81,7 +81,7 @@
       "isActive": true
     },
     {
-      "id": "food-curry-rice-combo",
+      "id": "food-curry-rice-combo", [modified]
       "categorySlug": "food",
       "slug": "curry-rice-combo",
       "name": "Japanese curry rice and fried chicken tenders combo",
@@ -252,7 +252,7 @@
       "name": "Wall Shelf",
       "description": "A simple handmade shelf for entryways, kitchens, or anywhere you want a little extra charm.",
       "imagePath": "/photos/Wooden3.jpg",
-      "priceHint": "Made to order · Local pickup", [modified]
+      "priceHint": "Made to order · Local pickup",
       "externalUrl": null,
       "isActive": true
     },

@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import Image from "next/image"
@@ -161,3 +159,5 @@ export function ProductDetail({
 }
 
 
+
+// update log: auto edit 01

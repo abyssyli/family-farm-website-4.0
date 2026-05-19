@@ -1,5 +1,5 @@
 
-// optimize code detail
+// update log: auto edit 01
 "use client"
 
 import Link from "next/link"

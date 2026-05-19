@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { z } from "zod"
 
 const envSchema = z.object({
@@ -44,7 +46,7 @@ export function getEnv(): Env {
     cachedEnv = result.data
   }
   return result.data
-} [modified]
+}
 
 export function getPublicEnv() {
   const env = getEnv()

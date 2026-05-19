@@ -37,8 +37,6 @@ export default async function ProductCategoryPage({
       </div>
 
       <ProductGrid products={products} categorySlug={category.slug} />
-    </div>
+    </div> [modified]
   )
 }
-
-/* daily modify record */

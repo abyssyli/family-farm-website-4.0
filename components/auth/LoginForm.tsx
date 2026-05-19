@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -16,7 +18,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       if (parsed.hostname.includes("_")) {
         return "Your Supabase URL looks invalid (it contains an underscore). Use the Project URL from Supabase → Project Settings → API."
       }
-      return null [modified]
+      return null
     } catch {
       return "Your Supabase URL is not a valid URL. Use the Project URL from Supabase → Project Settings → API."
     }

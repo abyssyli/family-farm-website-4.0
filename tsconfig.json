@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2022",
     "lib": [
-      "DOM", [modified]
+      "DOM",
       "DOM.Iterable",
       "ES2022"
     ],
@@ -39,3 +39,5 @@
     "node_modules"
   ]
 }
+
+// task project adjust

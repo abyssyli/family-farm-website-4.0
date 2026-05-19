@@ -20,4 +20,7 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
       ) : null}
     </Card>
   )
-} [modified]
+}
+
+
+/* minor adjust */

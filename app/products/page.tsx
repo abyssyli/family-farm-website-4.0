@@ -1,5 +1,5 @@
 
-// task project adjust
+/* daily modify record */
 import { getCatalog } from "@/lib/catalog"
 import { ProductsIndexClient } from "@/components/products/ProductsIndexClient"
 

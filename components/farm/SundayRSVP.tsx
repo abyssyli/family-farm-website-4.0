@@ -33,7 +33,7 @@ export function SundayRSVP() {
       .eq("event_date", dateStr)
       .single()
     
-    if (!error && data) { [modified]
+    if (!error && data) {
       setRsvp(data)
       setAdultCount(data.adult_count)
       setChildCount(data.child_count)
@@ -103,7 +103,7 @@ export function SundayRSVP() {
                 />
               </label>
             </div>
-            <label className="flex flex-col gap-1 text-sm font-medium">
+            <label className="flex flex-col gap-1 text-sm font-medium"> [modified]
               Special Notes (Dietary needs, etc.)
               <textarea
                 value={notes}

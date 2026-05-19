@@ -1,8 +1,6 @@
-
-/* daily modify record */
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; [modified]
 
 html,
 body {
@@ -12,4 +10,3 @@ body {
 body {
   @apply bg-farm-50 text-zinc-900;
 }
-
