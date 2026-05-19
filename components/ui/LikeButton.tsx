@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useEffect, useState } from "react"
@@ -55,7 +53,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
         journal_post_id: journalPostId,
         user_id: session.user.id
       })
-    }
+    } [modified]
 
     await fetchLikes()
     setIsUpdating(false)

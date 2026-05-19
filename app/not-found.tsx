@@ -9,7 +9,4 @@ export default function NotFound() {
       action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
     />
   )
-}
-
-
-/* daily modify record */
+} [modified]

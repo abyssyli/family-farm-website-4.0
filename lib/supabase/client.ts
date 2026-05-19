@@ -1,5 +1,5 @@
 
-/* daily modify record */
+/* minor adjust */
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig } from "./shared"
 import type { Database } from "./types"

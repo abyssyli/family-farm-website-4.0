@@ -7,4 +7,4 @@ export default async function ProductsPage() {
 }
 
 
-# minor content update
+/* minor adjust */

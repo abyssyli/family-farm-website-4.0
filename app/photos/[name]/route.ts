@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* daily modify record */
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"

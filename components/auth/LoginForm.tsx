@@ -35,7 +35,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   }, [cooldownSeconds])
 
   async function onSubmit(e: React.FormEvent) {
-    e.preventDefault()
+    e.preventDefault() [modified]
     setError(null)
     if (!supabase || cooldownSeconds > 0) return
     setStatus("sending")
@@ -130,5 +130,3 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
-
-// optimize code detail

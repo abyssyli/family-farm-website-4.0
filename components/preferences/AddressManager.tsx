@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -58,7 +56,7 @@ export function AddressManager() {
 
     setEditingId(null)
     setIsAdding(false)
-    setFormData({
+    setFormData({ [modified]
       name: "",
       phone: "",
       address_line1: "",

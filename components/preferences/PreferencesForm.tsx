@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -41,7 +43,7 @@ export function PreferencesForm({
     window.setTimeout(() => setStatus("idle"), 1200)
   }
 
-  return ( [modified]
+  return (
     <Card>
       <CardHeader
         title="Preferences"
@@ -108,3 +110,4 @@ export function PreferencesForm({
     </Card>
   )
 }
+

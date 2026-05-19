@@ -1,3 +1,5 @@
+
+# minor content update
 export type Json =
   | string
   | number
@@ -31,7 +33,7 @@ export type Database = {
           updated_at: string
         }
         Insert: {
-          id: string [modified]
+          id: string
           category_slug: string
           slug: string
           name: string

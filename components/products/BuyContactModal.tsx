@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -68,7 +70,7 @@ export function BuyContactModal({
       address_id: selectedAddressId,
       message
     })
-    setStatus("saved") [modified]
+    setStatus("saved")
   }
 
   return (

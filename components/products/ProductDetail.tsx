@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import Image from "next/image"
@@ -113,7 +115,7 @@ export function ProductDetail({
               className="hover:underline"
             >
               {categoryName}
-            </Link> [modified]
+            </Link>
           </p>
           <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
             {product.name}
@@ -157,4 +159,5 @@ export function ProductDetail({
     </div>
   )
 }
+
 
