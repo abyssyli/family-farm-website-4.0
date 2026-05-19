@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -77,7 +75,7 @@ export function UserMenu() {
       </div>
       <span className="hidden max-w-[180px] truncate text-sm text-zinc-600 sm:inline">
         {email}
-      </span>
+      </span> [modified]
       <Button
         variant="ghost"
         onClick={() => {

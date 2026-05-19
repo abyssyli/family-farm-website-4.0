@@ -1,5 +1,5 @@
 
-// optimize code detail
+// task project adjust
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"

@@ -8,7 +8,7 @@
   "products": [
     {
       "id": "food-zucchini-pancakes",
-      "categorySlug": "food", [modified]
+      "categorySlug": "food",
       "slug": "zucchini-pancakes",
       "name": "Zucchini pancakes",
       "description": "Every Sunday, Paula's farm holds a grand family gathering with various types of delicious food. These are also available for pre-order and sale here when needed. Savory zucchini pancakes, a family gathering favorite.",
@@ -306,7 +306,7 @@
       "slug": "chicken-coop",
       "title": "Chicken Coop",
       "description": "Where the day starts: fresh eggs, feed time, and a lot of personality.",
-      "imagePath": "/photos/chicken.jpg",
+      "imagePath": "/photos/chicken.jpg", [modified]
       "ctaLabel": "Explore Chicken and Eggs",
       "ctaHref": "/products/eggs",
       "x": 35,

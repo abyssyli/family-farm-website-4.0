@@ -45,7 +45,7 @@ export function CommentSection({
 
     setIsSubmitting(true)
     const { error } = await supabase.from("comments").insert({
-      user_id: session.user.id,
+      user_id: session.user.id, [modified]
       content: newComment.trim(),
       product_id: productId || null,
       journal_post_id: journalPostId || null
@@ -110,5 +110,3 @@ export function CommentSection({
     </div>
   )
 }
-
-// optimize code detail

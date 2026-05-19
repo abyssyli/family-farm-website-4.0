@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { NextResponse } from "next/server"
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 
@@ -91,3 +89,5 @@ export async function GET() {
 
   return NextResponse.json({ points, status: "ok" }, { status: 200 })
 }
+
+// optimize code detail

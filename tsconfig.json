@@ -1,9 +1,7 @@
-
-/* daily modify record */
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": [
+    "lib": [ [modified]
       "DOM",
       "DOM.Iterable",
       "ES2022"

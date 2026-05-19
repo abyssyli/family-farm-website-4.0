@@ -44,7 +44,7 @@ export default async function RecipesPage() {
                     View Recipe →
                   </p>
                 </CardBody>
-              </Card>
+              </Card> [modified]
             </Link>
           ))}
         </div>
@@ -52,5 +52,3 @@ export default async function RecipesPage() {
     </div>
   )
 }
-
-/* daily modify record */

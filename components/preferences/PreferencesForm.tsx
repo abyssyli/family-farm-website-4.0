@@ -29,7 +29,7 @@ export function PreferencesForm({
       setSelected(pref?.preferred_categories ?? [])
     })
   }, [supabase])
- [modified]
+
   async function save() {
     if (!supabase || !userId) return
     setStatus("saving")
@@ -108,3 +108,6 @@ export function PreferencesForm({
     </Card>
   )
 }
+
+
+// optimize code detail

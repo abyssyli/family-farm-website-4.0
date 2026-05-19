@@ -130,7 +130,7 @@ export function ProductDetail({
           ) : null}
           {product.stockQuantity !== null && product.stockQuantity !== undefined && (
             <p
-              className={`mt-2 text-xs font-bold uppercase tracking-wider ${ [modified]
+              className={`mt-2 text-xs font-bold uppercase tracking-wider ${
                 product.stockQuantity > 0 ? "text-farm-700" : "text-red-600"
               }`}
             >
@@ -158,3 +158,6 @@ export function ProductDetail({
   )
 }
 
+
+
+// update log: auto edit 01

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({
-  children [modified]
+  children
 }: Readonly<{
   children: React.ReactNode
 }>) {
@@ -67,3 +67,5 @@ export default function RootLayout({
     </html>
   )
 }
+
+// update log: auto edit 01

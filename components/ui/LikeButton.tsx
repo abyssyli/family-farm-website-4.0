@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -24,7 +22,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     const { count, error } = await supabase
       .from("likes")
       .select("*", { count: "exact", head: true })
-      .eq("journal_post_id", journalPostId)
+      .eq("journal_post_id", journalPostId) [modified]
     
     if (!error) setLikes(count || 0)
 

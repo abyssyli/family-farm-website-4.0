@@ -27,9 +27,9 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
             <ButtonLink href={region.ctaHref} variant="secondary">
               {region.ctaLabel || "Explore"}
             </ButtonLink>
-          </div> [modified]
+          </div>
         ) : null}
       </div>
     </Card>
-  )
+  ) [modified]
 }

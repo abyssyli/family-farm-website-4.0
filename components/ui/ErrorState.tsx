@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* minor adjust */
 import { Card, CardBody } from "./Card"
 
 export function ErrorState({

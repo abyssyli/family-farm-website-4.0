@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
 import type { Database } from "./types"
@@ -43,7 +41,7 @@ export function createServiceRoleSupabaseClient() {
     parsed.hostname.includes("_") ||
     url.includes("placeholder.supabase.co") ||
     url === "your_supabase_url" ||
-    serviceRoleKey === "your_supabase_service_role_key"
+    serviceRoleKey === "your_supabase_service_role_key" [modified]
   ) {
     return null
   }

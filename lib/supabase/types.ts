@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 export type Json =
   | string
   | number
@@ -362,5 +364,3 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
-
-/* daily modify record */

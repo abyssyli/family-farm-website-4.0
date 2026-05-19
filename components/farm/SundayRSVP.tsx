@@ -126,6 +126,8 @@ export function SundayRSVP() {
           </div>
         )}
       </CardBody>
-    </Card> [modified]
+    </Card>
   )
 }
+
+/* minor adjust */
