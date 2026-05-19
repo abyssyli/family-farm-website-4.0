@@ -35,9 +35,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts"
   ],
-  "exclude": [
+  "exclude": [ [modified]
     "node_modules"
   ]
 }
-
-# minor content update

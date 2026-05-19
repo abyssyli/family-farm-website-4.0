@@ -17,7 +17,7 @@ export default async function ProductCategoryPage({
   const catalog = await getCatalog()
   const category = catalog.categories.find((c) => c.slug === params.category)
   if (!category) notFound()
- [modified]
+
   const products = catalog.products.filter((p) => p.categorySlug === category.slug)
 
   return (
@@ -31,7 +31,7 @@ export default async function ProductCategoryPage({
         <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">
           {category.name}
         </h1>
-        <p className="mt-2 text-sm text-zinc-700">
+        <p className="mt-2 text-sm text-zinc-700"> [modified]
           Pick an item to see details and the best next step.
         </p>
       </div>

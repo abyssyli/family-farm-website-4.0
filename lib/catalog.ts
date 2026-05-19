@@ -1,5 +1,3 @@
-
-// task project adjust
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -38,7 +36,7 @@ export async function getCatalog(): Promise<Catalog> {
       "farmhouse-sign": "/photos/Wooden2.jpg",
       "wall-shelf": "/photos/Wooden3.jpg",
       "handmade-stool": "/photos/Wooden.jpg"
-    }
+    } [modified]
 
     return imagePath && imagePath.includes("/photos/Wooden")
       ? imagePath

@@ -20,7 +20,7 @@ export default async function ProductDetailPage({
 
   const product = catalog.products.find(
     (p) => p.categorySlug === category.slug && p.slug === params.slug
-  )
+  ) [modified]
   if (!product) notFound()
 
   return (
@@ -31,5 +31,3 @@ export default async function ProductDetailPage({
     />
   )
 }
-
-// task project adjust

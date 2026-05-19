@@ -10,7 +10,7 @@ export default async function RecipesPage() {
   return (
     <div className="flex flex-col gap-10 pb-12">
       <div className="flex flex-col gap-4">
-        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl"> [modified]
+        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
           Farm Recipes
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
@@ -30,7 +30,7 @@ export default async function RecipesPage() {
                     src={recipe.imagePath || "/photos/background.jpg"}
                     alt={recipe.title}
                     fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105" [modified]
                   />
                 </div>
                 <CardBody>

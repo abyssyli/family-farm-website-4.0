@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -60,7 +62,7 @@ async function runOnce() {
   const startedAt = Date.now()
   try {
     const upserts = await Promise.all([
-      supabase.from("categories").upsert(categories, { onConflict: "slug" }), [modified]
+      supabase.from("categories").upsert(categories, { onConflict: "slug" }),
       supabase.from("products").upsert(products, { onConflict: "id" }),
       supabase.from("journal_posts").upsert(journalPosts, { onConflict: "id" }),
       supabase.from("farm_regions").upsert(farmRegions, { onConflict: "id" })
@@ -115,3 +117,4 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+

@@ -1,9 +1,11 @@
+
+/* daily modify record */
 import { Card, CardBody } from "./Card"
 
 export function ErrorState({
   title,
   message,
-  action [modified]
+  action
 }: {
   title: string
   message: string
@@ -23,3 +25,4 @@ export function ErrorState({
     </Card>
   )
 }
+

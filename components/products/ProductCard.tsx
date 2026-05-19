@@ -50,7 +50,7 @@ export function ProductCard({
         </div>
         <div className="mt-5">
           <Link
-            href={href}
+            href={href} [modified]
             className="text-sm font-medium text-farm-800 hover:text-farm-900"
           >
             View details →
@@ -60,6 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-
-
-// task project adjust

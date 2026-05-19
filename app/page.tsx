@@ -78,7 +78,7 @@ export default async function HomePage() {
                 src="/photos/background1.jpg"
                 alt="What's new in Hands’s Planet"
                 fill
-                className="object-cover"
+                className="object-cover" [modified]
               />
             </div>
             <div className="p-6">
@@ -268,7 +268,7 @@ export default async function HomePage() {
                   <div className="relative h-40 w-full">
                     <Image
                       src={recipe.imagePath || "/photos/background.jpg"}
-                      alt={recipe.title} [modified]
+                      alt={recipe.title}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />

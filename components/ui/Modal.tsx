@@ -12,7 +12,7 @@ export function Modal({
   children,
   onClose,
   className
-}: { [modified]
+}: {
   open: boolean
   title: string
   children: React.ReactNode
@@ -52,7 +52,7 @@ export function Modal({
             type="button"
             onClick={onClose}
             className="rounded-lg px-2 py-1 text-sm text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900"
-          >
+          > [modified]
             Close
           </button>
         </div>

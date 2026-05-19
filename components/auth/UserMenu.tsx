@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -37,7 +35,7 @@ export function UserMenu() {
 
         await supabase.auth.updateUser({
           data: {
-            location: {
+            location: { [modified]
               lat,
               lng,
               updatedAt: new Date().toISOString()

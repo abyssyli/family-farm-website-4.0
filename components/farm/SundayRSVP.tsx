@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useEffect, useState } from "react"
@@ -80,7 +82,7 @@ export function SundayRSVP() {
         ) : (
           <div className="flex flex-col gap-4">
             <div className="grid gap-4 sm:grid-cols-2">
-              <label className="flex flex-col gap-1 text-sm font-medium"> [modified]
+              <label className="flex flex-col gap-1 text-sm font-medium">
                 Adults
                 <input
                   type="number"

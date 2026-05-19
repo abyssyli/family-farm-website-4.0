@@ -6,4 +6,4 @@ module.exports = {
 }
 
 
-// optimize code detail
+/* daily modify record */

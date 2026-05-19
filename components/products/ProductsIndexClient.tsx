@@ -87,7 +87,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
             Products
           </h1>
-          <p className="mt-2 text-sm text-zinc-700">
+          <p className="mt-2 text-sm text-zinc-700"> [modified]
             Browse what we’re making. Chicken, eggs and woodcraft are local
             pickup. Skincare ships via Lisa’s shop.
           </p>
@@ -140,5 +140,3 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
-
-// update log: auto edit 01

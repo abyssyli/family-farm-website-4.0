@@ -56,4 +56,4 @@ export default async function JournalPostPage({
 }
 
 
-// optimize code detail
+/* daily modify record */

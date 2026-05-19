@@ -81,7 +81,7 @@ export function BuyContactModal({
 
         <div className="grid gap-3 sm:grid-cols-2">
           <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
-            <p className="text-sm font-medium">Phone</p> [modified]
+            <p className="text-sm font-medium">Phone</p>
             <p className="mt-1 font-mono text-sm">{contactPhone}</p>
           </div>
           <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
@@ -176,3 +176,5 @@ export function BuyContactModal({
     </Modal>
   )
 }
+
+// task project adjust

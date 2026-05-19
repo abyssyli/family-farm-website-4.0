@@ -11,7 +11,4 @@ export function LoadingState({ label }: { label: string }) {
       </CardBody>
     </Card>
   )
-}
-
-
-// optimize code detail
+} [modified]

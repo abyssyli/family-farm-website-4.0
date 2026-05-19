@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* minor adjust */
 import type { Config } from "tailwindcss"
 
 const config: Config = {
