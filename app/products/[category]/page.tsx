@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"
-import { getCatalog } from "@/lib/catalog"
+import { getCatalog } from "@/lib/catalog" [modified]
 import { getPublicEnv } from "@/lib/env"
 
 export default async function ProductCategoryPage({
@@ -40,5 +40,3 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
-
-// optimize code detail

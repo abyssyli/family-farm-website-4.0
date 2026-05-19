@@ -38,7 +38,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     e.preventDefault()
     setError(null)
     if (!supabase || cooldownSeconds > 0) return
-    setStatus("sending")
+    setStatus("sending") [modified]
     const { error } = await supabase.auth.signInWithOtp({
       email,
       options: { emailRedirectTo: window.location.origin }
@@ -66,7 +66,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
           <div className="flex flex-wrap gap-3">
             <Button
               variant="secondary"
-              disabled={cooldownSeconds > 0} [modified]
+              disabled={cooldownSeconds > 0}
               onClick={() => {
                 if (cooldownSeconds > 0) return
                 setError(null)

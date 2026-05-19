@@ -6,7 +6,7 @@ import { getCatalog } from "@/lib/catalog"
 export default async function RecipesPage() {
   const catalog = await getCatalog()
   const recipes = catalog.recipes
-
+ [modified]
   return (
     <div className="flex flex-col gap-10 pb-12">
       <div className="flex flex-col gap-4">
@@ -33,7 +33,7 @@ export default async function RecipesPage() {
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
-                <CardBody> [modified]
+                <CardBody>
                   <h3 className="text-lg font-semibold group-hover:text-farm-700">
                     {recipe.title}
                   </h3>

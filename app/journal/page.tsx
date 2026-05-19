@@ -17,7 +17,7 @@ export default async function JournalIndexPage() {
         title="No journal posts yet"
         message="When we share farm updates, they’ll show up here."
         action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
-      /> [modified]
+      />
     )
   }
 
@@ -39,3 +39,6 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
+
+
+// optimize code detail

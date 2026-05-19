@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"
@@ -129,5 +131,3 @@ export function SundayRSVP() {
     </Card>
   )
 }
-
-// update log: auto edit 01

@@ -1,5 +1,3 @@
-
-// task project adjust
 import { z } from "zod"
 
 const envSchema = z.object({
@@ -27,7 +25,7 @@ export function getEnv(): Env {
     NEXT_PUBLIC_SENTRY_DSN: process.env.NEXT_PUBLIC_SENTRY_DSN,
   })
 
-  if (!result.success) {
+  if (!result.success) { [modified]
     const message = ["❌ Invalid environment variables:", result.error.format()]
     if (process.env.NODE_ENV === "production") {
       console.error(...message)

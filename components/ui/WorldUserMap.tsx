@@ -134,7 +134,7 @@ export function WorldUserMap() {
                 })
               : null}
           </div>
-        </div>
+        </div> [modified]
       </Card>
       <p className="text-xs text-zinc-500">
         Pins are based on the user’s saved location (lat/lng) captured via browser permission.
@@ -142,5 +142,3 @@ export function WorldUserMap() {
     </section>
   )
 }
-
-# minor content update

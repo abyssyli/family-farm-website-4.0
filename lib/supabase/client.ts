@@ -2,7 +2,7 @@ import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig } from "./shared"
 import type { Database } from "./types"
 
-export function createBrowserSupabaseClient() {
+export function createBrowserSupabaseClient() { [modified]
   const { url, anonKey } = getSupabasePublicConfig()
   let parsed: URL | null = null
   try {
@@ -13,7 +13,7 @@ export function createBrowserSupabaseClient() {
   if (
     !url ||
     !anonKey ||
-    !parsed || [modified]
+    !parsed ||
     parsed.hostname.includes("_") ||
     url.includes("placeholder.supabase.co") ||
     url === "your_supabase_url" ||

@@ -1,3 +1,5 @@
+
+/* minor adjust */
 export function sortCategorySlugsByPreference(
   categorySlugs: string[],
   preferred: string[] | null | undefined
@@ -12,5 +14,3 @@ export function sortCategorySlugsByPreference(
   })
 }
 
-
-/* minor adjust */

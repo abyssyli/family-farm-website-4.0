@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useRef } from "react"
@@ -30,7 +32,7 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
     return () => {
       audio.pause()
       audioRef.current = null
-    } [modified]
+    }
   }, [src])
 
   return null

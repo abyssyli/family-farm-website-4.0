@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -32,7 +34,7 @@ export function UserMenu() {
         const lat = pos.coords.latitude
         const lng = pos.coords.longitude
         if (!Number.isFinite(lat) || !Number.isFinite(lng)) return
- [modified]
+
         await supabase.auth.updateUser({
           data: {
             location: {

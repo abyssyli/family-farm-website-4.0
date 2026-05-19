@@ -13,7 +13,7 @@ export function StoryHero() {
   const stopAuto = useCallback(() => {
     if (timerRef.current === null) return
     window.clearInterval(timerRef.current)
-    timerRef.current = null
+    timerRef.current = null [modified]
   }, [])
 
   const startAuto = useCallback(() => {
@@ -138,5 +138,3 @@ export function StoryHero() {
     </section>
   )
 }
-
-/* minor adjust */
