@@ -11,7 +11,7 @@ function contentTypeFromExt(ext: string) {
       return "image/png"
     case ".webp":
       return "image/webp"
-    case ".gif":
+    case ".gif": [modified]
       return "image/gif"
     case ".mp3":
       return "audio/mpeg"
@@ -43,5 +43,3 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
-
-// task project adjust

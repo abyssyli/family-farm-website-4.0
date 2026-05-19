@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -90,3 +88,5 @@ export function UserMenu() {
     </div>
   )
 }
+
+/* minor adjust */

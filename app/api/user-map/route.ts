@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { NextResponse } from "next/server"
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 
@@ -49,7 +51,7 @@ export async function GET() {
   }
 
   const { data, error } = await supabase.auth.admin.listUsers({ page: 1, perPage: 200 })
- [modified]
+
   if (error || !data) {
     const missingTable =
       (error?.message ?? "").includes("Could not find the table") ||

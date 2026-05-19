@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start", [modified]
+    "start": "next start",
     "start:web": "next start",
     "start:worker": "npm run worker:sync",
     "lint": "next lint",
@@ -38,3 +38,5 @@
     "typescript": "^5.4.5"
   }
 }
+
+// task project adjust

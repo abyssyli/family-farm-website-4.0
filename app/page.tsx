@@ -234,7 +234,7 @@ export default async function HomePage() {
                   </a>
                 ) : (
                   <Link
-                    href={`/products/${c.slug}`} [modified]
+                    href={`/products/${c.slug}`}
                     className="text-sm font-medium text-farm-800 hover:text-farm-900"
                   >
                     Browse {c.name} →
@@ -290,3 +290,5 @@ export default async function HomePage() {
     </div>
   )
 }
+
+# minor content update

@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({
@@ -26,3 +24,5 @@ export function EmptyState({
   )
 }
 
+
+// task project adjust

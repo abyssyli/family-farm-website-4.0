@@ -35,7 +35,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
           Explore the farm
         </h2>
         <p className="mt-2 text-sm text-zinc-700">
-          Tap a region to learn what we’re making this season.
+          Tap a region to learn what we’re making this season. [modified]
         </p>
 
         <div className="mt-6 overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
@@ -92,5 +92,3 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
-
-// update log: auto edit 01

@@ -52,7 +52,7 @@ async function runOnce() {
     description: r.description,
     image_path: r.imagePath,
     cta_label: r.ctaLabel,
-    cta_href: r.ctaHref, [modified]
+    cta_href: r.ctaHref,
     x: r.x,
     y: r.y
   }))
@@ -103,7 +103,7 @@ async function main() {
     try {
       await runOnce()
     } catch (e) {
-      const message = e instanceof Error ? e.message : String(e)
+      const message = e instanceof Error ? e.message : String(e) [modified]
       console.error(message)
     }
     await sleep(intervalMs)

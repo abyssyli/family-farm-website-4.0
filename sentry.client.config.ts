@@ -6,4 +6,4 @@ Sentry.init({
   debug: false,
 });
 
-/* minor adjust */
+// optimize code detail

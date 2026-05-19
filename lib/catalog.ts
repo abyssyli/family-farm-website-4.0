@@ -92,7 +92,7 @@ export async function getCatalog(): Promise<Catalog> {
         ? normalizeWoodcraftImagePath(p.slug, p.image_path)
         : p.category_slug === "eggs"
           ? normalizeEggsImagePath(p.slug, p.image_path)
-        : p.image_path,
+        : p.image_path, [modified]
     imagePaths: p.image_paths && p.image_paths.length > 0 ? p.image_paths : null,
     priceHint: p.price_hint,
     externalUrl: p.external_url,
@@ -184,5 +184,3 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
-
-/* daily modify record */

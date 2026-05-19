@@ -10,7 +10,7 @@ type Address = Database["public"]["Tables"]["user_addresses"]["Row"]
 
 export function AddressManager() {
   const { supabase, session } = useSupabaseAuth()
-  const [addresses, setAddresses] = useState<Address[]>([])
+  const [addresses, setAddresses] = useState<Address[]>([]) [modified]
   const [editingId, setEditingId] = useState<string | null>(null)
   const [isAdding, setIsAdding] = useState(false)
   const [formData, setFormData] = useState({
@@ -237,5 +237,3 @@ export function AddressManager() {
     </Card>
   )
 }
-
-// optimize code detail

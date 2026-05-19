@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import { withSentryConfig } from "@sentry/nextjs";
 
 /** @type {import('next').NextConfig} */
@@ -42,3 +40,5 @@ export default withSentryConfig(nextConfig, {
   // https://vercel.com/docs/cron-jobs
   automaticVercelMonitors: true,
 });
+
+/* minor adjust */

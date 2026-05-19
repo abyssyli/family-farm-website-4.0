@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import { notFound, redirect } from "next/navigation"
 import { ProductDetail } from "@/components/products/ProductDetail"
 import { ProductActions } from "@/components/products/ProductActions"
@@ -22,7 +20,7 @@ export default async function ProductDetailPage({
 
   const product = catalog.products.find(
     (p) => p.categorySlug === category.slug && p.slug === params.slug
-  )
+  ) [modified]
   if (!product) notFound()
 
   return (

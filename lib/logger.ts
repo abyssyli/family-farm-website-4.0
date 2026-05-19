@@ -1,7 +1,9 @@
+
+// optimize code detail
 import * as Sentry from "@sentry/nextjs";
 
 type LogLevel = "info" | "warn" | "error"
- [modified]
+
 export function logEvent(level: LogLevel, message: string, data?: any) {
   const timestamp = new Date().toISOString()
   const logEntry = {

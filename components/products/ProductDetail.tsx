@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import Image from "next/image"
@@ -146,7 +148,7 @@ export function ProductDetail({
             <Link
               href={`/products/${product.categorySlug}`}
               className="text-sm font-medium text-farm-800 hover:underline"
-            > [modified]
+            >
               ← Back to {categoryName}
             </Link>
           </div>
@@ -157,4 +159,5 @@ export function ProductDetail({
     </div>
   )
 }
+
 

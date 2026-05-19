@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react"
 
-export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) { [modified]
+export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
   const audioRef = useRef<HTMLAudioElement | null>(null)
 
   useEffect(() => {
@@ -29,7 +29,7 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
 
     return () => {
       audio.pause()
-      audioRef.current = null
+      audioRef.current = null [modified]
     }
   }, [src])
 

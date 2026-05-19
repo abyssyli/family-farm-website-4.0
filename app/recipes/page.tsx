@@ -23,7 +23,7 @@ export default async function RecipesPage() {
       ) : (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {recipes.map((recipe) => (
-            <Link key={recipe.id} href={`/recipes/${recipe.slug}`} className="group"> [modified]
+            <Link key={recipe.id} href={`/recipes/${recipe.slug}`} className="group">
               <Card className="h-full overflow-hidden transition-shadow hover:shadow-md">
                 <div className="relative h-48 w-full">
                   <Image
@@ -37,7 +37,7 @@ export default async function RecipesPage() {
                   <h3 className="text-lg font-semibold group-hover:text-farm-700">
                     {recipe.title}
                   </h3>
-                  <p className="mt-2 line-clamp-2 text-sm text-zinc-600">
+                  <p className="mt-2 line-clamp-2 text-sm text-zinc-600"> [modified]
                     {recipe.description}
                   </p>
                   <p className="mt-4 text-xs font-bold uppercase tracking-wider text-farm-700">

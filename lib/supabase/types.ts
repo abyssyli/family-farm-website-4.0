@@ -200,7 +200,7 @@ export type Database = {
           product_id?: string | null
           category_slug: string
           address_id?: string | null
-          message: string
+          message: string [modified]
           status?: "pending" | "confirmed" | "completed" | "cancelled"
           created_at?: string
         }
@@ -362,5 +362,3 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
-
-# minor content update
