@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import type { Config } from "tailwindcss"
 
 const config: Config = {
@@ -8,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        farm: { [modified]
+        farm: {
           50: "#f7f7f2",
           100: "#eef0e3",
           200: "#d9dfbe",
@@ -27,3 +29,4 @@ const config: Config = {
 }
 
 export default config
+

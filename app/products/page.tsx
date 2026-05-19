@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// optimize code detail
 import { getCatalog } from "@/lib/catalog"
 import { ProductsIndexClient } from "@/components/products/ProductsIndexClient"
 

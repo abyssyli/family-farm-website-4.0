@@ -34,12 +34,12 @@ export default async function JournalPostPage({
             {new Date(post.publishedAt).toLocaleDateString()}
           </p>
         ) : null}
-      </div>
+      </div> [modified]
 
       <Card>
         <CardBody>
           <div className="prose prose-zinc max-w-none">
-            <p className="whitespace-pre-wrap">{post.body}</p> [modified]
+            <p className="whitespace-pre-wrap">{post.body}</p>
           </div>
         </CardBody>
       </Card>

@@ -38,7 +38,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     e.preventDefault()
     setError(null)
     if (!supabase || cooldownSeconds > 0) return
-    setStatus("sending") [modified]
+    setStatus("sending")
     const { error } = await supabase.auth.signInWithOtp({
       email,
       options: { emailRedirectTo: window.location.origin }
@@ -130,3 +130,5 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
+
+// update log: auto edit 01

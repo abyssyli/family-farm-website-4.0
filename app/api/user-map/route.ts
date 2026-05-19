@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { NextResponse } from "next/server"
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 
@@ -43,7 +41,7 @@ export async function GET() {
     return NextResponse.json(
       {
         points: [] as MapPoint[],
-        status: "disabled",
+        status: "disabled", [modified]
         message: "SUPABASE_SERVICE_ROLE_KEY is required to list users."
       },
       { status: 200 }

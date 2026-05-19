@@ -52,7 +52,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
       await supabase.from("likes").insert({
         journal_post_id: journalPostId,
         user_id: session.user.id
-      }) [modified]
+      })
     }
 
     await fetchLikes()
@@ -86,3 +86,5 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     </button>
   )
 }
+
+/* minor adjust */

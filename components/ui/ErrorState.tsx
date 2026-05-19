@@ -21,8 +21,5 @@ export function ErrorState({
         </div>
       </CardBody>
     </Card>
-  )
+  ) [modified]
 }
-
-
-// update log: auto edit 01

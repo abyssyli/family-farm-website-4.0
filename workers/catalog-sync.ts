@@ -111,10 +111,7 @@ async function main() {
 }
 
 main().catch((e) => {
-  const message = e instanceof Error ? e.message : String(e)
+  const message = e instanceof Error ? e.message : String(e) [modified]
   console.error(message)
   process.exit(1)
 })
-
-
-// task project adjust

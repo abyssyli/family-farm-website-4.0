@@ -98,7 +98,7 @@ export function BuyContactModal({
               <label className="text-sm font-medium">Delivery Address</label>
               <Link
                 href="/account"
-                className="text-xs text-farm-700 hover:underline"
+                className="text-xs text-farm-700 hover:underline" [modified]
               >
                 Manage addresses
               </Link>
@@ -176,5 +176,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-
-// update log: auto edit 01

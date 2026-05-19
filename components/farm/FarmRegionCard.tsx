@@ -15,7 +15,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 33vw"
           />
-        </div> [modified]
+        </div>
       ) : null}
       <div className="p-6">
         <h3 className="text-base font-semibold">{region.title}</h3>
@@ -33,3 +33,5 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
     </Card>
   )
 }
+
+# minor content update

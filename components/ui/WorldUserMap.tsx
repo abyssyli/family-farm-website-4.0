@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useMemo, useRef, useState } from "react"
@@ -134,7 +136,7 @@ export function WorldUserMap() {
                 })
               : null}
           </div>
-        </div> [modified]
+        </div>
       </Card>
       <p className="text-xs text-zinc-500">
         Pins are based on the user’s saved location (lat/lng) captured via browser permission.

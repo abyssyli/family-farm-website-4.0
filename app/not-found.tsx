@@ -1,4 +1,4 @@
-import { ButtonLink } from "@/components/ui/Button" [modified]
+import { ButtonLink } from "@/components/ui/Button"
 import { EmptyState } from "@/components/ui/EmptyState"
 
 export default function NotFound() {
@@ -6,7 +6,7 @@ export default function NotFound() {
     <EmptyState
       title="Page not found"
       message="That link doesn’t exist. Try heading back to the homepage."
-      action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
+      action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>} [modified]
     />
   )
 }

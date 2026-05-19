@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import Image from "next/image"
@@ -106,7 +104,7 @@ export function ProductDetail({
               No image
             </div>
           )}
-        </div>
+        </div> [modified]
 
         <div>
           <p className="text-sm font-medium text-farm-800">
@@ -159,5 +157,4 @@ export function ProductDetail({
     </div>
   )
 }
-
 

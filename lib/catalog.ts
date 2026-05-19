@@ -1,5 +1,3 @@
-
-// task project adjust
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -112,7 +110,7 @@ export async function getCatalog(): Promise<Catalog> {
   }))
 
   const dbFarmRegions = regionsRes.data.map((r) => ({
-    id: r.id,
+    id: r.id, [modified]
     slug: r.slug,
     title: r.title,
     description: r.description,

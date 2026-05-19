@@ -22,4 +22,4 @@ export function ProductGrid({
 }
 
 
-/* daily modify record */
+/* minor adjust */

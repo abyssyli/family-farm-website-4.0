@@ -1,3 +1,5 @@
+
+// optimize code detail
 import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -6,7 +8,7 @@ import { getCatalog } from "@/lib/catalog"
 export default async function RecipesPage() {
   const catalog = await getCatalog()
   const recipes = catalog.recipes
- [modified]
+
   return (
     <div className="flex flex-col gap-10 pb-12">
       <div className="flex flex-col gap-4">

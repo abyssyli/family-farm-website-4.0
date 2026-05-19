@@ -1,5 +1,5 @@
 
-/* minor adjust */
+// task project adjust
 import { getEnv } from "../env"
 
 export function getSupabasePublicConfig() {
