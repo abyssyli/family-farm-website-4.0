@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -34,7 +36,7 @@ export default async function JournalPostPage({
             {new Date(post.publishedAt).toLocaleDateString()}
           </p>
         ) : null}
-      </div> [modified]
+      </div>
 
       <Card>
         <CardBody>
@@ -54,3 +56,4 @@ export default async function JournalPostPage({
     </div>
   )
 }
+

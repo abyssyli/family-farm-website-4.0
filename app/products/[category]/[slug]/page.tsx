@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { notFound, redirect } from "next/navigation"
 import { ProductDetail } from "@/components/products/ProductDetail"
 import { ProductActions } from "@/components/products/ProductActions"
@@ -15,7 +17,7 @@ export default async function ProductDetailPage({
   }
 
   const catalog = await getCatalog()
-  const category = catalog.categories.find((c) => c.slug === params.category) [modified]
+  const category = catalog.categories.find((c) => c.slug === params.category)
   if (!category) notFound()
 
   const product = catalog.products.find(

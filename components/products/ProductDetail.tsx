@@ -104,7 +104,7 @@ export function ProductDetail({
               No image
             </div>
           )}
-        </div> [modified]
+        </div>
 
         <div>
           <p className="text-sm font-medium text-farm-800">
@@ -113,7 +113,7 @@ export function ProductDetail({
               className="hover:underline"
             >
               {categoryName}
-            </Link>
+            </Link> [modified]
           </p>
           <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
             {product.name}

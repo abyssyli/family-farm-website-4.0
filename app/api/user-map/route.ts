@@ -41,7 +41,7 @@ export async function GET() {
     return NextResponse.json(
       {
         points: [] as MapPoint[],
-        status: "disabled", [modified]
+        status: "disabled",
         message: "SUPABASE_SERVICE_ROLE_KEY is required to list users."
       },
       { status: 200 }
@@ -89,3 +89,5 @@ export async function GET() {
 
   return NextResponse.json({ points, status: "ok" }, { status: 200 })
 }
+
+// optimize code detail

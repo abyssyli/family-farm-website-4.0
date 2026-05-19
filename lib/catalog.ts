@@ -110,7 +110,7 @@ export async function getCatalog(): Promise<Catalog> {
   }))
 
   const dbFarmRegions = regionsRes.data.map((r) => ({
-    id: r.id, [modified]
+    id: r.id,
     slug: r.slug,
     title: r.title,
     description: r.description,
@@ -184,3 +184,5 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+
+/* minor adjust */

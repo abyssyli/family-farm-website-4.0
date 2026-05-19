@@ -83,7 +83,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   return (
     <div className="flex flex-col gap-8">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-        <div> [modified]
+        <div>
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
             Products
           </h1>
@@ -118,7 +118,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
                 {isSkincare ? (
                   <a
                     href={skincareUrl}
-                    className="text-sm font-medium text-farm-800 hover:text-farm-900"
+                    className="text-sm font-medium text-farm-800 hover:text-farm-900" [modified]
                     rel="noreferrer"
                     target="_blank"
                   >

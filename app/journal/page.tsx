@@ -32,13 +32,10 @@ export default async function JournalIndexPage() {
         </p>
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {posts.map((p) => (
+        {posts.map((p) => ( [modified]
           <JournalCard key={p.id} post={p} />
         ))}
       </div>
     </div>
   )
 }
-
-
-// optimize code detail

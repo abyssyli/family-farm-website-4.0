@@ -28,7 +28,7 @@ export function getEnv(): Env {
   if (!result.success) {
     const message = ["❌ Invalid environment variables:", result.error.format()]
     if (process.env.NODE_ENV === "production") {
-      console.error(...message)
+      console.error(...message) [modified]
     } else {
       console.warn(...message)
     }
@@ -53,5 +53,3 @@ export function getPublicEnv() {
     skincareUrl: env.NEXT_PUBLIC_SKINCARE_URL,
   }
 }
-
-// update log: auto edit 01

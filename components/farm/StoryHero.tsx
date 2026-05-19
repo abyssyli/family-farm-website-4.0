@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import Image from "next/image"
@@ -84,7 +86,7 @@ export function StoryHero() {
               aria-label="Previous slide"
               className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/20 bg-zinc-950/45 text-white backdrop-blur transition hover:bg-zinc-950/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
             >
-              <svg [modified]
+              <svg
                 viewBox="0 0 20 20"
                 fill="currentColor"
                 className="h-5 w-5"

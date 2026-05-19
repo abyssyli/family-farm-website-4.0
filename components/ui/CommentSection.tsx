@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -24,7 +22,7 @@ export function CommentSection({
       fetchComments()
     }
   }, [supabase, productId, journalPostId])
-
+ [modified]
   async function fetchComments() {
     if (!supabase) return
     let query = supabase

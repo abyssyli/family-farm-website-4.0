@@ -68,7 +68,7 @@ export function BuyContactModal({
       address_id: selectedAddressId,
       message
     })
-    setStatus("saved")
+    setStatus("saved") [modified]
   }
 
   return (
@@ -98,7 +98,7 @@ export function BuyContactModal({
               <label className="text-sm font-medium">Delivery Address</label>
               <Link
                 href="/account"
-                className="text-xs text-farm-700 hover:underline" [modified]
+                className="text-xs text-farm-700 hover:underline"
               >
                 Manage addresses
               </Link>

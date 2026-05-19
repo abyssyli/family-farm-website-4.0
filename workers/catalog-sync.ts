@@ -111,7 +111,10 @@ async function main() {
 }
 
 main().catch((e) => {
-  const message = e instanceof Error ? e.message : String(e) [modified]
+  const message = e instanceof Error ? e.message : String(e)
   console.error(message)
   process.exit(1)
 })
+
+
+/* daily modify record */

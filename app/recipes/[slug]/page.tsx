@@ -1,5 +1,3 @@
-
-// optimize code detail
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
@@ -60,7 +58,7 @@ export default async function RecipeDetailPage({
                 ))}
               </ul>
             </CardBody>
-          </Card>
+          </Card> [modified]
 
           <Card>
             <CardHeader title="Instructions" />

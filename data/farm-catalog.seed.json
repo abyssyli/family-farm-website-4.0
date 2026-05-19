@@ -152,7 +152,7 @@
       "description": "Fragrant sticky rice with mushrooms—comfort food from Hands' Village.",
       "imagePath": "/photos/Rice.jpg",
       "imagePaths": ["/photos/Rice.jpg", "/photos/Rice1.jpg"],
-      "priceHint": "Sunday Gathering · Pre-order available",
+      "priceHint": "Sunday Gathering · Pre-order available", [modified]
       "isActive": true
     },
     {
@@ -325,5 +325,3 @@
     }
   ]
 }
-
-# minor content update

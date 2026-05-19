@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import Image from "next/image"
@@ -92,5 +94,3 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
-
-/* daily modify record */

@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { getCatalog } from "@/lib/catalog"
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { AddressManager } from "@/components/preferences/AddressManager"
@@ -32,6 +34,7 @@ export default async function AccountPage() {
       <AddressManager />
 
       <PreferencesForm categories={categories} />
-    </div> [modified]
+    </div>
   )
 }
+

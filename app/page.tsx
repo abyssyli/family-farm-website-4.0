@@ -131,7 +131,7 @@ export default async function HomePage() {
               </ul>
             )}
             <div className="mt-5">
-              <Link
+              <Link [modified]
                 href="/products/eggs"
                 className="text-sm font-medium text-farm-800 hover:text-farm-900"
               >
@@ -290,5 +290,3 @@ export default async function HomePage() {
     </div>
   )
 }
-
-# minor content update
