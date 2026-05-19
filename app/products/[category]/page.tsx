@@ -24,7 +24,7 @@ export default async function ProductCategoryPage({
     <div className="flex flex-col gap-8">
       <div>
         <p className="text-sm font-medium text-farm-800">
-          <Link href="/products" className="hover:underline"> [modified]
+          <Link href="/products" className="hover:underline">
             Products
           </Link>
         </p>
@@ -40,3 +40,5 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
+
+// optimize code detail

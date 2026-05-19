@@ -33,7 +33,7 @@ export function SundayRSVP() {
       .eq("event_date", dateStr)
       .single()
     
-    if (!error && data) { [modified]
+    if (!error && data) {
       setRsvp(data)
       setAdultCount(data.adult_count)
       setChildCount(data.child_count)
@@ -129,3 +129,5 @@ export function SundayRSVP() {
     </Card>
   )
 }
+
+/* daily modify record */

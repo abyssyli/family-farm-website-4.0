@@ -64,7 +64,7 @@ export function AddressManager() {
       city: "",
       state: "",
       postal_code: "",
-      is_default: false
+      is_default: false [modified]
     })
     fetchAddresses()
   }
@@ -237,5 +237,3 @@ export function AddressManager() {
     </Card>
   )
 }
-
-# minor content update

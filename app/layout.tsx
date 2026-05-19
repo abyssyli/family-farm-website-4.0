@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -19,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="format-detection" content="telephone=no" /> [modified]
+        <meta name="format-detection" content="telephone=no" />
       </head>
       <body className="min-h-screen">
         <div className="mx-auto flex min-h-screen max-w-6xl flex-col px-4">

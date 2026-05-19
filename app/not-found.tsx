@@ -12,4 +12,4 @@ export default function NotFound() {
 }
 
 
-// task project adjust
+// optimize code detail

@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import Link from "next/link"
@@ -116,7 +114,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
               <p className="mt-2 text-sm text-zinc-700">
                 {count} item{count === 1 ? "" : "s"}
               </p>
-              <div className="mt-5">
+              <div className="mt-5"> [modified]
                 {isSkincare ? (
                   <a
                     href={skincareUrl}

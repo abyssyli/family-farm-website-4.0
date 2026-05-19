@@ -1,8 +1,8 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities; [modified]
+@tailwind utilities;
 
-html,
+html, [modified]
 body {
   height: 100%;
 }

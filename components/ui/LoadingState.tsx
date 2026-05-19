@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { Card, CardBody } from "./Card"
 
 export function LoadingState({ label }: { label: string }) {
@@ -14,4 +12,4 @@ export function LoadingState({ label }: { label: string }) {
     </Card>
   )
 }
-
+ [modified]

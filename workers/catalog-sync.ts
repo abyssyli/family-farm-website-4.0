@@ -46,7 +46,7 @@ async function runOnce() {
   }))
 
   const farmRegions = catalog.farmRegions.map((r) => ({
-    id: r.id, [modified]
+    id: r.id,
     slug: r.slug,
     title: r.title,
     description: r.description,
@@ -115,3 +115,6 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+
+
+// update log: auto edit 01

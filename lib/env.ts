@@ -54,4 +54,4 @@ export function getPublicEnv() {
   }
 }
 
-/* minor adjust */
+# minor content update

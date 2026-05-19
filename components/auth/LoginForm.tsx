@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -130,5 +132,3 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
-
-// update log: auto edit 01

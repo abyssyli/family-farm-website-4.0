@@ -83,7 +83,7 @@ export function OrderTracker() {
                           {inquiry.status}
                         </span>
                       </td>
-                    </tr>
+                    </tr> [modified]
                   ))}
                 </tbody>
               </table>
@@ -94,5 +94,3 @@ export function OrderTracker() {
     </Card>
   )
 }
-
-// update log: auto edit 01

@@ -21,7 +21,7 @@
       {
         "name": "next"
       }
-    ], [modified]
+    ],
     "baseUrl": ".",
     "paths": {
       "@/*": [
@@ -35,7 +35,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts"
   ],
-  "exclude": [
+  "exclude": [ [modified]
     "node_modules"
   ]
 }

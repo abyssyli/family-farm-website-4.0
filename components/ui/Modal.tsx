@@ -7,7 +7,7 @@ function cn(...parts: Array<string | false | null | undefined>) {
 }
 
 export function Modal({
-  open, [modified]
+  open,
   title,
   children,
   onClose,
@@ -17,7 +17,7 @@ export function Modal({
   title: string
   children: React.ReactNode
   onClose: () => void
-  className?: string
+  className?: string [modified]
 }) {
   useEffect(() => {
     if (!open) return

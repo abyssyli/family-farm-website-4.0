@@ -48,7 +48,7 @@ export function CommentSection({
       user_id: session.user.id,
       content: newComment.trim(),
       product_id: productId || null,
-      journal_post_id: journalPostId || null [modified]
+      journal_post_id: journalPostId || null
     })
 
     if (!error) {
@@ -108,5 +108,5 @@ export function CommentSection({
         )}
       </div>
     </div>
-  )
+  ) [modified]
 }

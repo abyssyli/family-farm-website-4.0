@@ -5,7 +5,7 @@ import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import { getCatalog } from "@/lib/catalog"
 
-export default async function RecipeDetailPage({ [modified]
+export default async function RecipeDetailPage({
   params
 }: {
   params: { slug: string }
@@ -86,3 +86,5 @@ export default async function RecipeDetailPage({ [modified]
     </div>
   )
 }
+
+/* daily modify record */

@@ -5,7 +5,7 @@ import { createServerSupabaseClient } from "./supabase/server"
 export function getSeedCatalog(): Catalog {
   return CatalogSchema.parse(seedJson)
 }
-
+ [modified]
 export async function getCatalog(): Promise<Catalog> {
   const supabase = createServerSupabaseClient()
   if (!supabase) return getSeedCatalog()
@@ -147,7 +147,7 @@ export async function getCatalog(): Promise<Catalog> {
         imagePath: normalizeWoodcraftImagePath(p.slug, p.imagePath ?? null),
         imagePaths: finalImagePaths
       }
-    } [modified]
+    }
     if (p.categorySlug === "eggs") {
       return {
         ...p,

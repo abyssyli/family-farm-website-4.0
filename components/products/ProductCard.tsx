@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
@@ -33,7 +31,7 @@ export function ProductCard({
           {product.description}
         </p>
         <div className="mt-4 flex items-center justify-between">
-          <p className="text-sm font-medium text-zinc-900">
+          <p className="text-sm font-medium text-zinc-900"> [modified]
             {product.priceHint}
           </p>
           {product.stockQuantity !== null && product.stockQuantity !== undefined && (
@@ -62,4 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-
