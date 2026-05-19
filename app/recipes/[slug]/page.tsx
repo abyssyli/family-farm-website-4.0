@@ -83,8 +83,6 @@ export default async function RecipeDetailPage({
           ← Back to recipes
         </ButtonLink>
       </div>
-    </div>
+    </div> [modified]
   )
 }
-
-// optimize code detail

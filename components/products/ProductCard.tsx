@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
@@ -50,7 +48,7 @@ export function ProductCard({
             </span>
           )}
         </div>
-        <div className="mt-5">
+        <div className="mt-5"> [modified]
           <Link
             href={href}
             className="text-sm font-medium text-farm-800 hover:text-farm-900"
@@ -62,4 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-

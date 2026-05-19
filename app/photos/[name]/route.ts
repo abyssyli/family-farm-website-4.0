@@ -11,7 +11,7 @@ function contentTypeFromExt(ext: string) {
       return "image/png"
     case ".webp":
       return "image/webp"
-    case ".gif": [modified]
+    case ".gif":
       return "image/gif"
     case ".mp3":
       return "audio/mpeg"
@@ -20,7 +20,7 @@ function contentTypeFromExt(ext: string) {
   }
 }
 
-export async function GET(
+export async function GET( [modified]
   _request: Request,
   { params }: { params: { name: string } }
 ) {

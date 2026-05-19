@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import Link from "next/link"
 import { forwardRef } from "react"
 
@@ -52,7 +50,7 @@ export function ButtonLink({
         className={cn(base, variants[variant], className)}
       >
         {children}
-      </a>
+      </a> [modified]
     )
   }
   return (

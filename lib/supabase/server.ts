@@ -7,7 +7,7 @@ export function createServerSupabaseClient() {
   let parsed: URL | null = null
   try {
     parsed = new URL(url)
-  } catch {
+  } catch { [modified]
     parsed = null
   }
   if (
@@ -26,7 +26,7 @@ export function createServerSupabaseClient() {
 }
 
 export function createServiceRoleSupabaseClient() {
-  const { url } = getSupabasePublicConfig() [modified]
+  const { url } = getSupabasePublicConfig()
   const serviceRoleKey = getSupabaseServiceRoleKey()
   let parsed: URL | null = null
   try {

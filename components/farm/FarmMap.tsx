@@ -35,7 +35,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
           Explore the farm
         </h2>
         <p className="mt-2 text-sm text-zinc-700">
-          Tap a region to learn what we’re making this season. [modified]
+          Tap a region to learn what we’re making this season.
         </p>
 
         <div className="mt-6 overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
@@ -60,7 +60,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
                       ? "bg-farm-700 text-white ring-farm-800"
                       : "bg-white text-zinc-900 ring-zinc-200 hover:bg-zinc-50"
                   )}
-                  style={{ left: `${r.x}%`, top: `${r.y}%` }}
+                  style={{ left: `${r.x}%`, top: `${r.y}%` }} [modified]
                   onClick={() => setActiveSlug(r.slug)}
                 >
                   {r.title}

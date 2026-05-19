@@ -1,5 +1,5 @@
 
-// optimize code detail
+// update log: auto edit 01
 import { z } from "zod"
 
 const envSchema = z.object({

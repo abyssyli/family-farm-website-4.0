@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises"
 import { CatalogSchema, type Catalog } from "@/lib/catalog-schema"
 
 export async function loadCatalogFromSource(): Promise<{
-  catalog: Catalog [modified]
+  catalog: Catalog
   sourceLabel: string
 }> {
   const sourceUrl = process.env.PRODUCT_SOURCE_URL?.trim()
@@ -22,3 +22,6 @@ export async function loadCatalogFromSource(): Promise<{
   const catalog = CatalogSchema.parse(json)
   return { catalog, sourceLabel: localPath }
 }
+
+
+// optimize code detail

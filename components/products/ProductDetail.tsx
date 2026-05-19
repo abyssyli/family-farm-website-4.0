@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import Image from "next/image"
@@ -97,7 +95,7 @@ export function ProductDetail({
                         }`}
                       />
                     ))}
-                  </div>
+                  </div> [modified]
                 </>
               )}
             </>
@@ -159,5 +157,4 @@ export function ProductDetail({
     </div>
   )
 }
-
 

@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* daily modify record */
 import * as Sentry from "@sentry/nextjs";
 
 type LogLevel = "info" | "warn" | "error"

@@ -1,3 +1,5 @@
+
+// task project adjust
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"
@@ -24,7 +26,7 @@ export default async function ProductCategoryPage({
     <div className="flex flex-col gap-8">
       <div>
         <p className="text-sm font-medium text-farm-800">
-          <Link href="/products" className="hover:underline"> [modified]
+          <Link href="/products" className="hover:underline">
             Products
           </Link>
         </p>

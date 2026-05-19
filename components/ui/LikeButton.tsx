@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"

@@ -1,6 +1,6 @@
-import { Card, CardBody } from "./Card"
+import { Card, CardBody } from "./Card" [modified]
 
-export function LoadingState({ label }: { label: string }) { [modified]
+export function LoadingState({ label }: { label: string }) {
   return (
     <Card>
       <CardBody>

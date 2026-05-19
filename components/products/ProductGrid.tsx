@@ -16,10 +16,7 @@ export function ProductGrid({
           product={p}
           href={`/products/${categorySlug}/${p.slug}`}
         />
-      ))}
+      ))} [modified]
     </div>
   )
 }
-
-
-/* daily modify record */

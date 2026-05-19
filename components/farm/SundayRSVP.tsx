@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -124,7 +126,7 @@ export function SundayRSVP() {
               )}
             </div>
           </div>
-        )} [modified]
+        )}
       </CardBody>
     </Card>
   )

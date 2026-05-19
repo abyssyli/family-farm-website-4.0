@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect } from "react"
@@ -39,7 +37,7 @@ export function Modal({
         aria-label="Close"
         className="absolute inset-0 bg-black/40"
         onClick={onClose}
-      />
+      /> [modified]
       <div
         role="dialog"
         aria-modal="true"
@@ -63,4 +61,3 @@ export function Modal({
     </div>
   )
 }
-

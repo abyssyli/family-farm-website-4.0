@@ -1,5 +1,3 @@
-
-# minor content update
 import { ButtonLink } from "@/components/ui/Button"
 import { EmptyState } from "@/components/ui/EmptyState"
 
@@ -11,5 +9,4 @@ export default function NotFound() {
       action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
     />
   )
-}
-
+} [modified]

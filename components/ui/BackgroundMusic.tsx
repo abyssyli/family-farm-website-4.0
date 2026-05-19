@@ -29,9 +29,11 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
 
     return () => {
       audio.pause()
-      audioRef.current = null [modified]
+      audioRef.current = null
     }
   }, [src])
 
   return null
 }
+
+# minor content update

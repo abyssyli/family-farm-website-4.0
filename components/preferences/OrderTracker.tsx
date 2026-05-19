@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -30,7 +28,7 @@ export function OrderTracker() {
       .order("created_at", { ascending: false })
     if (!error && data) {
       setInquiries(data as Inquiry[])
-    }
+    } [modified]
   }
 
   const getStatusColor = (status: string) => {

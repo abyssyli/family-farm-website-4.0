@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { NextResponse } from "next/server"
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 
@@ -11,7 +9,7 @@ type MapPoint = {
   count: number
 }
 
-function stableId(input: string) {
+function stableId(input: string) { [modified]
   let hash = 2166136261
   for (let i = 0; i < input.length; i++) {
     hash ^= input.charCodeAt(i)

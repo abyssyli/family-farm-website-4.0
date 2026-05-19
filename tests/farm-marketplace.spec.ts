@@ -5,7 +5,7 @@ test("homepage renders and navigation works", async ({ page }) => {
   await expect(page.getByRole("heading", { name: /marketplace/i })).toBeVisible()
 
   await page.getByRole("navigation").getByRole("link", { name: "Products" }).click()
-  await expect(page.getByRole("heading", { name: "Products" })).toBeVisible() [modified]
+  await expect(page.getByRole("heading", { name: "Products" })).toBeVisible()
 
   await page.getByRole("link", { name: /Chicken and Eggs/i }).click()
   await expect(page.getByRole("heading", { name: /Chicken and Eggs/i })).toBeVisible()
@@ -27,3 +27,5 @@ test("skincare category points to BeakerGold", async ({ page }) => {
     "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR"
   )
 })
+
+// task project adjust
