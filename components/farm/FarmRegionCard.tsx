@@ -34,4 +34,4 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
   )
 }
 
-// task project adjust
+# minor content update

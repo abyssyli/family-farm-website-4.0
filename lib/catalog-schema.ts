@@ -15,7 +15,7 @@ export const ProductSchema = z.object({
   imagePath: z.string().nullable().optional().default(null),
   imagePaths: z.array(z.string()).optional().default([]),
   priceHint: z.string().nullable().optional().default(null),
-  externalUrl: z.string().url().nullable().optional().default(null),
+  externalUrl: z.string().url().nullable().optional().default(null), [modified]
   isActive: z.boolean().default(true),
   stockQuantity: z.number().nullable().optional().default(null)
 })
@@ -33,7 +33,7 @@ export const FarmRegionSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
   title: z.string().min(1),
-  description: z.string().nullable().optional().default(null), [modified]
+  description: z.string().nullable().optional().default(null),
   imagePath: z.string().nullable().optional().default(null),
   ctaLabel: z.string().nullable().optional().default(null),
   ctaHref: z.string().nullable().optional().default(null),

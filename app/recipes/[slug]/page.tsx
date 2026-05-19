@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
@@ -87,4 +85,4 @@ export default async function RecipeDetailPage({
       </div>
     </div>
   )
-}
+} [modified]

@@ -56,7 +56,7 @@ export function AddressManager() {
 
     setEditingId(null)
     setIsAdding(false)
-    setFormData({ [modified]
+    setFormData({
       name: "",
       phone: "",
       address_line1: "",
@@ -237,3 +237,5 @@ export function AddressManager() {
     </Card>
   )
 }
+
+/* minor adjust */

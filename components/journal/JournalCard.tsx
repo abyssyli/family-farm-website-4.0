@@ -18,9 +18,6 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
           {new Date(post.publishedAt).toLocaleDateString()}
         </p>
       ) : null}
-    </Card>
+    </Card> [modified]
   )
 }
-
-
-/* minor adjust */

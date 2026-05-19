@@ -53,7 +53,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
         journal_post_id: journalPostId,
         user_id: session.user.id
       })
-    } [modified]
+    }
 
     await fetchLikes()
     setIsUpdating(false)
@@ -83,6 +83,6 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
         />
       </svg>
       <span className="font-medium">{likes}</span>
-    </button>
+    </button> [modified]
   )
 }

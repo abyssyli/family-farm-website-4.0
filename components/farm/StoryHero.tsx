@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import Image from "next/image"
@@ -52,7 +50,7 @@ export function StoryHero() {
         <p className="mt-4 max-w-prose text-base text-zinc-700">
           Paula is a mom of 10 and grandma to 11. She founded the Rushing
           homeschool and runs Paula’s farm business with a full-house kind of
-          warmth. Chicken and eggs come straight from the coop, woodcraft comes
+          warmth. Chicken and eggs come straight from the coop, woodcraft comes [modified]
           from the family shop, and Lisa’s skincare connects to our natural, small-batch
           way of life.
         </p>

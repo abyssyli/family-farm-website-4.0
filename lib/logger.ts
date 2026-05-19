@@ -34,6 +34,4 @@ export function logError(message: string, error: any) {
     error: error instanceof Error ? error.message : String(error),
     stack: error instanceof Error ? error.stack : undefined,
   })
-}
-
-# minor content update
+} [modified]

@@ -1,5 +1,5 @@
 
-# minor content update
+// update log: auto edit 01
 export type Json =
   | string
   | number

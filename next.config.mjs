@@ -41,4 +41,4 @@ export default withSentryConfig(nextConfig, {
   automaticVercelMonitors: true,
 });
 
-/* minor adjust */
+/* daily modify record */

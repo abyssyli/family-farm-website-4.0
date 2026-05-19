@@ -12,10 +12,10 @@ export function BackgroundMusic({ src = "/photos/bgm.mp3" }: { src?: string }) {
     audioRef.current = audio
 
     const tryPlay = () => audio.play()
- [modified]
+
     tryPlay().catch(() => {
       const onFirstInteraction = () => {
-        tryPlay().finally(() => {
+        tryPlay().finally(() => { [modified]
           window.removeEventListener("pointerdown", onFirstInteraction)
           window.removeEventListener("keydown", onFirstInteraction)
           window.removeEventListener("touchstart", onFirstInteraction)

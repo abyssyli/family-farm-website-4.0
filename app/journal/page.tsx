@@ -8,7 +8,7 @@ export default async function JournalIndexPage() {
   const posts = [...catalog.journalPosts].sort((a, b) => {
     const da = a.publishedAt ? new Date(a.publishedAt).getTime() : 0
     const db = b.publishedAt ? new Date(b.publishedAt).getTime() : 0
-    return db - da [modified]
+    return db - da
   })
 
   if (posts.length === 0) {
@@ -19,7 +19,7 @@ export default async function JournalIndexPage() {
         action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
       />
     )
-  }
+  } [modified]
 
   return (
     <div className="flex flex-col gap-8">

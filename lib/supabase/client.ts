@@ -1,7 +1,5 @@
-
-/* minor adjust */
 import { createClient } from "@supabase/supabase-js"
-import { getSupabasePublicConfig } from "./shared"
+import { getSupabasePublicConfig } from "./shared" [modified]
 import type { Database } from "./types"
 
 export function createBrowserSupabaseClient() {

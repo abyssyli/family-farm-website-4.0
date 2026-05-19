@@ -1,5 +1,5 @@
 
-// optimize code detail
+# minor content update
 import type { CatalogProduct } from "@/lib/catalog-schema"
 import { ProductCard } from "./ProductCard"
 

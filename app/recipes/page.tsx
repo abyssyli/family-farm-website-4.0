@@ -51,4 +51,6 @@ export default async function RecipesPage() {
       )}
     </div>
   )
-} [modified]
+}
+
+# minor content update

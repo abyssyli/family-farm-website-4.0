@@ -1,6 +1,6 @@
 import { getEnv } from "../env"
 
-export function getSupabasePublicConfig() {
+export function getSupabasePublicConfig() { [modified]
   const env = getEnv()
   return {
     url: env.NEXT_PUBLIC_SUPABASE_URL,
@@ -9,6 +9,6 @@ export function getSupabasePublicConfig() {
 }
 
 export function getSupabaseServiceRoleKey() {
-  const env = getEnv() [modified]
+  const env = getEnv()
   return env.SUPABASE_SERVICE_ROLE_KEY
 }

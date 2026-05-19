@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useEffect, useState } from "react"
@@ -63,7 +61,7 @@ export function CommentSection({
   return (
     <div className="mt-12 flex flex-col gap-8 border-t border-zinc-200 pt-12">
       <div className="flex flex-col gap-2">
-        <h2 className="text-xl font-semibold">Comments & Reviews</h2>
+        <h2 className="text-xl font-semibold">Comments & Reviews</h2> [modified]
         <p className="text-sm text-zinc-600">
           Share your experience with this {productId ? "dish" : "story"}.
         </p>

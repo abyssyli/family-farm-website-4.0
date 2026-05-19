@@ -69,7 +69,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   const categoryBySlug = useMemo(() => {
     return new Map(catalog.categories.map((c) => [c.slug, c] as const))
   }, [catalog.categories])
- [modified]
+
   if (catalog.categories.length === 0) {
     return (
       <EmptyState
@@ -140,3 +140,5 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
+
+/* minor adjust */

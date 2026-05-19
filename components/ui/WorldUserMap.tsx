@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useEffect, useMemo, useRef, useState } from "react"
@@ -77,7 +79,7 @@ export function WorldUserMap() {
   const legend = useMemo(() => {
     if (status === "loading") return "Loading user locations…"
     if (status === "disabled") return message ?? "Map is disabled."
-    if (status === "error") return message ?? "Map data is unavailable." [modified]
+    if (status === "error") return message ?? "Map data is unavailable."
     if (points.length === 0) return "No locations yet."
     return `${points.length} users shown`
   }, [message, points.length, status])

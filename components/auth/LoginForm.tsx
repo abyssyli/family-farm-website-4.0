@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -35,7 +37,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   }, [cooldownSeconds])
 
   async function onSubmit(e: React.FormEvent) {
-    e.preventDefault() [modified]
+    e.preventDefault()
     setError(null)
     if (!supabase || cooldownSeconds > 0) return
     setStatus("sending")
