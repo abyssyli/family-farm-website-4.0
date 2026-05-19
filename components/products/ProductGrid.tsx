@@ -2,13 +2,13 @@ import type { CatalogProduct } from "@/lib/catalog-schema"
 import { ProductCard } from "./ProductCard"
 
 export function ProductGrid({
-  products,
+  products, [modified]
   categorySlug
 }: {
   products: CatalogProduct[]
   categorySlug: string
 }) {
-  return ( [modified]
+  return (
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {products.map((p) => (
         <ProductCard

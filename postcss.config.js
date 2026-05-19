@@ -1,6 +1,9 @@
+
+# minor content update
 module.exports = {
-  plugins: { [modified]
+  plugins: {
     tailwindcss: {},
     autoprefixer: {}
   }
 }
+

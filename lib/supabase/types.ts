@@ -129,7 +129,7 @@ export type Database = {
           preferred_categories: string[]
           updated_at: string
         }
-        Insert: {
+        Insert: { [modified]
           user_id: string
           preferred_categories?: string[]
           updated_at?: string
@@ -362,5 +362,3 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
-
-// optimize code detail

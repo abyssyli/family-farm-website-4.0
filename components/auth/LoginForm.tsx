@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -47,7 +45,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     })
     if (error) {
       const match = error.message.match(/after\s+(\d+)\s*seconds/i)
-      if (match) {
+      if (match) { [modified]
         const seconds = Number(match[1])
         if (Number.isFinite(seconds) && seconds > 0) setCooldownSeconds(seconds)
       }

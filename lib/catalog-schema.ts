@@ -17,7 +17,7 @@ export const ProductSchema = z.object({
   priceHint: z.string().nullable().optional().default(null),
   externalUrl: z.string().url().nullable().optional().default(null),
   isActive: z.boolean().default(true),
-  stockQuantity: z.number().nullable().optional().default(null) [modified]
+  stockQuantity: z.number().nullable().optional().default(null)
 })
 
 export const JournalPostSchema = z.object({
@@ -65,3 +65,6 @@ export type CatalogProduct = z.infer<typeof ProductSchema>
 export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
 export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
+
+
+// update log: auto edit 01

@@ -1,8 +1,10 @@
+
+/* minor adjust */
 import { getEnv } from "../env"
 
 export function getSupabasePublicConfig() {
   const env = getEnv()
-  return { [modified]
+  return {
     url: env.NEXT_PUBLIC_SUPABASE_URL,
     anonKey: env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
   }

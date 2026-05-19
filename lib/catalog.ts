@@ -172,7 +172,7 @@ export async function getCatalog(): Promise<Catalog> {
     id: r.id,
     title: r.title,
     slug: r.slug,
-    description: r.description, [modified]
+    description: r.description,
     ingredients: r.ingredients,
     instructions: r.instructions,
     imagePath: r.image_path
@@ -184,3 +184,5 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+
+// update log: auto edit 01

@@ -1,7 +1,9 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
-import { Button } from "@/components/ui/Button" [modified]
+import { Button } from "@/components/ui/Button"
 import { Modal } from "@/components/ui/Modal"
 import { LoginForm } from "./LoginForm"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"

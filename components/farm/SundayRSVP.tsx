@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"
@@ -66,7 +68,7 @@ export function SundayRSVP() {
     }
   }
 
-  return ( [modified]
+  return (
     <Card className="border-farm-200 bg-farm-50/30">
       <CardHeader
         title="Sunday Family Gathering"

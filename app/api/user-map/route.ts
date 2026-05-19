@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* daily modify record */
 import { NextResponse } from "next/server"
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 

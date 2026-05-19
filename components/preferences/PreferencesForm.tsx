@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -60,7 +62,7 @@ export function PreferencesForm({
         ) : (
           <div className="flex flex-col gap-4">
             <div className="grid gap-3 sm:grid-cols-2">
-              {categories.map((c) => { [modified]
+              {categories.map((c) => {
                 const checked = selected.includes(c.slug)
                 return (
                   <label
@@ -108,3 +110,4 @@ export function PreferencesForm({
     </Card>
   )
 }
+

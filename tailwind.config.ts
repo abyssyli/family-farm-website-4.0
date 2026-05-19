@@ -29,4 +29,4 @@ const config: Config = {
 export default config
 
 
-// task project adjust
+/* daily modify record */

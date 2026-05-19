@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -176,5 +178,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-
-// update log: auto edit 01

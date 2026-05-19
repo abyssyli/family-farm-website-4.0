@@ -1,5 +1,3 @@
-
-// optimize code detail
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -104,7 +102,7 @@
       "isActive": true
     },
     {
-      "id": "food-spam-fried-rice",
+      "id": "food-spam-fried-rice", [modified]
       "categorySlug": "food",
       "slug": "spam-fried-rice",
       "name": "Spam fried rice",

@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/Card"
 
 type MapPoint = {
   id: string
-  label: string [modified]
+  label: string
   lat: number
   lng: number
   count: number
@@ -142,3 +142,5 @@ export function WorldUserMap() {
     </section>
   )
 }
+
+// update log: auto edit 01

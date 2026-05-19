@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -180,7 +182,7 @@ export default async function HomePage() {
                       href={`/products/${p.categorySlug}/${p.slug}`}
                       className="hover:text-farm-700 hover:underline"
                     >
-                      {p.name} [modified]
+                      {p.name}
                     </Link>
                   </li>
                 ))}

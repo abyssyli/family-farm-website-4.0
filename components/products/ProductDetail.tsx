@@ -13,7 +13,7 @@ export function ProductDetail({
   primaryAction
 }: {
   product: CatalogProduct
-  categoryName: string
+  categoryName: string [modified]
   primaryAction: React.ReactNode
 }) {
   const images =
@@ -109,7 +109,7 @@ export function ProductDetail({
         <div>
           <p className="text-sm font-medium text-farm-800">
             <Link
-              href={`/products/${product.categorySlug}`} [modified]
+              href={`/products/${product.categorySlug}`}
               className="hover:underline"
             >
               {categoryName}

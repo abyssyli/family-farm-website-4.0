@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -42,7 +44,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     if (!supabase || !session || isUpdating) return
     setIsUpdating(true)
 
-    if (isLiked) { [modified]
+    if (isLiked) {
       await supabase
         .from("likes")
         .delete()

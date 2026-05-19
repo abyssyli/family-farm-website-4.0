@@ -82,7 +82,7 @@ export function StoryHero() {
               type="button"
               onClick={goPrev}
               aria-label="Previous slide"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/20 bg-zinc-950/45 text-white backdrop-blur transition hover:bg-zinc-950/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70" [modified]
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/20 bg-zinc-950/45 text-white backdrop-blur transition hover:bg-zinc-950/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
             >
               <svg
                 viewBox="0 0 20 20"
@@ -119,7 +119,7 @@ export function StoryHero() {
           </div>
         </div>
         <div className="mt-6 flex flex-wrap gap-3">
-          <ButtonLink href="/products">Browse products</ButtonLink>
+          <ButtonLink href="/products">Browse products</ButtonLink> [modified]
           <ButtonLink href="/products/eggs" variant="secondary">
             See today’s eggs
           </ButtonLink>
