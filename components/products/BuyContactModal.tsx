@@ -87,7 +87,7 @@ export function BuyContactModal({
           <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
             <p className="text-sm font-medium">Payment Methods</p>
             <p className="mt-1 text-sm">Zelle (to phone) or Check</p>
-            <p className="text-[10px] text-zinc-600 mt-1 italic">Send Zelle to {contactPhone}</p>
+            <p className="text-[10px] text-zinc-600 mt-1 italic">Send Zelle to {contactPhone}</p> [modified]
             <p className="text-[10px] text-zinc-500 uppercase font-bold tracking-wider mt-1">No credit cards</p>
           </div>
         </div>
@@ -176,5 +176,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-
-// task project adjust

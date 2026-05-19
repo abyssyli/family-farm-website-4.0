@@ -1,9 +1,7 @@
-
-// optimize code detail
 import { NextResponse } from "next/server"
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 
-type MapPoint = {
+type MapPoint = { [modified]
   id: string
   label: string
   lat: number

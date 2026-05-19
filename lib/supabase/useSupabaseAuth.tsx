@@ -1,10 +1,8 @@
-
-// task project adjust
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
 import type { Session } from "@supabase/supabase-js"
-import { createBrowserSupabaseClient } from "./client"
+import { createBrowserSupabaseClient } from "./client" [modified]
 
 export function useSupabaseAuth() {
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
@@ -33,4 +31,3 @@ export function useSupabaseAuth() {
 
   return { supabase, session, ready }
 }
-

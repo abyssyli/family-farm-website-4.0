@@ -7,7 +7,7 @@ import { getCatalog } from "@/lib/catalog"
 
 export default async function RecipeDetailPage({
   params
-}: { [modified]
+}: {
   params: { slug: string }
 }) {
   const catalog = await getCatalog()
@@ -74,7 +74,7 @@ export default async function RecipeDetailPage({
                 ))}
               </ol>
             </CardBody>
-          </Card>
+          </Card> [modified]
         </div>
       </div>
 

@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -95,7 +97,7 @@ export function AddressManager() {
     <Card>
       <CardHeader title="My Addresses" subtitle="Manage your shipping addresses." />
       <CardBody>
-        <div className="flex flex-col gap-6"> [modified]
+        <div className="flex flex-col gap-6">
           {!isAdding && !editingId && (
             <Button onClick={() => setIsAdding(true)} variant="secondary" className="self-start">
               Add New Address

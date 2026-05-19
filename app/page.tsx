@@ -78,7 +78,7 @@ export default async function HomePage() {
                 src="/photos/background1.jpg"
                 alt="What's new in Hands’s Planet"
                 fill
-                className="object-cover" [modified]
+                className="object-cover"
               />
             </div>
             <div className="p-6">
@@ -290,3 +290,5 @@ export default async function HomePage() {
     </div>
   )
 }
+
+# minor content update

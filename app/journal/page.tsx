@@ -41,4 +41,4 @@ export default async function JournalIndexPage() {
 }
 
 
-/* minor adjust */
+/* daily modify record */

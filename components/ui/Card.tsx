@@ -16,7 +16,7 @@ export function Card({
         className
       )}
     >
-      {children}
+      {children} [modified]
     </div>
   )
 }
@@ -27,7 +27,7 @@ export function CardHeader({
 }: {
   title: string
   subtitle?: string | null
-}) { [modified]
+}) {
   return (
     <div className="px-6 pt-6">
       <h3 className="text-base font-semibold">{title}</h3>

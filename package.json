@@ -7,10 +7,10 @@
     "build": "next build",
     "start": "next start",
     "start:web": "next start",
-    "start:worker": "npm run worker:sync", [modified]
+    "start:worker": "npm run worker:sync",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "test": "playwright test",
+    "test": "playwright test", [modified]
     "test:ui": "playwright test --ui",
     "worker:sync": "tsx workers/catalog-sync.ts"
   },

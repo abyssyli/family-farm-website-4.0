@@ -2,7 +2,7 @@ import type { CatalogProduct } from "@/lib/catalog-schema"
 import { ProductCard } from "./ProductCard"
 
 export function ProductGrid({
-  products, [modified]
+  products,
   categorySlug
 }: {
   products: CatalogProduct[]
@@ -20,3 +20,6 @@ export function ProductGrid({
     </div>
   )
 }
+
+
+# minor content update

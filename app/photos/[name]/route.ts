@@ -20,7 +20,7 @@ function contentTypeFromExt(ext: string) {
   }
 }
 
-export async function GET(
+export async function GET( [modified]
   _request: Request,
   { params }: { params: { name: string } }
 ) {
@@ -42,4 +42,4 @@ export async function GET(
   } catch {
     return new NextResponse("Not found", { status: 404 })
   }
-} [modified]
+}

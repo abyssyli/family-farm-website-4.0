@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useEffect, useState } from "react"
@@ -47,7 +45,7 @@ export function SundayRSVP() {
     if (!supabase || !session) return
     setStatus("saving")
 
-    const rsvpData = {
+    const rsvpData = { [modified]
       user_id: session.user.id,
       event_date: dateStr,
       adult_count: adultCount,

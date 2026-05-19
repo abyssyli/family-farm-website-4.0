@@ -1,5 +1,5 @@
 
-# minor content update
+/* minor adjust */
 import { getCatalog } from "@/lib/catalog"
 import { ProductsIndexClient } from "@/components/products/ProductsIndexClient"
 

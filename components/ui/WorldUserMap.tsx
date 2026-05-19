@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useRef, useState } from "react"
@@ -17,7 +15,7 @@ function projectEquirectangular(lat: number, lng: number, width: number, height:
   const x = ((lng + 180) / 360) * width
   const y = ((90 - lat) / 180) * height
   return { x, y }
-}
+} [modified]
 
 function formatCount(count: number) {
   if (count === 1) return "1 user"

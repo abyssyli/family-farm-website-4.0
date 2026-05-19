@@ -113,7 +113,7 @@
       "isActive": true
     },
     {
-      "id": "food-creamy-corn-bread", [modified]
+      "id": "food-creamy-corn-bread",
       "categorySlug": "food",
       "slug": "creamy-corn-bread",
       "name": "Creamy corn with garlic bread",
@@ -325,3 +325,5 @@
     }
   ]
 }
+
+// task project adjust

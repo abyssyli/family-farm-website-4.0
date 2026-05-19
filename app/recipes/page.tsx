@@ -30,12 +30,12 @@ export default async function RecipesPage() {
                     src={recipe.imagePath || "/photos/background.jpg"}
                     alt={recipe.title}
                     fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105" [modified]
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
                 <CardBody>
                   <h3 className="text-lg font-semibold group-hover:text-farm-700">
-                    {recipe.title}
+                    {recipe.title} [modified]
                   </h3>
                   <p className="mt-2 line-clamp-2 text-sm text-zinc-600">
                     {recipe.description}

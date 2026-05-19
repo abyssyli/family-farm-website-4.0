@@ -1,5 +1,3 @@
-
-/* minor adjust */
 export type Json =
   | string
   | number
@@ -60,7 +58,7 @@ export type Database = {
           updated_at?: string
         }
         Relationships: []
-      }
+      } [modified]
       journal_posts: {
         Row: {
           id: string

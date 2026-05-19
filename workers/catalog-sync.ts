@@ -1,9 +1,7 @@
-
-// optimize code detail
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
-function sleep(ms: number) {
+function sleep(ms: number) { [modified]
   return new Promise<void>((resolve) => setTimeout(resolve, ms))
 }
 
@@ -117,4 +115,3 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
-

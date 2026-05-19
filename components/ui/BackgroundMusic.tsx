@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// optimize code detail
 "use client"
 
 import { useEffect, useRef } from "react"

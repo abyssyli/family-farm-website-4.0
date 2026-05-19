@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -35,7 +37,7 @@ export function UserMenu() {
 
         await supabase.auth.updateUser({
           data: {
-            location: { [modified]
+            location: {
               lat,
               lng,
               updatedAt: new Date().toISOString()
