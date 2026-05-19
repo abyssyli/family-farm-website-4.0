@@ -12,7 +12,7 @@ export function ProductActions({
 }: {
   product: CatalogProduct
   categorySlug: string
-}) {
+}) { [modified]
   const { skincareUrl } = getPublicEnv()
   const [open, setOpen] = useState(false)
 
@@ -41,5 +41,3 @@ export function ProductActions({
     </>
   )
 }
-
-/* minor adjust */

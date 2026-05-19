@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 export type Json =
   | string
   | number
@@ -20,7 +22,7 @@ export type Database = {
           id: string
           category_slug: string
           slug: string
-          name: string [modified]
+          name: string
           description: string | null
           image_path: string | null
           image_paths: string[]

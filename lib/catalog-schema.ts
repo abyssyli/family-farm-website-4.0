@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* daily modify record */
 import { z } from "zod"
 
 export const CategorySchema = z.object({

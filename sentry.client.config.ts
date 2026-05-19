@@ -6,4 +6,4 @@ Sentry.init({
   debug: false,
 });
 
-// task project adjust
+# minor content update

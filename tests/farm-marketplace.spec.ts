@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { test, expect } from "@playwright/test"
 
 test("homepage renders and navigation works", async ({ page }) => {
@@ -25,7 +23,7 @@ test("skincare category points to BeakerGold", async ({ page }) => {
   const href = await page
     .getByRole("link", { name: /Browse Lisa’s Skincare/i })
     .getAttribute("href")
-  expect(href).toBe(
+  expect(href).toBe( [modified]
     "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR"
   )
 })

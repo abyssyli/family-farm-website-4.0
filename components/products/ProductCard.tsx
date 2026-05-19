@@ -62,4 +62,4 @@ export function ProductCard({
 }
 
 
-// task project adjust
+/* minor adjust */

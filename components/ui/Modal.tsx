@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useEffect } from "react"
@@ -62,5 +64,3 @@ export function Modal({
   )
 }
 
-
-// task project adjust

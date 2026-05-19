@@ -135,7 +135,7 @@ export function BuyContactModal({
         {!session && (
           <p className="text-xs text-zinc-500 italic">
             Sign in to add a delivery address to your inquiry.
-          </p> [modified]
+          </p>
         )}
 
         <label className="text-sm font-medium">
@@ -176,3 +176,5 @@ export function BuyContactModal({
     </Modal>
   )
 }
+
+/* daily modify record */

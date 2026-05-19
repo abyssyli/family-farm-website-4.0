@@ -111,4 +111,4 @@ export function CommentSection({
   )
 }
 
-/* minor adjust */
+/* daily modify record */

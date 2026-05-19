@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -11,7 +13,7 @@ export function useSupabaseAuth() {
 
   useEffect(() => {
     if (!supabase) {
-      setReady(true) [modified]
+      setReady(true)
       return
     }
     let active = true
@@ -31,3 +33,4 @@ export function useSupabaseAuth() {
 
   return { supabase, session, ready }
 }
+

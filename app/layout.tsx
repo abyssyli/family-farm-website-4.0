@@ -7,7 +7,7 @@ import { BackgroundMusic } from "@/components/ui/BackgroundMusic"
 
 export const metadata: Metadata = {
   title: "Paula’s Farm Family Marketplace",
-  description: [modified]
+  description:
     "Explore chicken and eggs, handmade woodcraft, and Lisa’s skincare—rooted in a Texas family farm story."
 }
 
@@ -67,3 +67,5 @@ export default function RootLayout({
     </html>
   )
 }
+
+// update log: auto edit 01

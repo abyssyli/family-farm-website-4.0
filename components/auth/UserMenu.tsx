@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -56,7 +54,7 @@ export function UserMenu() {
 
   if (!session) {
     return (
-      <>
+      <> [modified]
         <Button variant="secondary" onClick={() => setOpen(true)}>
           Sign in
         </Button>

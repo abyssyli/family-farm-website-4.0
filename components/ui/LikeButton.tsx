@@ -64,7 +64,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
       onClick={toggleLike}
       disabled={!session || isUpdating}
       className={`flex items-center gap-1.5 rounded-full border px-3 py-1 text-sm transition ${
-        isLiked [modified]
+        isLiked
           ? "border-farm-200 bg-farm-50 text-farm-700"
           : "border-zinc-200 bg-white text-zinc-600 hover:border-zinc-300 hover:bg-zinc-50"
       } ${!session ? "opacity-50 cursor-not-allowed" : ""}`}
@@ -86,3 +86,5 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     </button>
   )
 }
+
+# minor content update

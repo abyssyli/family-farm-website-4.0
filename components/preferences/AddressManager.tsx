@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -237,5 +239,3 @@ export function AddressManager() {
     </Card>
   )
 }
-
-// update log: auto edit 01

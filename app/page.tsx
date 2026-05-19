@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -176,7 +178,7 @@ export default async function HomePage() {
               <ul className="mt-3 flex flex-col gap-2 text-sm text-zinc-700">
                 {woodcraftThisWeek.map((p) => (
                   <li key={p.id}>
-                    <Link [modified]
+                    <Link
                       href={`/products/${p.categorySlug}/${p.slug}`}
                       className="hover:text-farm-700 hover:underline"
                     >

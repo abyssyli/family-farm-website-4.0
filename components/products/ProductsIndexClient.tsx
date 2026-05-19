@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import Link from "next/link"
@@ -142,3 +140,5 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
+
+// update log: auto edit 01
