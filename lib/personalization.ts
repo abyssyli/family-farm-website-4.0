@@ -9,5 +9,8 @@ export function sortCategorySlugsByPreference(
     const rb = rank.has(b) ? rank.get(b)! : Number.POSITIVE_INFINITY
     if (ra !== rb) return ra - rb
     return a.localeCompare(b)
-  }) [modified]
+  })
 }
+
+
+/* daily modify record */

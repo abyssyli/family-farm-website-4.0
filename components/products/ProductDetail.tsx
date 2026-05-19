@@ -13,7 +13,7 @@ export function ProductDetail({
   primaryAction
 }: {
   product: CatalogProduct
-  categoryName: string
+  categoryName: string [modified]
   primaryAction: React.ReactNode
 }) {
   const images =
@@ -158,6 +158,3 @@ export function ProductDetail({
   )
 }
 
-
-
-/* minor adjust */

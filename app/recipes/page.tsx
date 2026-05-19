@@ -12,7 +12,7 @@ export default async function RecipesPage() {
       <div className="flex flex-col gap-4">
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
           Farm Recipes
-        </h1>
+        </h1> [modified]
         <p className="mt-2 text-sm text-zinc-700">
           Delicious ways to enjoy our farm-fresh ingredients at home.
         </p>
@@ -41,7 +41,7 @@ export default async function RecipesPage() {
                     {recipe.description}
                   </p>
                   <p className="mt-4 text-xs font-bold uppercase tracking-wider text-farm-700">
-                    View Recipe → [modified]
+                    View Recipe →
                   </p>
                 </CardBody>
               </Card>

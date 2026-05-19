@@ -23,7 +23,7 @@
       }
     ],
     "baseUrl": ".",
-    "paths": { [modified]
+    "paths": {
       "@/*": [
         "./*"
       ]
@@ -39,3 +39,5 @@
     "node_modules"
   ]
 }
+
+// update log: auto edit 01

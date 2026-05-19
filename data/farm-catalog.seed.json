@@ -1,3 +1,5 @@
+
+/* daily modify record */
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -325,5 +327,3 @@
     }
   ]
 }
-
-/* minor adjust */

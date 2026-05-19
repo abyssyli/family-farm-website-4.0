@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { getCatalog } from "@/lib/catalog"
 import { ProductsIndexClient } from "@/components/products/ProductsIndexClient"
 
@@ -6,5 +8,3 @@ export default async function ProductsPage() {
   return <ProductsIndexClient catalog={catalog} />
 }
 
-
-// optimize code detail

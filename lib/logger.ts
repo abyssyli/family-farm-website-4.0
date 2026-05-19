@@ -36,4 +36,4 @@ export function logError(message: string, error: any) {
   })
 }
 
-// task project adjust
+// optimize code detail

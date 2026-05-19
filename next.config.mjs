@@ -11,7 +11,7 @@ export default withSentryConfig(nextConfig, {
   // For all available options, see:
   // https://github.com/getsentry/sentry-webpack-plugin#options
 
-  // Suppresses source map uploading logs during build
+  // Suppresses source map uploading logs during build [modified]
   silent: true,
   org: "your-org",
   project: "your-project",
@@ -31,7 +31,7 @@ export default withSentryConfig(nextConfig, {
   // Hides source maps from visitors
   hideSourceMaps: true,
 
-  // Automatically tree-shake Sentry logger statements to reduce bundle size [modified]
+  // Automatically tree-shake Sentry logger statements to reduce bundle size
   disableLogger: true,
 
   // Enables automatic instrumentation of Vercel Cron Monitors.

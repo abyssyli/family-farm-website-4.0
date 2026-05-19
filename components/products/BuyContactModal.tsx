@@ -70,7 +70,7 @@ export function BuyContactModal({
     })
     setStatus("saved")
   }
-
+ [modified]
   return (
     <Modal open={open} title={title} onClose={onClose}>
       <div className="flex flex-col gap-4">
@@ -99,7 +99,7 @@ export function BuyContactModal({
               <Link
                 href="/account"
                 className="text-xs text-farm-700 hover:underline"
-              > [modified]
+              >
                 Manage addresses
               </Link>
             </div>

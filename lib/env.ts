@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { z } from "zod"
 
 const envSchema = z.object({
@@ -31,7 +29,7 @@ export function getEnv(): Env {
     const message = ["❌ Invalid environment variables:", result.error.format()]
     if (process.env.NODE_ENV === "production") {
       console.error(...message)
-    } else {
+    } else { [modified]
       console.warn(...message)
     }
     // In production, we might want to throw an error

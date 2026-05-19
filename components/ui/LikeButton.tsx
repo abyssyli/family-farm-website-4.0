@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -74,7 +76,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
         fill={isLiked ? "currentColor" : "none"}
         stroke="currentColor"
         className="h-4 w-4"
-      > [modified]
+      >
         <path
           strokeLinecap="round"
           strokeLinejoin="round"

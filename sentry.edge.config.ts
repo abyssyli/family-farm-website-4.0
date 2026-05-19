@@ -6,4 +6,4 @@ Sentry.init({
   debug: false,
 });
 
-# minor content update
+/* daily modify record */

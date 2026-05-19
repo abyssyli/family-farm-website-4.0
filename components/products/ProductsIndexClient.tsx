@@ -65,7 +65,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     const slugs = catalog.categories.map((c) => c.slug)
     return sortCategorySlugsByPreference(slugs, preferred)
   }, [catalog.categories, preferred])
- [modified]
+
   const categoryBySlug = useMemo(() => {
     return new Map(catalog.categories.map((c) => [c.slug, c] as const))
   }, [catalog.categories])
@@ -137,6 +137,6 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           )
         })}
       </div>
-    </div>
+    </div> [modified]
   )
 }

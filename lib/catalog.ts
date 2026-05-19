@@ -32,7 +32,7 @@ export async function getCatalog(): Promise<Catalog> {
 
   const normalizeWoodcraftImagePath = (slug: string, imagePath: string | null) => {
     const fallbackBySlug: Record<string, string> = {
-      "cutting-board": "/photos/Wooden1.jpg", [modified]
+      "cutting-board": "/photos/Wooden1.jpg",
       "farmhouse-sign": "/photos/Wooden2.jpg",
       "wall-shelf": "/photos/Wooden3.jpg",
       "handmade-stool": "/photos/Wooden.jpg"
@@ -124,7 +124,7 @@ export async function getCatalog(): Promise<Catalog> {
   const categoriesBySlug = new Map(seedCatalog.categories.map((c) => [c.slug, c] as const))
   for (const c of dbCategories) categoriesBySlug.set(c.slug, c)
   const categories = Array.from(categoriesBySlug.values()).sort(
-    (a, b) => a.sortOrder - b.sortOrder
+    (a, b) => a.sortOrder - b.sortOrder [modified]
   )
 
   const productsById = new Map(seedCatalog.products.map((p) => [p.id, p] as const))

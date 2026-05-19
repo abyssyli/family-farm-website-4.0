@@ -97,14 +97,14 @@ export function WorldUserMap() {
           </p>
         </div>
         <p className="text-sm text-zinc-700">{legend}</p>
-      </div>
+      </div> [modified]
       <Card className="overflow-hidden">
         <div ref={containerRef} className="relative w-full">
           <div
             className="relative w-full bg-gradient-to-b from-zinc-50 to-white"
             style={{ height: usable ? size.height : 320 }}
           >
-            <div [modified]
+            <div
               className="absolute inset-0 opacity-70"
               style={{
                 backgroundImage:
